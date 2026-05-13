@@ -36,14 +36,31 @@ permalink: /teams/
 
 <p id="team-count" style="color: var(--ink-muted); font-size:0.9rem;">Showing {{ site.data.teams.teams.size }} of {{ site.data.teams.teams.size }} teams.</p>
 
+{% assign sorted_teams = site.data.teams.teams | sort: "name" %}
+{% assign letters = "" | split: "" %}
+{% for t in sorted_teams %}
+  {% assign first = t.name | slice: 0 | upcase %}
+  {% unless letters contains first %}{% assign letters = letters | push: first %}{% endunless %}
+{% endfor %}
+
+<nav class="alpha-jump" aria-label="Jump to letter">
+  {% for l in letters %}<a href="#letter-{{ l | downcase }}">{{ l }}</a>{% endfor %}
+</nav>
+
 <ul class="team-list" id="team-list">
-  {% assign sorted_teams = site.data.teams.teams | sort: "name" %}
+  {% assign current_letter = "" %}
   {% for t in sorted_teams %}
+    {% assign first = t.name | slice: 0 | upcase %}
     {% assign outcome_cat = t.outcome.category | default: "" %}
+    {% if first != current_letter %}
+      <li class="alpha-marker" data-letter="{{ first }}" id="letter-{{ first | downcase }}">{{ first }}</li>
+      {% assign current_letter = first %}
+    {% endif %}
     <li
       data-name="{{ t.name | downcase }}"
       data-years="{{ t.years | join: ',' }}"
-      data-outcome="{{ outcome_cat }}">
+      data-outcome="{{ outcome_cat }}"
+      data-letter="{{ first }}">
       <span class="name">{{ t.name }}</span>
       <span class="meta">{{ t.years | join: ", " }} &middot; {{ t.top_award }}</span>
       {% case outcome_cat %}
@@ -66,15 +83,17 @@ permalink: /teams/
   var outSel   = document.getElementById('outcome-filter');
   var list     = document.getElementById('team-list');
   var counter  = document.getElementById('team-count');
-  var items    = Array.prototype.slice.call(list.querySelectorAll('li'));
-  var total    = items.length;
+  var rows     = Array.prototype.slice.call(list.querySelectorAll('li:not(.alpha-marker)'));
+  var markers  = Array.prototype.slice.call(list.querySelectorAll('li.alpha-marker'));
+  var total    = rows.length;
 
   function apply() {
     var q = search.value.trim().toLowerCase();
     var y = yearSel.value;
     var o = outSel.value;
     var shown = 0;
-    items.forEach(function(li) {
+    var lettersVisible = {};
+    rows.forEach(function(li) {
       var name = li.getAttribute('data-name') || '';
       var years = (li.getAttribute('data-years') || '').split(',');
       var outcome = li.getAttribute('data-outcome') || '';
@@ -82,7 +101,13 @@ permalink: /teams/
                 (!y || years.indexOf(y) >= 0) &&
                 (!o || outcome === o);
       li.style.display = hit ? '' : 'none';
-      if (hit) shown++;
+      if (hit) {
+        shown++;
+        lettersVisible[li.getAttribute('data-letter')] = true;
+      }
+    });
+    markers.forEach(function(m) {
+      m.style.display = lettersVisible[m.getAttribute('data-letter')] ? '' : 'none';
     });
     counter.textContent = 'Showing ' + shown + ' of ' + total + ' teams.';
   }

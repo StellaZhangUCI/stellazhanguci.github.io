@@ -36,6 +36,54 @@ permalink: /analytics/
 
 <section class="section">
   <h2>Outcome distribution</h2>
+  {% assign op_n = site.data.outcomes.outcomes | where: "category", "OPERATING" | size %}
+  {% assign aq_n = site.data.outcomes.outcomes | where: "category", "ACQUIRED" | size %}
+  {% assign pv_n = site.data.outcomes.outcomes | where: "category", "PIVOTED" | size %}
+  {% assign sd_n = site.data.outcomes.outcomes | where: "category", "SHUT_DOWN" | size %}
+  {% assign dm_n = site.data.outcomes.outcomes | where: "category", "DORMANT" | size %}
+  {% assign nf_n = site.data.outcomes.outcomes | where: "category", "NO_PUBLIC_OUTCOME_FOUND" | size %}
+  {% assign tot_n = op_n | plus: aq_n | plus: pv_n | plus: sd_n | plus: dm_n | plus: nf_n %}
+
+  {% assign circ = 502 %}{% comment %} 2 * pi * r where r = 80 -> ~502.65 {% endcomment %}
+  {% assign offset = 0 %}
+
+  <div class="donut-row" style="display:grid; grid-template-columns: minmax(220px, 280px) 1fr; gap: 2rem; align-items: center; margin: 1.4rem 0;">
+    <svg viewBox="0 0 200 200" role="img" aria-label="Outcome distribution donut" style="width:100%; max-width: 280px; height:auto;">
+      <circle cx="100" cy="100" r="80" fill="none" stroke="#f1eee7" stroke-width="28"></circle>
+
+      {% assign len = op_n | times: circ | divided_by: tot_n %}
+      <circle cx="100" cy="100" r="80" fill="none" stroke="#0d633a" stroke-width="28"
+              stroke-dasharray="{{ len }} {{ circ }}" stroke-dashoffset="{{ offset }}" transform="rotate(-90 100 100)"></circle>
+      {% assign offset = offset | minus: len %}
+
+      {% assign len = nf_n | times: circ | divided_by: tot_n %}
+      <circle cx="100" cy="100" r="80" fill="none" stroke="#6a6a6a" stroke-width="28"
+              stroke-dasharray="{{ len }} {{ circ }}" stroke-dashoffset="{{ offset }}" transform="rotate(-90 100 100)"></circle>
+      {% assign offset = offset | minus: len %}
+
+      {% assign len = pv_n | times: circ | divided_by: tot_n %}
+      <circle cx="100" cy="100" r="80" fill="none" stroke="#8a5a00" stroke-width="28"
+              stroke-dasharray="{{ len }} {{ circ }}" stroke-dashoffset="{{ offset }}" transform="rotate(-90 100 100)"></circle>
+      {% assign offset = offset | minus: len %}
+
+      {% assign len = sd_n | times: circ | divided_by: tot_n %}
+      <circle cx="100" cy="100" r="80" fill="none" stroke="#8a1f1f" stroke-width="28"
+              stroke-dasharray="{{ len }} {{ circ }}" stroke-dashoffset="{{ offset }}" transform="rotate(-90 100 100)"></circle>
+      {% assign offset = offset | minus: len %}
+
+      {% assign len = dm_n | times: circ | divided_by: tot_n %}
+      <circle cx="100" cy="100" r="80" fill="none" stroke="#b8860b" stroke-width="28"
+              stroke-dasharray="{{ len }} {{ circ }}" stroke-dashoffset="{{ offset }}" transform="rotate(-90 100 100)"></circle>
+      {% assign offset = offset | minus: len %}
+
+      {% assign len = aq_n | times: circ | divided_by: tot_n %}
+      <circle cx="100" cy="100" r="80" fill="none" stroke="#002855" stroke-width="28"
+              stroke-dasharray="{{ len }} {{ circ }}" stroke-dashoffset="{{ offset }}" transform="rotate(-90 100 100)"></circle>
+
+      <text x="100" y="96" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" font-size="32" font-weight="600" fill="#002855">{{ tot_n }}</text>
+      <text x="100" y="118" text-anchor="middle" font-family="Inter, sans-serif" font-size="9" fill="#6a6a6a" letter-spacing="2">TEAMS RESEARCHED</text>
+    </svg>
+    <div>
   {% assign operating = site.data.outcomes.outcomes | where: "category", "OPERATING" %}
   {% assign acquired = site.data.outcomes.outcomes | where: "category", "ACQUIRED" %}
   {% assign pivoted = site.data.outcomes.outcomes | where: "category", "PIVOTED" %}
@@ -62,6 +110,9 @@ permalink: /analytics/
       {% endfor %}
     </tbody>
   </table>
+    </div>
+  </div>
+  <p style="font-size:0.88rem; color: var(--ink-muted);">Donut segments are sorted largest first, starting at twelve o'clock.</p>
 </section>
 
 <section class="section">

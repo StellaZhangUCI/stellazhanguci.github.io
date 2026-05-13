@@ -358,6 +358,44 @@ section.section > h2:first-child { margin-top: 0; }
 .team-list .name { font-family: var(--serif); font-size: 1.05rem; font-weight: 600; }
 .team-list .meta { color: var(--ink-muted); font-size: 0.88rem; }
 
+.team-list li.alpha-marker {
+  font-family: var(--serif);
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--gold);
+  border-bottom: 1px solid var(--ink);
+  padding: 1.6rem 0 0.4rem;
+  letter-spacing: 0.04em;
+}
+
+.alpha-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  padding: 0.7rem 0;
+  margin: 0.4rem 0 1rem;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+.alpha-jump a {
+  display: inline-block;
+  min-width: 1.9rem;
+  text-align: center;
+  font-family: var(--serif);
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+  text-decoration: none;
+  padding: 0.15rem 0.35rem;
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+  transition: border-color 120ms ease, color 120ms ease, background 120ms ease;
+}
+.alpha-jump a:hover {
+  color: var(--paper);
+  background: var(--navy);
+  border-color: var(--navy);
+}
+
 /* Inline labels */
 .label-eyebrow {
   font-family: var(--sans);
@@ -368,6 +406,11 @@ section.section > h2:first-child { margin-top: 0; }
   font-weight: 600;
   margin: 0 0 0.6rem;
   display: block;
+}
+
+/* Donut layout */
+@media (max-width: 720px) {
+  .donut-row { grid-template-columns: 1fr !important; }
 }
 
 /* Charts */
