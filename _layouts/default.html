@@ -24,8 +24,10 @@
         <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>Overview</a>
         <a href="{{ '/years/' | relative_url }}"{% if page.url contains '/years' %} class="active"{% endif %}>Years</a>
         <a href="{{ '/teams/' | relative_url }}"{% if page.url contains '/teams' %} class="active"{% endif %}>Teams</a>
+        <a href="{{ '/tracks/' | relative_url }}"{% if page.url contains '/tracks' %} class="active"{% endif %}>Tracks</a>
         <a href="{{ '/outcomes/' | relative_url }}"{% if page.url contains '/outcomes' %} class="active"{% endif %}>Outcomes</a>
         <a href="{{ '/analytics/' | relative_url }}"{% if page.url contains '/analytics' %} class="active"{% endif %}>Analytics</a>
+        <a href="{{ '/sponsors/' | relative_url }}"{% if page.url contains '/sponsors' %} class="active"{% endif %}>Sponsors</a>
         <a href="{{ '/about/' | relative_url }}"{% if page.url contains '/about' %} class="active"{% endif %}>About</a>
       </nav>
     </div>

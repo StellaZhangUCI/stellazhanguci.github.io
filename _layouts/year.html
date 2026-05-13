@@ -14,9 +14,15 @@ layout: default
 
 <header class="year-head">
   <span class="yr-num">{{ yr }}</span>
-  <span class="yr-sub">{% if edition.edition %}{{ edition.edition }} edition{% elsif edition.status %}{{ edition.status | capitalize }}{% endif %}</span>
+  <span class="yr-sub">{% if edition.edition %}{{ edition.edition }} edition{% elsif edition.competition_name_at_time %}{{ edition.competition_name_at_time }}{% elsif edition.status %}{{ edition.status | replace: "_", " " | capitalize }}{% endif %}</span>
   <h1>{{ page.title | default: edition.theme | default: "UCI New Venture Competition" }}</h1>
 </header>
+
+{% if edition.status == "no_public_record" %}
+  <div class="callout">
+    <p>No primary public record of this edition has surfaced in indexed UCI Merage or Samueli coverage. The competition may have run, but team rosters, prize amounts and outcome data are not currently recoverable. Contributions of period-correct sources are welcome via the <a href="https://github.com/StellaZhangUCI/History">companion repository</a>.</p>
+  </div>
+{% endif %}
 
 {% if edition.theme %}
   <p class="lede" style="font-family: var(--serif); font-size:1.2rem; color: var(--ink-soft); max-width:34em;">{{ edition.theme }}</p>

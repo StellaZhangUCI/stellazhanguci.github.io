@@ -1,0 +1,49 @@
+---
+layout: default
+title: Sponsors and people
+permalink: /sponsors/
+---
+
+<section class="hero">
+  <p class="eyebrow">Who supports the competition</p>
+  <h1>Sponsors and people</h1>
+  <p class="lede">A short index of the named sponsors, program staff and judging-side partners disclosed across Merage and UCI Beall coverage.</p>
+</section>
+
+<section class="section">
+  <h2>Named sponsors</h2>
+  <p>Pulled from Merage NVC pages and Beall Center coverage. The list is non-exhaustive. Year-by-year sponsorship attribution is not always preserved in indexed sources.</p>
+  <div class="feature-grid">
+    {% for s in site.data.nvc.competition.sponsors %}
+      <div class="feature" style="border-top-color: var(--gold);">
+        <h3 style="font-size:1.1rem; margin:0;">{{ s }}</h3>
+      </div>
+    {% endfor %}
+  </div>
+  {% if site.data.nvc.competition.sponsors_note %}
+    <p style="font-size:0.88rem; color: var(--ink-muted);">{{ site.data.nvc.competition.sponsors_note }}</p>
+  {% endif %}
+</section>
+
+<section class="section">
+  <h2>Naming donor</h2>
+  <p><strong>Stella Zhang</strong> (FEMBA&nbsp;'05) and her spouse <strong>John Shen</strong> announced the naming gift in January 2022. Zhang made an additional $750,000 five-year commitment in March 2025 that raised the prize pool past $150,000. See the <a href="{{ '/about/' | relative_url }}">about page</a> for full sourcing.</p>
+</section>
+
+<section class="section">
+  <h2>Program staff (currently named in primary sources)</h2>
+  <ul>
+    {% for p in site.data.nvc.competition.program_staff %}
+      <li><strong>{{ p.name }}</strong> &middot; {{ p.role }}{% if p.contact %} &middot; <a href="mailto:{{ p.contact }}">{{ p.contact }}</a>{% endif %}</li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="section">
+  <h2>Track partnerships</h2>
+  <ul>
+    {% for t in site.data.nvc.competition.track_partnerships %}
+      <li><strong>{{ t.track }}</strong>. Partner: {{ t.partner_organization }}. {% if t.named_faculty_judge %}Named judge: {{ t.named_faculty_judge }}.{% endif %}</li>
+    {% endfor %}
+  </ul>
+</section>

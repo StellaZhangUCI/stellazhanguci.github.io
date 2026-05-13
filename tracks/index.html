@@ -1,0 +1,121 @@
+---
+layout: default
+title: Tracks
+permalink: /tracks/
+---
+
+<section class="hero">
+  <p class="eyebrow">Competition structure</p>
+  <h1>Tracks</h1>
+  <p class="lede">The 2018 reset to five standard tracks shaped almost every edition since. Each track produces a 1st and 2nd place per year. Specialty awards rotate around them.</p>
+</section>
+
+<section class="section">
+  <h2>Standard tracks (2018 to present)</h2>
+  <p>Five tracks have held steady since 2018. The names sometimes shift slightly between years (Business Products and Services, Consumer Products and Services) but the lineup is stable. Track payouts moved from $4,000 and $1,500 in 2017 to $10,000 and $5,000 from 2018 onward.</p>
+  <table class="archive-table">
+    <thead><tr><th>Track</th><th>What it covers</th><th>Partner</th></tr></thead>
+    <tbody>
+      <tr>
+        <td class="team"><strong>Business Products and Services</strong></td>
+        <td>B2B software, hardware and platforms.</td>
+        <td>n/a</td>
+      </tr>
+      <tr>
+        <td class="team"><strong>Consumer Products</strong></td>
+        <td>Direct-to-consumer physical goods, hardware and apparel.</td>
+        <td>n/a</td>
+      </tr>
+      <tr>
+        <td class="team"><strong>Consumer Services</strong></td>
+        <td>Consumer apps, platforms and subscription services.</td>
+        <td>n/a</td>
+      </tr>
+      <tr>
+        <td class="team"><strong>Life Sciences</strong></td>
+        <td>Medical devices, diagnostics and therapeutics. The track with the strongest documented post-competition trajectories.</td>
+        <td>n/a</td>
+      </tr>
+      <tr>
+        <td class="team"><strong>Social Enterprise</strong></td>
+        <td>Mission-driven ventures with measurable social or environmental impact.</td>
+        <td>UCI Blum Center for Poverty Alleviation. Richard Matthew (Blum Center Faculty Director) is named as a track judge.</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="section">
+  <h2>Specialty awards</h2>
+  <ul>
+    <li><strong>Tech Surge.</strong> Pre-2018 award for deep-tech ventures. Last appeared in 2019.</li>
+    <li><strong>MIE Award.</strong> Introduced in 2020. Recognises a finalist with strong ties to UCI's Master of Innovation and Entrepreneurship programme. Baby Box was the first recipient.</li>
+    <li><strong>Audience Favorite.</strong> Intermittent. Appeared in 2020, 2021 and 2025 (as "EvoNexus Fan Favorite"). Typically $1,000.</li>
+    <li><strong>School of Medicine Award.</strong> 2017 only. Went to Purist alongside its Tech Surge 1st.</li>
+    <li><strong>Designing Solutions for Poverty Alleviation.</strong> A co-located UCI Blum Center pitch contest, not a formal NVC track. Esqalate won in 2017 with Loy Loy and Pure Game as runners-up.</li>
+  </ul>
+</section>
+
+<section class="section">
+  <h2>Track 1st-place winners by year</h2>
+  <table class="archive-table">
+    <thead>
+      <tr>
+        <th>Year</th>
+        <th>Business Products</th>
+        <th>Consumer Products</th>
+        <th>Consumer Services</th>
+        <th>Life Sciences</th>
+        <th>Social Enterprise</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for y in site.data.nvc.years %}
+        {% assign bp = "" %}
+        {% assign cp = "" %}
+        {% assign cs = "" %}
+        {% assign ls = "" %}
+        {% assign se = "" %}
+        {% for a in y.awards %}
+          {% if a.place == "1st" %}
+            {% if a.category contains "Business Products" %}{% assign bp = a.team %}{% endif %}
+            {% if a.category contains "Consumer Products" %}{% assign cp = a.team %}{% endif %}
+            {% if a.category contains "Consumer Services" %}{% assign cs = a.team %}{% endif %}
+            {% if a.category contains "Life Sciences" %}{% assign ls = a.team %}{% endif %}
+            {% if a.category contains "Social Enterprise" %}{% assign se = a.team %}{% endif %}
+          {% endif %}
+        {% endfor %}
+        <tr>
+          <td><a href="{{ '/years/' | append: y.year | append: '/' | relative_url }}"><strong>{{ y.year }}</strong></a></td>
+          <td>{{ bp }}</td>
+          <td>{{ cp }}</td>
+          <td>{{ cs }}</td>
+          <td>{{ ls }}</td>
+          <td>{{ se }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  <p style="font-size:0.88rem; color: var(--ink-muted);">The 2017 row is blank under most tracks because that year used the smaller $4,000 and $1,500 payouts and the track-naming differed slightly. See the <a href="{{ '/years/2017/' | relative_url }}">2017 page</a> for the exact slate.</p>
+</section>
+
+<section class="section">
+  <h2>Notable track trajectories</h2>
+  <div class="feature-grid">
+    <article class="feature">
+      <span class="label-eyebrow">Life Sciences</span>
+      <h3>Strongest survival rate</h3>
+      <p>Life Sciences track winners disproportionately remain operating post-competition. Long FDA timelines and federal grant pipelines keep pre-revenue companies alive for years. Examples include Sayenza Biosciences (2022), Hyperion Therapeutics (2023), ImmunoTarget (2020) and Purist (2017).</p>
+    </article>
+    <article class="feature">
+      <span class="label-eyebrow">Consumer Services</span>
+      <h3>Most pivots and exits</h3>
+      <p>Consumer Services 1st-place winners produced the two cleanest documented exits in the archive (Wing to Wing Assistant in 2018, No Decaf Allowed to Moongoat in 2020). They also produced more pivots than any other track.</p>
+    </article>
+    <article class="feature">
+      <span class="label-eyebrow">Social Enterprise</span>
+      <h3>Highest no-public-outcome rate</h3>
+      <p>Social Enterprise winners are over-represented in the "no findable public outcome" bucket. The mission-first orientation often means no commercial follow-on, which translates into a smaller indexed footprint over time.</p>
+    </article>
+  </div>
+</section>

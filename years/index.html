@@ -48,8 +48,7 @@ permalink: /years/
     <a class="year-card" href="{{ '/years/' | append: e.year | append: '/' | relative_url }}">
       <span class="yr">{{ e.year }}</span>
       <span class="gp">
-        {% if e.grand_prize %}<strong>{{ e.grand_prize.team }}</strong>{% if e.grand_prize.prize_text %} &middot; {{ e.grand_prize.prize_text }}{% endif %}<br>{% endif %}
-        {{ e.theme | default: "Historical edition" | truncate: 80 }}
+        {% if e.grand_prize %}<strong>{{ e.grand_prize.team }}</strong>{% if e.grand_prize.prize_text %} &middot; {{ e.grand_prize.prize_text }}{% endif %}<br>{{ e.grand_prize.project | default: "" | truncate: 80 }}{% elsif e.status == "no_public_record" %}<em>No primary public record located.</em>{% else %}{{ e.theme | default: "Historical edition" | truncate: 80 }}{% endif %}
       </span>
     </a>
   {% endfor %}
