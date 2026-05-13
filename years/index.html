@@ -15,17 +15,24 @@ permalink: /years/
   {% for y in site.data.nvc.years %}
     {% assign top = nil %}
     {% for a in y.awards %}
-      {% if a.category contains "Grand Prize" or a.place == "Winner" and a.category == "Grand Prize" %}
-        {% if top == nil %}{% assign top = a %}{% endif %}
-      {% endif %}
+      {% unless a.is_cross_listing %}
+        {% if a.place == "Winner" and top == nil %}{% assign top = a %}{% endif %}
+      {% endunless %}
     {% endfor %}
+    {% if top == nil %}
+      {% for a in y.awards %}
+        {% unless a.is_cross_listing %}
+          {% if a.place == "1st" and top == nil %}{% assign top = a %}{% endif %}
+        {% endunless %}
+      {% endfor %}
+    {% endif %}
     <a class="year-card" href="{{ '/years/' | append: y.year | append: '/' | relative_url }}">
       <span class="yr">{{ y.year }}</span>
       <span class="gp">
         {% if y.status == "upcoming" %}
           <strong>Upcoming</strong><br>Grand Finale {{ y.grand_finale.date }}.
         {% elsif top %}
-          <strong>{{ top.team }}</strong> &middot; {{ top.prize_text }}<br>{{ top.project | truncate: 80 }}
+          <strong>{{ top.team }}</strong>{% if top.prize_text %} &middot; {{ top.prize_text }}{% endif %}<br>{{ top.category }}: {{ top.project | truncate: 70 }}
         {% elsif y.theme %}
           {{ y.theme }}
         {% endif %}
