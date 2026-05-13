@@ -474,4 +474,21 @@ section.section > h2:first-child { margin-top: 0; }
   .hero .lede { font-size: 1.1rem; }
   .archive-table { font-size: 0.88rem; }
   .archive-table th, .archive-table td { padding-right: 0.5rem; }
+  .site-header .container { gap: 0.6rem; }
+  .site-nav { gap: 0.9rem; row-gap: 0.5rem; font-size: 0.95rem; }
+}
+
+/* Print */
+@media print {
+  :root { --paper: #fff; --paper-edge: #fff; }
+  body { font-size: 11pt; color: #000; }
+  .site-nav, .team-controls, .year-nav, .site-footer a { display: none; }
+  a { color: #000; text-decoration: none; }
+  a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 9pt; color: #555; }
+  .hero { padding-bottom: 1rem; margin-bottom: 1.5rem; }
+  .stat-row { page-break-inside: avoid; }
+  .feature, .year-card, .chart-card { break-inside: avoid; }
+  .archive-table { font-size: 9pt; }
+  h2 { page-break-after: avoid; }
+  .badge { border: 1px solid #000; color: #000; background: #fff; }
 }
