@@ -7,7 +7,7 @@ permalink: /outcomes/
 <section class="hero">
   <p class="eyebrow">Post-competition</p>
   <h1>Where are they now?</h1>
-  <p class="lede">Verified status as of {{ site.data.outcomes.last_updated }} &mdash; what happened to NVC finalists after they walked off the Merage stage.</p>
+  <p class="lede">Verified status as of {{ site.data.outcomes.last_updated }}. What happened to NVC finalists after they walked off the Merage stage.</p>
 </section>
 
 {% assign acquired = site.data.outcomes.outcomes | where: "category", "ACQUIRED" %}
@@ -88,5 +88,5 @@ permalink: /outcomes/
 </section>
 
 <div class="callout">
-  <p>Teams classified "no public outcome found" do not appear here; they're listed on the <a href="{{ '/teams/' | relative_url }}">team directory</a>. Absence of public outcome is not absence of activity &mdash; it's absence of a citable public trace at last check.</p>
+  <p>Teams classified "no public outcome found" do not appear here. They are listed on the <a href="{{ '/teams/' | relative_url }}">team directory</a>. Absence of a public outcome is not the same as absence of activity. It just means there was no citable public trace at last check.</p>
 </div>

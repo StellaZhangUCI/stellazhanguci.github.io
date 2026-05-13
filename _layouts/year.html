@@ -71,7 +71,7 @@ layout: default
           <td>{{ a.category }}</td>
           <td>{{ a.place }}</td>
           <td class="team"><strong>{{ a.team }}</strong>{% if a.members and a.members.size > 0 %}<br><small style="color: var(--ink-muted);">{{ a.members | join: ", " }}</small>{% endif %}</td>
-          <td class="prize">{{ a.prize_text | default: "&mdash;" }}</td>
+          <td class="prize">{{ a.prize_text | default: "n/a" }}</td>
           <td>{% if a.is_cross_listing %}<em>See {{ a.cross_listed_with.category }} {{ a.cross_listed_with.place }}.</em>{% else %}{{ a.project }}{% endif %}</td>
         </tr>
       {% endfor %}
@@ -86,7 +86,7 @@ layout: default
     <tbody>
       <tr>
         <td class="team"><strong>{{ edition.grand_prize.team }}</strong>{% if edition.grand_prize.members and edition.grand_prize.members.size > 0 %}<br><small style="color: var(--ink-muted);">{{ edition.grand_prize.members | join: ", " }}</small>{% endif %}</td>
-        <td class="prize">{{ edition.grand_prize.prize_text | default: "&mdash;" }}</td>
+        <td class="prize">{{ edition.grand_prize.prize_text | default: "n/a" }}</td>
         <td>{{ edition.grand_prize.project }}</td>
       </tr>
     </tbody>
@@ -102,7 +102,7 @@ layout: default
         <tr>
           <td>{{ o.place }}</td>
           <td class="team"><strong>{{ o.team }}</strong>{% if o.members and o.members.size > 0 %}<br><small style="color: var(--ink-muted);">{{ o.members | join: ", " }}</small>{% endif %}{% if o.coach %}<br><small style="color: var(--ink-muted);">Coach: {{ o.coach }}</small>{% endif %}</td>
-          <td class="prize">{{ o.prize_text | default: "&mdash;" }}</td>
+          <td class="prize">{{ o.prize_text | default: "n/a" }}</td>
           <td>{{ o.project }}</td>
         </tr>
       {% endfor %}
@@ -119,7 +119,7 @@ layout: default
         <tr>
           <td>{{ o.category | default: o.place }}</td>
           <td class="team"><strong>{{ o.team }}</strong>{% if o.members and o.members.size > 0 %}<br><small style="color: var(--ink-muted);">{{ o.members | join: ", " }}</small>{% endif %}{% if o.coach %}<br><small style="color: var(--ink-muted);">Coach: {{ o.coach }}</small>{% endif %}</td>
-          <td class="prize">{{ o.prize_text | default: "&mdash;" }}</td>
+          <td class="prize">{{ o.prize_text | default: "n/a" }}</td>
           <td>{{ o.project }}</td>
         </tr>
       {% endfor %}
