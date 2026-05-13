@@ -1,0 +1,1411 @@
+{
+  "schema_version": 1,
+  "last_updated": "2026-05-12",
+  "outcome_categories": {
+    "OPERATING": "Company still actively running",
+    "ACQUIRED": "Acquired by another company",
+    "EXITED_OTHER": "IPO, merger, or other formal exit",
+    "PIVOTED": "Same legal entity (or rebranded entity) now doing something different",
+    "DORMANT": "Website still up but no apparent activity for 12+ months",
+    "SHUT_DOWN": "Confirmed closed",
+    "NO_PUBLIC_OUTCOME_FOUND": "Research came up empty"
+  },
+  "outcomes": [
+    {
+      "team": "ZeroWatt Technologies",
+      "year": 2009,
+      "award": "Grand Prize",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "likely defunct",
+      "summary": "Co-founder Fred Tzeng has moved on to other companies. The SBIR-stage company has no active web presence as a chip-design startup. A separate 'Zerowatt Energy' (India-based industrial-energy AI) is unrelated.",
+      "sources": [
+        "https://legacy.www.sbir.gov/sbc/zerowatt-technologies-inc",
+        "https://www.zoominfo.com/p/Fred-Tzeng/1406921498"
+      ]
+    },
+    {
+      "team": "Happy Sleep",
+      "year": 2009,
+      "award": "Undergraduate Division 1st + Best Concept Paper",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "no findable outcome",
+      "summary": "Researched 2026-05-12. Undergraduate team (Praveen De Silva and Kevin Hung, mechanical / materials science engineering) won the 2009 Undergraduate Division with a Bluetooth wristband alarm concept, $3,500 prize. No follow-on commercial activity or product launch traceable; the founders' early-career identifiers from 2009 are not currently associated with the original concept on the public web.",
+      "sources": [
+        "https://sprocket.eng.uci.edu/news/2009/6/engineering-nabs-top-honors-2009-business-plan-competition-paul-merage-school-business"
+      ]
+    },
+    {
+      "team": "Prescient Imaging",
+      "year": 2012,
+      "award": "Grand Prize",
+      "category": "OPERATING",
+      "confidence": "confirmed",
+      "summary": "Received 510(k) FDA clearance in March 2021 for the BBX-PET portable PET scanner. Founders and private investors have put in over $8M total; focused on Alzheimer's neurology applications.",
+      "sources": [
+        "https://www.accessdata.fda.gov/cdrh_docs/pdf21/K210450.pdf",
+        "https://merage.uci.edu/news/2022/05/Merage-Competition-Winner-Is-Poised-to-Disrupt-Medical-Imaging-Industry.html"
+      ]
+    },
+    {
+      "team": "Laser Associated Sciences",
+      "team_aliases": [
+        "LAS"
+      ],
+      "year": 2013,
+      "award": "Grand Prize",
+      "category": "ACQUIRED",
+      "confidence": "confirmed",
+      "summary": "Acquired by Medtronic in April 2020 for undisclosed terms (OC Business Journal reported the news on 2020-04-14; UCI Innovation announcement is dated 2020-04-29; exact deal-close date not pinned to a single day across sources). Received FlowMet-R 510(k) FDA clearance in 2019. Founder/CEO Sean White now leads Medtronic's diagnostics & monitoring group.",
+      "acquirer": "Medtronic",
+      "acquisition_date": "2020-04",
+      "acquisition_date_note": "OC Business Journal reported the news on 2020-04-14; UCI Innovation announcement dated 2020-04-29. Exact deal-close date not pinned to a single day across sources.",
+      "acquisition_terms": "undisclosed",
+      "sources": [
+        "https://innovation.uci.edu/2020/04/medtronic-acquires-cove-tenant-laser-associated-sciences/",
+        "https://www.ocbj.com/news/2020/apr/14/medtronic-buys-device-maker/"
+      ]
+    },
+    {
+      "team": "ValveStrong",
+      "year": 2013,
+      "award": "Campus Wide 2nd + TechPortal Orange Residency + Best Concept Paper",
+      "category": "DORMANT",
+      "confidence": "likely",
+      "summary": "Researched 2026-05-12. Gust profile lists ValveStrong as 'Full Product Ready' stage but 'Not Incorporated'; founded October 2012 in Irvine. Founder S. Hamed Alavi moved on to senior R&D roles at Edwards Lifesciences Advanced Technology Center, Medtronic, Navigate Cardiac Structures, and Hancock Jaffe Laboratories (CTO / SVP). The underlying hybrid tissue-engineered heart valve research (with Prof. Arash Kheradvar at KLAB) continued as published research in the Annals of Biomedical Engineering series and a Scientific Reports paper, but ValveStrong itself never appears to have incorporated commercially.",
+      "sources": [
+        "https://gust.com/companies/valvestrong",
+        "https://engineering.uci.edu/news/2015/6/hybrid-tissue-engineered-valves-may-expand-options-heart-valve-surgery-patients"
+      ]
+    },
+    {
+      "team": "NoreGen",
+      "year": 2013,
+      "award": "Campus Wide 3rd + $30,000 UCI School of Medicine Life Sciences Award",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "no findable outcome",
+      "summary": "Researched 2026-05-12. Cancer diagnostic device for circulating tumor cell (CTC) detection. Team led by Prof. Zuzanna Siwy with IGERT LifeChips fellows Ashley Fong and Laura Innes plus four others. Underlying CTC microfluidics research continued in Prof. Siwy's lab (the team appears in IGERT highlights through 2014), but no commercial entity 'NoreGen' is traceable post-2014. The total disclosed prize bundle was unusually large at $33,500 ($3.5K Campus Wide 3rd + $30K SoM Life Sciences Award).",
+      "sources": [
+        "http://www.igert.org/highlights/760.html",
+        "https://engineering.uci.edu/news/2013/6/engineering-students-achieve-strong-showing-merage-business-plan-competition"
+      ]
+    },
+    {
+      "team": "Nobles Medical Technology",
+      "year": 2013,
+      "award": "Undergraduate Division winner",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "no findable outcome",
+      "summary": "Researched 2026-05-12. UCI undergraduate team led by Shoumyo Dewan with seven other members proposed an artificial pumping heart system for surgeons to practice catheter surgeries; won $2,500. The name appears coincidental and unrelated to Prof. Anthony Nobles' commercial Nobles Medical Technologies II, Inc. (founded 2009, Fountain Valley, NobleStitch PFO closure product) - which is a separately incorporated commercial entity with its own FDA-cleared products and is NOT the team that competed at UCI in 2013. No follow-on commercial activity traceable for the UCI undergraduate team.",
+      "sources": [
+        "https://engineering.uci.edu/news/2013/6/engineering-students-achieve-strong-showing-merage-business-plan-competition"
+      ]
+    },
+    {
+      "team": "MEGAL!NE",
+      "year": 2013,
+      "award": "TechPortal Calit2 Residency Award",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "no findable outcome",
+      "summary": "Researched 2026-05-12. Technology-based language learning software (pronunciation imitation while watching videos online). Six-person team coached by Tom Taulli. Prize was a $2,750 in-kind TechPortal Calit2 Residency Award rather than a cash prize. No commercial follow-on traceable post-2013.",
+      "sources": [
+        "https://engineering.uci.edu/news/2013/6/engineering-students-achieve-strong-showing-merage-business-plan-competition"
+      ]
+    },
+    {
+      "team": "Bloom Diagnostics",
+      "team_aliases": [
+        "Bloom Diagnostics (UCI 2013 environmental team)"
+      ],
+      "year": 2013,
+      "award": "UC Irvine Environment Institute Award",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "no findable outcome",
+      "summary": "Researched 2026-05-12. UCI environmental student team developing molecular-diagnostic kits for real-time identification of foam-causing bacteria species (algae-bloom precursor detection). Won the $2,500 UC Irvine Environment Institute Award. NOT to be confused with the unrelated Swiss medtech company 'Bloom Diagnostics' (CRP / iron-deficiency blood-test devices, headquartered in Zurich) - that company is a separate commercial entity. No commercial follow-on traceable for the UCI environmental team.",
+      "sources": [
+        "https://engineering.uci.edu/news/2013/6/engineering-students-achieve-strong-showing-merage-business-plan-competition"
+      ]
+    },
+    {
+      "team": "iBesties",
+      "year": 2014,
+      "award": "Grand Prize",
+      "category": "PIVOTED",
+      "confidence": "confirmed pivot, likely dormant",
+      "summary": "Rebranded as 'Middle School Moguls' in 2016, hit Target shelves fall 2016, adapted into a 4-episode CG miniseries with Nickelodeon in 2019. No evidence of activity past 2021.",
+      "rebranded_to": "Middle School Moguls",
+      "sources": [
+        "https://dollect.net/database/middle-school-moguls/",
+        "https://www.themarysue.com/ibesties/"
+      ]
+    },
+    {
+      "team": "EmbryLux",
+      "year": 2016,
+      "award": "Grand Prize (Life Sciences/Clean Tech 1st + UCI Intellectual Property 1st, dual award)",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "no findable commercial outcome",
+      "summary": "The 2016 UCI design site exists, plus a 2019 Rice Business Plan Competition appearance under 'Embryologic'. No Crunchbase or current company site. Underlying FLIM-phasor IVF research published in Scientific Reports (2019). Track placement upgraded from 'Grand Prize' to the dual-award detail on 2026-05-12 per UCI News primary source.",
+      "sources": [
+        "https://www.nature.com/articles/s41598-019-48107-2",
+        "https://news.uci.edu/2016/05/11/uci-student-entrepreneurs-do-battle-in-business-plan-competition/"
+      ]
+    },
+    {
+      "team": "Dental Insights",
+      "year": 2016,
+      "award": "IT/Web 1st",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "no findable outcome",
+      "summary": "Researched 2026-05-12. Software to increase the accuracy and authenticity of submitted dental claims (Michael Bennett, Andy Fields, Vang Kou Khang). Won $10,000. The team's UCI-affiliated startup has no traceable commercial follow-on. The name 'Michael Bennett DDS, PhD' surfaces in 2024-2026 dental-tech contexts at Valere Dental, but those references describe a different concept (continuous dental monitoring) rather than dental-claims authentication, so the UCI 2016 entity should be treated as NO_FOUND rather than linked to the later work.",
+      "sources": [
+        "https://news.uci.edu/2016/05/11/uci-student-entrepreneurs-do-battle-in-business-plan-competition/"
+      ]
+    },
+    {
+      "team": "FunBand",
+      "year": 2016,
+      "award": "Consumer Products 1st",
+      "category": "DORMANT",
+      "confidence": "likely",
+      "summary": "Researched 2026-05-12. Co-founders Rehema Feleke (pediatric emergency medicine physician), Simon Loo, and Cliff Wang built a LoRa-technology child-tracking wristband for amusement parks and event venues. Accepted into UCI Applied Innovation's Wayfinder incubator (then Cove); pivoted from B2C wristband to a data-intelligence platform for venues. Nominated by OC Business Journal for 2017 Innovator of the Year. UCI Beall Applied Innovation published a profile in April 2018. No post-2018 public footprint located on 2026-05-12.",
+      "sources": [
+        "https://innovation.uci.edu/2018/04/funband-bringing-actionable-insights-to-event-venues-and-amusement-parks-through-a-data-intelligence-platform/",
+        "http://innovation.uci.edu/2017/08/wayfinder-startup-funband-is-nominated-by-ocbj-for-2017-innovator-of-the-year-award/"
+      ]
+    },
+    {
+      "team": "Negocios & Etc.",
+      "year": 2016,
+      "award": "Blum Center for Poverty Alleviation Award",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "no findable outcome",
+      "summary": "Researched 2026-05-12. Online platform connecting business owners with affordable consultancies via a unique social network. Won the $10,000 Blum Center Poverty Alleviation Award. Co-founder Pravin Surana returned the next year on the 2017 APIC Diagnostics team (Tech Surge 2nd), making him a documented repeat finalist. No commercial follow-on for Negocios & Etc. traceable post-2016.",
+      "sources": [
+        "https://news.uci.edu/2016/05/11/uci-student-entrepreneurs-do-battle-in-business-plan-competition/"
+      ]
+    },
+    {
+      "team": "Sher Biomedical",
+      "year": 2016,
+      "award": "School of Medicine Award",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "no findable outcome",
+      "summary": "Researched 2026-05-12. Five-member UCI School-of-Medicine team (Rachel Gurlin, Avid Najdahmadi, Bhupinder Shergill, Jonathan Lakey, Elliot Botnivick); won $10,000 School of Medicine Award. No traceable commercial entity 'Sher Biomedical' post-2016. Project description was not preserved in the indexed UCI News coverage.",
+      "sources": [
+        "https://news.uci.edu/2016/05/11/uci-student-entrepreneurs-do-battle-in-business-plan-competition/"
+      ]
+    },
+    {
+      "team": "Carbo",
+      "year": 2016,
+      "award": "UCI Intellectual Property 2nd",
+      "category": "PIVOTED",
+      "confidence": "likely (academic-research continuation rather than startup commercialization)",
+      "summary": "Researched 2026-05-12. Novel therapeutic robot for autism / ADHD therapy in home, classroom, and clinic settings. The work continued as Prof. Jeff Krichmar's research at UCI's Cognitive Anteater Robotics Laboratory; team member Ting-Shuo Chou co-authored a 2018 ACM TMS paper on CARBO and a 2020 ACM HRI paper on quantitative results of robot-assisted therapy for children with autism, ADHD, and delayed speech development. Co-founder / business developer Pooja Raja transitioned to industry roles (Chief of Staff at CareMore & Aspire Health by 2020, then Elevance Health / Carelon). Treated as PIVOTED: the venture turned into a research line at UCI rather than a commercial company.",
+      "sources": [
+        "https://sites.socsci.uci.edu/~jkrichma/ChouKrichmar-CARBO-TMS2018-ACM.pdf",
+        "https://dl.acm.org/doi/10.1145/3371382.3378254",
+        "https://merage.uci.edu/news/2020/10/From-Tanzania-to-Irvine-Meet-Pooja-Raja-FEMBA-17,-Chief-of-Staff-at-CareMore-Aspire-Health.html"
+      ]
+    },
+    {
+      "team": "Jam",
+      "year": 2016,
+      "award": "IT/Web 2nd",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "no findable outcome",
+      "summary": "Researched 2026-05-12. App for musicians to connect, jam together, and form groups remotely (Emilio Miranda, Miguel Cabral, Jakob Jansson); won $5,000. The 'Jam' name is heavily overloaded in the consumer-music-app space; no UCI-affiliated entity matching the 2016 description is traceable post-2016.",
+      "sources": [
+        "https://news.uci.edu/2016/05/11/uci-student-entrepreneurs-do-battle-in-business-plan-competition/"
+      ]
+    },
+    {
+      "team": "CeleriBio",
+      "year": 2016,
+      "award": "Life Sciences/Clean Tech 2nd + Beall Student Design Competition $2,500",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "no findable outcome (academic-trajectory team members)",
+      "summary": "Researched 2026-05-12. Rapid and quantitative diagnostic device for bloodstream infections and antibiotic resistance. Team member Louai Labanieh subsequently completed a PhD at Stanford in Bioengineering, became a Parker Institute for Cancer Immunotherapy Scholar at Stanford Cancer Institute, and later moved to a postdoc track (Mount Sinai Icahn School of Medicine); he is named as inventor on a dozen-plus technologies commercialized by other startups / publicly traded biotechs. CeleriBio itself, however, has no traceable commercial follow-on as a UCI-spinout entity.",
+      "sources": [
+        "https://faculty.sites.uci.edu/zhaolab/people/louai-labanieh/",
+        "https://engineering.uci.edu/news/2016/6/beall-butterworth-student-design-competition-winners-announced"
+      ]
+    },
+    {
+      "team": "Curaflow",
+      "year": 2016,
+      "award": "Consumer Products 2nd",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "no findable outcome",
+      "summary": "Researched 2026-05-12. Micro CPAP device for sleep apnea: motorless, tubeless, and maskless (Jeffrey Chum, Josh Drum, Michael Shenk, Matthew Vasquez, Sam Pasin). Also appeared as a semifinalist in the 2016 Beall Student Design Competition hardware track. No traceable commercial company 'Curaflow' post-2016.",
+      "sources": [
+        "https://news.uci.edu/2016/05/11/uci-student-entrepreneurs-do-battle-in-business-plan-competition/",
+        "https://engineering.uci.edu/news/2016/6/beall-butterworth-student-design-competition-winners-announced"
+      ]
+    },
+    {
+      "team": "Bottle Rocket",
+      "team_aliases": [
+        "BottleRocket"
+      ],
+      "year": 2016,
+      "award": "Most Outstanding Undergraduate Plan",
+      "category": "DORMANT",
+      "confidence": "likely",
+      "summary": "Researched 2026-05-12. Mobile-app and direct-to-consumer recycling service rewarding users for at-home recycling. Founded in a UCI dorm room by political-science / economics major Arthur Avetisov and international-studies major Brian Leung (May 2015). Won the $1,000 Best Undergraduate Plan award at the 2016 NVC. Subsequently raised $240,000 from MuckerLab (Santa Monica) plus $20,000 from Dorm Room Fund (per UCI Applied Innovation coverage). A 2018 UCI Social Sciences profile ('Ready for liftoff') describes the company as still operating. No post-2018 public footprint on the UCI-affiliated recycling app is locatable on 2026-05-12. NOT to be confused with the Dallas-based Bottle Rocket mobile app development studio (acquired by WPP) or the casual-games company - both are unrelated brand-name overlaps.",
+      "sources": [
+        "https://www.socsci.uci.edu/newsevents/news/2018/2018-08-22-bottlerocket.php",
+        "https://www.socsci.uci.edu/newsevents/news/2018/2018-02-21-bottlerocket.php"
+      ]
+    },
+    {
+      "team": "Maslow Construction Robots",
+      "year": 2016,
+      "award": "Best Pivot Program Plan",
+      "category": "OPERATING",
+      "confidence": "likely (Crunchbase profile exists; commercial activity dates not independently verified)",
+      "summary": "Researched 2026-05-12. Automated 3D-printing tools for real-estate developers, aimed at bringing emergency housing down to low-cost / fast-construction minimums. Headquartered in Irvine, CA; founded by Andy Truong (the sole NVC team member per UCI News). A Crunchbase profile exists (403 on direct fetch 2026-05-12; status drawn from search-engine snippets describing the company in present tense). Founding-date metadata and recent funding history were not independently verifiable, so OPERATING is tagged 'likely' rather than 'confirmed.'",
+      "sources": [
+        "https://www.crunchbase.com/organization/maslow-construction-robots",
+        "https://news.uci.edu/2016/05/11/uci-student-entrepreneurs-do-battle-in-business-plan-competition/"
+      ]
+    },
+    {
+      "team": "Purist",
+      "year": 2017,
+      "award": "Grand Prize (School of Medicine)",
+      "category": "OPERATING",
+      "confidence": "confirmed",
+      "summary": "Founder Leila Safavi runs puristinc.com. Oak Ridge National Lab Innovation Crossroads Cohort 3 fellow; received $223K NIH SBIR in 2019. Still small/seed stage with no announced funding round beyond grants.",
+      "sources": [
+        "https://www.puristinc.com/about",
+        "https://www.linkedin.com/in/leilasafavi/"
+      ]
+    },
+    {
+      "team": "APIC Diagnostics",
+      "year": 2017,
+      "award": "Tech Surge 2nd",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "no findable outcome",
+      "summary": "Original UCI source describes APIC as a non-invasive point-of-care malaria test (the archive's 'saliva diagnostic' label may be inaccurate). No web presence post-2017.",
+      "sources": [
+        "https://innovation.uci.edu/2017/06/tech-surge-purist-takes-top-prize-in-2017-tech-surge-competition/"
+      ]
+    },
+    {
+      "team": "Esqalate",
+      "year": 2017,
+      "award": "Track Award (Poverty Alleviation) 1st",
+      "category": "DORMANT",
+      "confidence": "confirmed (lowboknow.com listed for sale at HugeDomains as of 2026-05-12)",
+      "summary": "Crunchbase profile exists; both platforms now confirmed dormant - proboknow.com redirects to a ww1.proboknow.com parking page; lowboknow.com listed 'for sale at HugeDomains' as of 2026-05-12. Founder Chad Trainer moved on to Blacklight Law APC per LinkedIn. The nonprofit raised about $100K and additionally won the Wolters Kluwer Leading Edge Prize for Legal Education Innovation (with Concord Law School, December 2018; $10K award).",
+      "sources": [
+        "https://www.crunchbase.com/organization/esqalate",
+        "http://lowboknow.com/"
+      ]
+    },
+    {
+      "team": "BrainCheck",
+      "year": 2017,
+      "award": "Track Award (Consumer Products) 1st",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "likely never commercialized",
+      "summary": "UCI senior design / research project rather than an incorporated startup. Open-source code on GitHub but no company entity traceable. A separate Houston-based 'BrainCheck Inc.' is unrelated.",
+      "sources": [
+        "https://faculty.sites.uci.edu/ucibci/2017/03/29/portable-low-cost-and-open-source-brain-computer-interface-bci-arduino-based-system/"
+      ]
+    },
+    {
+      "team": "Venom-Aid",
+      "year": 2017,
+      "award": "Track Award (Life Sciences) 1st",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "no findable outcome",
+      "summary": "Researched 2026-05-12. Team (Nicole Chow, Luana Okumura, Lisa Mae Dominia, Jeffrey O'Brien) appears tied to undergraduate chemistry research on broad-spectrum anti-venom material. No Crunchbase profile, no commercial site, no follow-on biotech entity traceable.",
+      "sources": []
+    },
+    {
+      "team": "Salux Diagnostics",
+      "year": 2017,
+      "award": "Track Award (Life Sciences) 2nd",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "no findable outcome",
+      "summary": "Researched 2026-05-12. Appears to have been a UCI senior design project (rapid diagnostic for burn injuries). A UCI design-page reference exists, but no Crunchbase profile, surviving company site, or post-2017 commercial activity is locatable.",
+      "sources": []
+    },
+    {
+      "team": "Failsafe",
+      "year": 2017,
+      "award": "Track Award (Consumer Products) 2nd",
+      "category": "DORMANT",
+      "confidence": "likely (Wayfinder Graduate confirmed post-NVC activity; no current trace)",
+      "summary": "Personal-safety mobile app concept (Natalie Sweis, Jasmine Yu, Issa Sweis). Listed in 2017 Beall/Butterworth records. Per the UCI Beall Applied Innovation Wayfinder Graduate page, Failsafe completed the Wayfinder incubator program (described there as a 'Safety app that optimizes the chance of someone receiving help in threatening situations'), so the team had documented post-NVC activity beyond the competition itself. Reclassified 2026-05-12 from NO_FOUND to DORMANT based on the Wayfinder Graduate signal. No current App Store presence, Crunchbase profile, or surviving site located. NOT to be confused with several unrelated commercial 'FailSafe' brands: a Salesforce-AppExchange MFA tool, getfailsafe.com (Web3 security auditing), or failsafe.dev (Java fault-tolerance library).",
+      "sources": [
+        "https://innovation.uci.edu/category/wayfinder-graduate/"
+      ]
+    },
+    {
+      "team": "Memorlane",
+      "year": 2017,
+      "award": "Track Award (Consumer Services) 1st",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "no findable outcome",
+      "summary": "Researched 2026-05-12. The only post-2017 signal is a RocketReach profile that still associates founder Evan Schein with 'Memorlane Founder' - a stale-affiliation listing rather than evidence of an active company. No App Store presence, no surviving site, no press coverage post-2017.",
+      "sources": [
+        "https://rocketreach.co/evan-schein-email_37547754"
+      ]
+    },
+    {
+      "team": "Eater Zone",
+      "year": 2017,
+      "award": "Track Award (Consumer Services) 2nd",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "no findable outcome",
+      "summary": "Researched 2026-05-12. Homemade-style cuisine delivery for college campuses (Jonathan Kumamoto, Anna Zhang, Angela Lao, Helen Hu). No surviving site or follow-on company traceable.",
+      "sources": []
+    },
+    {
+      "team": "Element: B2B2C",
+      "year": 2017,
+      "award": "Track Award (Business Products) 1st",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "no findable outcome",
+      "summary": "Researched 2026-05-12. E-commerce automation for patient delivery (Simon Loo, Brianne Pena, Shifa Safeeq, Scott Winter). Simon Loo appeared as a repeat finalist on other UCI NVC teams. No standalone Element: B2B2C company entity locatable.",
+      "sources": []
+    },
+    {
+      "team": "COMPAS",
+      "team_aliases": [
+        "OpsGuru (commercialization vehicle, 2017 spin-out)"
+      ],
+      "year": 2017,
+      "award": "Track Award (Business Products) 2nd",
+      "category": "PIVOTED",
+      "confidence": "likely",
+      "summary": "COMPAS (Clinical Operations Management & Patient Analytics System) was developed inside UCI Health's Ops IT department to track patient flow in clinics; reported to have reduced patient cycle time from 86 to 62 minutes and won the 2016 CAPH/SNI Quality Leaders Awards top prize. In 2017 the IP was licensed to a new commercial spin-out, OpsGuru (CEO Jeff Greenberg, an Applied Innovation EiR), to take it to market. Curtis Hendrick is quoted saying 'UCI is not a software sales company. We figured we were best off licensing it to another company, and having that company take it to market.' The OpsGuru commercialization vehicle has no public footprint after 2018; the current opsguru.com is an unrelated Canadian AWS consultancy under Carbon60 Operating Co LTD. The underlying COMPAS technology continued at UCI Health as an internal tool. 2026-05-12 research also identifies Aaron Soto (UCI MHCID graduate student) as an additional team member not previously listed in the archive.",
+      "licensed_to": "OpsGuru (2017 spin-out, no public footprint after 2018)",
+      "sources": [
+        "https://uctechnews.ucop.edu/uc-hospital-it-innovation-launches-a-business/",
+        "https://innovation.uci.edu/2017/11/startup-spotlight-opsguru/",
+        "https://www.informatics.uci.edu/mhcid-student-aaron-soto-part-of-second-place-team-in-uci-new-venture-competition/"
+      ]
+    },
+    {
+      "team": "Mechanodontics",
+      "year": 2018,
+      "award": "Track Award (Life Sciences) 1st",
+      "category": "OPERATING",
+      "confidence": "confirmed; well-funded",
+      "summary": "Rebranded as BRIUS Technologies (Carrollton, TX); rebrand confirmed via Crunchbase / CB Insights. Launched the Brava hidden-braces system commercially on 2022-06-30. **Brava+ System launched 2024** (lingual / back-of-teeth aesthetic version using the same patented Independent Movers technology). The **Brava Plus System** is described in coverage as the 'world's first self-engaging brackets.' Series B announced May 6, 2025: $19.5M led by View Ventures with Sonder Capital, Invus, SUM Ventures, and Tech Wildcatters; capital earmarked for international expansion, manufacturing scale-up, and continued clinical R&D. Total funding approximately $46.2M to date per PitchBook (Tracxn reports a lower $21.2M figure).",
+      "rebranded_to": "BRIUS Technologies",
+      "total_funding_usd_approx": 46000000,
+      "sources": [
+        "https://pitchbook.com/profiles/company/227480-59",
+        "https://orthodonticproductsonline.com/treatment-products/brackets-wires/wires/brius-technologies-releases-alternative-braces-aligners-brava/"
+      ]
+    },
+    {
+      "team": "Apeel Juice",
+      "year": 2018,
+      "award": "Track Award (Social Enterprise) 1st",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "no findable outcome",
+      "summary": "Founder Keene Do's juice startup has no traceable commercial presence post-2018. Not to be confused with Apeel Sciences (Santa Barbara coatings company), which is unrelated.",
+      "sources": [
+        "https://uciblumcenter.medium.com/uci-new-venture-competition-social-enterprise-track-f595002d462e"
+      ]
+    },
+    {
+      "team": "Closed Loop Plastics",
+      "year": 2018,
+      "award": "Tech Surge 2nd",
+      "category": "SHUT_DOWN",
+      "confidence": "likely",
+      "summary": "closedloopplastics.com now serves a Sedo parking page. LinkedIn page exists but most recent press coverage is from 2021. Moved from UCI to Long Beach for a brief expansion phase but appears wound down.",
+      "sources": [
+        "https://www.closedloopplastics.com/",
+        "https://lbbusinessjournal.com/business/news/long-beach-startup-closed-loop-plastics-looks-to-expand/"
+      ]
+    },
+    {
+      "team": "ARTEM",
+      "year": 2018,
+      "award": "Track Award (Consumer Products) 1st",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "no findable outcome",
+      "summary": "A UCI undergrad team's online marketplace for underground artists 18-24. No Crunchbase, no surviving site, no LinkedIn company page traceable.",
+      "sources": [
+        "http://antrepreneur.uci.edu/blog/startups/artem-nvc/"
+      ]
+    },
+    {
+      "team": "First Step Diagnostics",
+      "year": 2018,
+      "award": "Track Award (Life Sciences) 2nd + Tech Surge 1st",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "no findable outcome",
+      "summary": "No traceable follow-on commercial activity for the 2018 First Step Diagnostics team (Max Lechner, Hannah Mylabathula, Dr. Elizabeth Chao, Dave Ferguson). An earlier draft of this archive incorrectly linked First Step Diagnostics to NeuroQure; verification on 2026-05-11 confirmed NeuroQure was independently founded by Dave Justus based on Prof. John Jay Gargus's CART research, with no documented connection to First Step Diagnostics.",
+      "sources": [
+        "https://www.ocbj.com/healthcare/neuroqure-launches-first-biological-test-for-autism/",
+        "https://innovation.uci.edu/news/neuroqure/"
+      ],
+      "sources_note": "Sources cited here document the disconfirmation of the earlier NeuroQure connection; no positive post-2018 commercial-activity source has been located for First Step Diagnostics."
+    },
+    {
+      "team": "CarDana",
+      "year": 2018,
+      "award": "Track Award (Social Enterprise) 2nd",
+      "category": "OPERATING",
+      "confidence": "confirmed",
+      "summary": "Transparent charitable vehicle-donation platform; site live at cardana.co with active KBB-based donation flow, partner/charity onboarding, and a 20% flat-fee model.",
+      "sources": [
+        "https://cardana.co/about/"
+      ]
+    },
+    {
+      "team": "Wing",
+      "team_aliases": [
+        "Wing Assistant"
+      ],
+      "year": 2018,
+      "award": "Track Award (Consumer Services) 1st",
+      "category": "OPERATING",
+      "confidence": "confirmed",
+      "summary": "Rebranded as Wing Assistant. Raised a $2.1M seed in 2021 (Tracxn lists Mar 31, 2022 as the latest funding date for the seed round). Continues as a subscription managed-virtual-assistant service in 2025-2026 with newer tooling (Pie by Wing). Employee count 199 as of July 1, 2024 per Tracxn. Recognized in December 2025 as a top remote support solution for online stores and as a reliable / scalable consumer VA service in November 2025.",
+      "rebranded_to": "Wing Assistant",
+      "total_funding_usd_approx": 2100000,
+      "sources": [
+        "https://merage.uci.edu/news/2021/12/A-Pandemic-Pivot-Results-in-2.1-Million-in-Seed-Funding-for-Wing-Assistant.html",
+        "https://www.technology.org/2025/12/16/wing-assistant-review-2025-is-it-the-best-unlimited-va-service/"
+      ]
+    },
+    {
+      "team": "ELF Therapeutics",
+      "team_aliases": [
+        "eLysis"
+      ],
+      "year": 2019,
+      "award": "Tech Surge 1st + Track Award (Life Sciences) 1st",
+      "category": "OPERATING",
+      "confidence": "confirmed",
+      "summary": "Now branded eLysis Inc. Raised $400K+ in non-dilutive funding, completed pig animal study, working toward FDA 510(k). Co-founders: Joon You, Michael Hill PhD, Dr. Steve Yoelin (Latisse developer). Pre-clinical-trial / pre-revenue.",
+      "rebranded_to": "eLysis",
+      "sources": [
+        "https://innovation.uci.edu/news/elysis-uses-saline-and-electricity-to-get-that-perfect-look/"
+      ]
+    },
+    {
+      "team": "VolunteerCrowd",
+      "year": 2019,
+      "award": "Track Award (Social Enterprise) 1st",
+      "category": "PIVOTED",
+      "confidence": "confirmed pivot, likely shut down",
+      "summary": "Effective January 1, 2023, the company discontinued membership plans, verification, PVSA certification, and its app, pivoting to 'student experiential learning and workforce development.' volunteercrowd.com returns HTTP 404 as of research time.",
+      "sources": [
+        "https://www.zoominfo.com/c/volunteercrowd-llc/478814814",
+        "https://innovation.uci.edu/2020/09/volunteercrowd-helps-students-give-back-and-stand-out/"
+      ]
+    },
+    {
+      "team": "Poo Pal",
+      "year": 2019,
+      "award": "Track Award (Consumer Products) 1st",
+      "category": "DORMANT",
+      "confidence": "likely",
+      "summary": "Product listings still appear on Amazon/Etsy but no recent company-side activity.",
+      "sources": [
+        "https://www.amazon.com/Poo-Pal-Hands-Free-Carrier-Holder/dp/B07DR43X91"
+      ]
+    },
+    {
+      "team": "Steth 'n Go",
+      "year": 2019,
+      "award": "Track Award (Consumer Products) 2nd",
+      "category": "OPERATING",
+      "confidence": "confirmed",
+      "summary": "Magnetic stethoscope holder still selling at stethngo.com with an active product line and bulk pricing for healthcare facilities.",
+      "sources": [
+        "https://stethngo.com/"
+      ]
+    },
+    {
+      "team": "Baby Box",
+      "team_aliases": [
+        "123 Baby Box"
+      ],
+      "year": 2020,
+      "award": "Grand Prize",
+      "category": "OPERATING",
+      "confidence": "confirmed; strongest non-medical outcome in the archive",
+      "summary": "Raised $1.2M oversubscribed pre-seed round in 2023. Lead investors per TechCrunch: XRC Labs (referenced as XRC Ventures on its own portfolio page), Sunstone Fund, Salt Lake City Angels, and a California Crescent fund, with angels Mark Friedman and Demos Parneros. Merage announcement and OCBJ additionally name Sanjay Malhotra and Naren Parihar among investors. Total raised has since grown to >$1.3M per OC Business Journal coverage. TechCrunch (Mar 2023) reported 245% growth in 2022, tripled revenue, and 5x MRR (2021 baseline) with a target of $100K MRR / $1M ARR. Founder cites a ~14% monthly growth rate (OCBJ). Plans for a ~$10M fundraising round over the next 18-20 months (per OCBJ). Launched 123 Book Box product line for toddlers. 2-10 employees.",
+      "rebranded_to": "123 Baby Box",
+      "total_funding_usd_approx": 1300000,
+      "sources": [
+        "https://merage.uci.edu/news/2023/04/123-Baby-Box-raises-oversubscribed-round-of-1.2-million.html",
+        "https://techcrunch.com/2023/03/13/123-baby-box-subscription-commerce/"
+      ]
+    },
+    {
+      "team": "Bottle Built",
+      "year": 2020,
+      "award": "Audience Favorite",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "no findable outcome",
+      "summary": "Aryan Ghanadan's PETE-plastic housing concept has no traceable post-2020 company site or funding announcements.",
+      "sources": []
+    },
+    {
+      "team": "ImmunoTarget",
+      "year": 2020,
+      "award": "Track Award (Life Sciences) 1st",
+      "category": "OPERATING",
+      "confidence": "likely; very early stage",
+      "summary": "Now ImmunoTarget Therapeutics, Inc. Stephanie Hachey, PhD is founder/CEO/CSO. Tracxn lists company as unfunded as of 2025. UCI conflict-of-interest disclosure on a March 2025 bioRxiv preprint confirms still active and licensing UCI tech.",
+      "sources": [
+        "https://www.biorxiv.org/content/10.1101/2025.03.17.643783v1",
+        "https://tracxn.com/d/companies/immunotarget/__26m8SS1TNE96VoLvswRD6GGEwf-dhpUSNTsS_8pe4EY"
+      ]
+    },
+    {
+      "team": "Conshus Clothing",
+      "year": 2020,
+      "award": "Track Award (Social Enterprise) 1st",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "likely dormant",
+      "summary": "Beyond the 2020 NVC win and an F6S profile, no surviving e-commerce site, social presence, or news after 2020-2021.",
+      "sources": [
+        "https://www.f6s.com/conshus"
+      ]
+    },
+    {
+      "team": "No Decaf Allowed",
+      "year": 2020,
+      "award": "Track Award (Consumer Services) 1st",
+      "category": "ACQUIRED",
+      "confidence": "confirmed",
+      "summary": "Subscription absorbed into Moongoat Coffee Roasters' subscription program in December 2022 (asset/subscriber transfer rather than equity transaction).",
+      "acquirer": "Moongoat Coffee Roasters",
+      "acquisition_date": "2022-12",
+      "acquisition_terms": "asset/subscriber transfer, not equity; terms undisclosed",
+      "sources": [
+        "https://nodecafallowed.com/"
+      ]
+    },
+    {
+      "team": "Shaka",
+      "year": 2021,
+      "award": "Grand Prize",
+      "category": "OPERATING",
+      "confidence": "confirmed",
+      "summary": "Now Shaka Culture Inc., HQ in Kansas City, MO. Raised approximately $120K (Techstars, InnoVenture Iowa, ISA Ventures, UCI Merage). Microsoft Teams integration certified. PitchBook profile current as of 2025.",
+      "total_funding_usd_approx": 120000,
+      "sources": [
+        "https://pitchbook.com/profiles/company/494991-55",
+        "https://learn.microsoft.com/en-us/microsoft-365-app-certification/teams/shaka-culture-inc"
+      ]
+    },
+    {
+      "team": "Circular",
+      "year": 2021,
+      "award": "Track Award (Social Enterprise) 1st",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "likely defunct",
+      "summary": "CEO Caleb Finn was raising $400K to build a fall 2022 pilot facility. No subsequent press, funding, or website. Likely never reached operational scale.",
+      "sources": [
+        "https://innovation.uci.edu/news/uci-green-tech-startup-circular-combats-climate-change-and-hunger-with-one-secret-weapon/"
+      ]
+    },
+    {
+      "team": "StyloSonic",
+      "year": 2021,
+      "award": "Track Award (Life Sciences) 1st",
+      "category": "OPERATING",
+      "confidence": "likely; research / early stage",
+      "summary": "StyloSonic, LLC has a PitchBook profile. UCI/UCSD alumni team. 2022 peer-reviewed paper in Photoacoustics demonstrating in-vivo periodontal imaging. Continues in Wayfinder accelerator.",
+      "sources": [
+        "https://pitchbook.com/profiles/company/471934-63",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9530592/"
+      ]
+    },
+    {
+      "team": "REMSYS",
+      "year": 2021,
+      "award": "Track Award (Consumer Services) 1st (tied)",
+      "category": "OPERATING",
+      "confidence": "likely (BETA stage)",
+      "summary": "Site remsys.app is in active BETA development as of 2026-05-11. Operating as REMSYS LLC (©2024). AI-powered features include resume tailoring, generative AI cover letter creation, and AI-powered mock interviews. Earlier draft marked REMSYS as DORMANT based on 'no marketing activity past 2021'; verification finds the platform actively under development.",
+      "sources": [
+        "https://remsys.app/home"
+      ]
+    },
+    {
+      "team": "Noveil",
+      "year": 2022,
+      "award": "Grand Prize",
+      "category": "OPERATING",
+      "confidence": "likely; low recent activity",
+      "summary": "Founder Michael Allotey (UCI 2021 CS graduate per Sunstone Founder Focus). Co-founder Kendrick Barefield named on Arch Grants company directory. Named to the Arch Grants 2022 cohort. Tracxn shows still active as of early 2026 but ranked 750th of 1,851 dating apps; LinkedIn page minimal recent activity.",
+      "sources": [
+        "https://archgrants.org/companies/noveil/",
+        "https://tracxn.com/d/companies/noveil/__fLgLqRiFTtLgXK6S3LmJMwBs3BQU73-d38CVtGTkrD8"
+      ]
+    },
+    {
+      "team": "Enjovu Paper",
+      "year": 2022,
+      "award": "Runner-Up",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "no findable outcome",
+      "summary": "Sustainable paper from elephant-feces fibers. No findable company site, Crunchbase, or post-2022 traction.",
+      "sources": [
+        "https://x.com/ucirvine_mba/status/1534979490727739394"
+      ]
+    },
+    {
+      "team": "forMED Technologies",
+      "year": 2022,
+      "award": "Track Award (Life Sciences) 1st",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "no findable outcome",
+      "summary": "Continuous IOP (intraocular pressure) monitoring system. No Crunchbase, no surviving site, no follow-on funding traceable.",
+      "sources": [
+        "https://engineering.uci.edu/news/2022/6/engineering-students-celebrate-major-wins-2022-new-venture-competition"
+      ]
+    },
+    {
+      "team": "Blue Aqua Food Tech",
+      "year": 2022,
+      "award": "Track Award (Social Enterprise) 1st",
+      "category": "OPERATING",
+      "confidence": "likely",
+      "summary": "Site bafoodtech.com is live with insect-protein product page. Co-founders Hamoon Shishechian and Parham Mansor Safain (brothers-in-law) operating a black soldier fly farm. No announced funding round; appears pre-revenue / early.",
+      "sources": [
+        "https://www.bafoodtech.com/",
+        "https://www.sunstoneinvestment.com/news/founder-focused-blue-aqua-food-tech/"
+      ]
+    },
+    {
+      "team": "Sayenza Biosciences",
+      "year": 2022,
+      "award": "Track Award (Life Sciences) 2nd",
+      "category": "OPERATING",
+      "confidence": "confirmed",
+      "summary": "Clinical-stage adipose-tissue regenerative-medicine company. Raised ~$1.16M; joined California Life Sciences FAST Spring 2024 cohort; published 2025-trend commentary as recently as Q1 2025.",
+      "total_funding_usd_approx": 1160000,
+      "sources": [
+        "https://sayenza.com/2025trends/",
+        "https://www.crunchbase.com/organization/sayenza-biosciences"
+      ]
+    },
+    {
+      "team": "Nutripair",
+      "year": 2022,
+      "award": "Track Award (Business Products) 1st",
+      "category": "OPERATING",
+      "confidence": "confirmed",
+      "summary": "Founder Catlin Tran's dietary-restriction restaurant-matching app received a $25K Verizon grant in 2025 and was profiled by UCI Social Sciences in March 2025.",
+      "total_funding_usd_approx": 25000,
+      "sources": [
+        "https://www.socsci.uci.edu/newsevents/news/2025/2025-03-06-catlin-tran-nutripair",
+        "https://www.trysignalbase.com/news/funding/nutripair-secures-25k-grant-to-transform-personalized-nutrition-and-local-dining-experiences"
+      ]
+    },
+    {
+      "team": "SnapHealth",
+      "year": 2022,
+      "award": "Track Award (Consumer Services) 2nd",
+      "category": "PIVOTED",
+      "confidence": "likely",
+      "summary": "mysnaphealth.com is operating (verified 2026-05-11) but its current product is a 'health coverage' platform (insurance) with a coverage calculator for families and broker tools. This is a pivot from the 2022 NVC concept of 'patient health record data control'. An earlier draft marked SnapHealth as DORMANT; the site is active and updated through 2024. The 2022 founder Ashraf Hammouri is not named on the current about page.",
+      "sources": [
+        "https://www.mysnaphealth.com/about"
+      ]
+    },
+    {
+      "team": "VagAligna",
+      "year": 2023,
+      "award": "Grand Finale Winner",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "likely early-stage R&D or dormant",
+      "summary": "Team leader Fiza Qureshi's LinkedIn shows she is now a Product Analyst at Reynolds and Reynolds, not building VagAligna full-time. Project requires clinical trials and FDA approval; no announced incorporated entity, funding, or follow-on activity.",
+      "sources": [
+        "https://www.linkedin.com/in/fiza-qureshi/",
+        "https://www.businesswire.com/news/home/20230526005328/en/Healing-System-for-Vaginal-Tears-Takes-Top-Prize-at-UCI-Stella-Zhang-New-Venture-Competition"
+      ]
+    },
+    {
+      "team": "Leprendo",
+      "year": 2023,
+      "award": "Runner-Up",
+      "category": "OPERATING",
+      "confidence": "confirmed",
+      "summary": "leprendo.com live with 2026 copyright, active product catalog (specialty produce, dried fruits, oils). Co-founders Dylan Riffle and Dan Ta. Reported $400K first-year sales. Pivoted from short-form-video food marketplace framing to a more conventional online farmer's market.",
+      "sources": [
+        "https://leprendo.com/",
+        "https://www.sunstoneinvestment.com/news/the-next-step-online-marketplace-for-artisan-foods-gets-boost-from-stella-zhang-competition/"
+      ]
+    },
+    {
+      "team": "Hyperion Therapeutics",
+      "year": 2023,
+      "award": "Track Award (Life Sciences) 1st",
+      "category": "OPERATING",
+      "confidence": "confirmed",
+      "summary": "hyperioneye.com active. Newport Beach, CA. Company founded 2022. Founders: Krzysztof (Kris) Palczewski (internationally renowned chemist / pharmacologist / vision scientist; ~50 patents approved or pending) and Jennings Luu (MD/PhD senior doctoral fellow, Case Western Reserve Medical Scientist Training Program; principal investigator of an NIH National Eye Institute fellowship; physician-scientist training in Pharmacology under Palczewski). Targeted conditions: age-related macular degeneration (AMD), diabetic retinopathy (DR), retinitis pigmentosa (RP), glaucoma, and other inherited retinal diseases. Seed-stage biopharmaceutical; pipeline of SP3, SP4, SP5 small-molecule Stress Resilience-Enhancing Drugs (SREDs) in late preclinical and planning clinical trials. Post-competition: awarded a $100,000 Proof-of-Product grant from UCI Beall Applied Innovation in 2023 per Irvine Standard. Brand-disambiguation note: an unrelated Hyperion Therapeutics, Inc. (San Francisco; rare-disease biotech founded 2006 by Chris Rivera; acquired by Horizon Pharma in 2015) appears under the same name in older Tracxn/Crunchbase records.",
+      "sources": [
+        "https://www.hyperioneye.com/company",
+        "https://www.irvinestandard.com/2025/health-care-boom/"
+      ]
+    },
+    {
+      "team": "Shower Power",
+      "year": 2023,
+      "award": "Track Award (Social Enterprise) 1st",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "no findable outcome",
+      "summary": "A 2023 NVC finalist with no incorporated company, no traceable site, and no follow-on funding.",
+      "sources": [
+        "https://www.businesswire.com/news/home/20230524005864/en/Students-Vie-for-100000-Thursday-at-the-UCI-Stella-Zhang-New-Venture-Competition"
+      ]
+    },
+    {
+      "team": "Omni Pet Club",
+      "year": 2023,
+      "award": "Track Award (Consumer Products) 2nd",
+      "category": "OPERATING",
+      "confidence": "confirmed",
+      "summary": "Modular multi-pet leash system on sale at omnipetclub.com. An earlier draft of this archive claimed retail distribution via Chewy / Walmart / Amazon; verification on 2026-05-11 found those listings are for a different brand (OmniPet by Leather Brothers, Conway, AR, founded 1976), not the UCI startup. The UCI team currently sells direct through their own site.",
+      "sources": [
+        "https://omnipetclub.com/"
+      ]
+    },
+    {
+      "team": "TeamMade",
+      "year": 2023,
+      "award": "Track Award (Social Enterprise) 2nd",
+      "category": "OPERATING",
+      "confidence": "confirmed (non-commercial student project)",
+      "summary": "UCI/Orange Coast College student team continues iterating on modular ADUs. Their LuminOCity unit was donated to Homeless Intervention Services-OC and opened to house at-risk youth in July 2025.",
+      "sources": [
+        "https://engineering.uci.edu/news/2025/7/student-designed-home-homeless-youth-opens",
+        "https://teammade.eng.uci.edu/"
+      ]
+    },
+    {
+      "team": "Sentinel",
+      "year": 2024,
+      "award": "Grand Prize",
+      "category": "OPERATING",
+      "confidence": "likely (MVP stage as of September 2024)",
+      "summary": "Driver-monitoring AI dashcam; working MVP stage as of September 2024 per ANTrepreneur profile. An earlier draft of this archive inferred absorption by Spotter.ai's 'Sentinel' Fleet Safety Platform based on product-name overlap; verification on 2026-05-11 could not confirm that connection (neither the UCI source nor the Spotter.ai page documents it). Treat the absorption claim as unverified; status is currently best described as OPERATING (MVP stage) rather than PIVOTED.",
+      "sources": [
+        "https://antrepreneur.uci.edu/2024/09/12/the-power-of-persistence-how-uc-irvine-entrepreneurs-built-success-through-multiple-competitions/"
+      ],
+      "sources_note": "Spotter.ai's 'Sentinel' page was reviewed for the prior absorption claim and is NOT a positive source for this team's outcome."
+    },
+    {
+      "team": "NeoMold",
+      "year": 2024,
+      "award": "Runner-Up",
+      "category": "OPERATING",
+      "confidence": "likely; very early stage",
+      "summary": "neomold.uci.design site is up. No incorporation, funding, or FDA filing yet. Design-stage academic project. Separate established competitor TalexMedical (InfantEar) operates in the same space.",
+      "sources": [
+        "http://neomold.uci.design/",
+        "https://escholarship.org/uc/item/5fs7b1cr"
+      ]
+    },
+    {
+      "team": "Two Cube",
+      "year": 2024,
+      "award": "Track Award (Life Sciences) 1st",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "no findable outcome",
+      "summary": "Confirmed only as a 2024 NVC winner; no website, Crunchbase, or follow-on traceable. Also placed at Beall/Butterworth 2024.",
+      "sources": [
+        "https://bbcomp.tech.uci.edu/past/past-2024/"
+      ]
+    },
+    {
+      "team": "Quiver",
+      "year": 2024,
+      "award": "Track Award (Consumer Services) 1st",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "no findable outcome (post-disambiguation reclassification 2026-05-12)",
+      "summary": "Reclassified 2026-05-12 from OPERATING to NO_FOUND after brand-disambiguation: an earlier draft mapped the 2024 UCI NVC Quiver winner to thequiver.com (surfboard-rental marketplace, est. 2015, founded by Joe Wilson and Rob Bonvetti). thequiver.com is a separate commercial entity that predates the 2024 NVC by 9 years and has no public UCI connection; conflating the two was a brand-confusion error caught on 2026-05-12. No alternative commercial outcome for the UCI 2024 Quiver team is currently findable.",
+      "sources": [
+        "https://www.thequiver.com/",
+        "https://www.crunchbase.com/organization/the-quiver",
+        "https://newyorklifestylesmagazine.com/articles/2020/10/nyny01.html"
+      ],
+      "sources_note": "Sources document the DISCONFIRMATION of the prior thequiver.com link, not a positive outcome for the UCI 2024 NVC team."
+    },
+    {
+      "team": "Crafty Palate",
+      "year": 2024,
+      "award": "Track Award (Consumer Services) 2nd",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "no findable outcome (previously-cited Google Form returns HTTP 410)",
+      "summary": "The team's earlier-cited Google Form signup is deleted (HTTP 410); no operating storefront found beyond the 2024 NVC placement.",
+      "sources": []
+    },
+    {
+      "team": "DermaVision",
+      "team_aliases": [
+        "DermaVision Technologies"
+      ],
+      "year": 2024,
+      "award": "Track Award (Social Enterprise) 2nd",
+      "category": "OPERATING",
+      "confidence": "likely; student-team stage",
+      "summary": "DermaVision Technologies' multispectral bruise-imaging tool ('Portable Bruise Spectroscopy Across All Skin Tones') competed in the 2024 BMES Medtronic Student Design Competition and placed 3rd in the Mechanical/Electrical track per BMES, team website, and BME design-symposium materials. UC Tech Transfer NCD/34412 currently says 'not available for licensing' as of 2026-05-11. The team also earned UCI's Dean's Choice Award at the Engineering Annual Design Review and became IRB-approved for pre-clinical imaging with the UCI Trauma Center. Additional post-competition recognition (added 2026-05-12): awarded $3,000 from the Interdisciplinary Research Team program hosted by CALIT2 and UROP. Ashley Im is profiled as a fourth-year biomedical engineer leading the algorithm and data-analysis side of the project.",
+      "sources": [
+        "https://techtransfer.universityofcalifornia.edu/NCD/34412.html",
+        "https://www.dermavisiontech.com/team.html",
+        "https://engineering.uci.edu/files/2_bme_dermavision.pdf"
+      ]
+    },
+    {
+      "team": "Grad2Go",
+      "year": 2025,
+      "award": "Grand Prize",
+      "category": "OPERATING",
+      "confidence": "confirmed; brand new",
+      "summary": "Won the 2025 Grand Prize on May 22, 2025 (Merage press release published June 2025). Team led by Yifan 'May' Mei. Too recent for outcome data.",
+      "sources": [
+        "https://merage.uci.edu/news/2025/06/Grad2Go-Wins-2025-Stella-Zhang-New-Venture-Competition.html"
+      ]
+    },
+    {
+      "team": "GlowGuard",
+      "year": 2025,
+      "award": "Runner-Up",
+      "category": "OPERATING",
+      "confidence": "confirmed; brand new",
+      "summary": "Bluetooth/UV-C smart retainer case, 2025 Runner-Up. Too recent for outcome data.",
+      "sources": [
+        "https://merage.uci.edu/news/2025/06/Grad2Go-Wins-2025-Stella-Zhang-New-Venture-Competition.html"
+      ]
+    },
+    {
+      "team": "NasoCoustics",
+      "year": 2025,
+      "award": "Track Award (Life Sciences) 1st",
+      "category": "OPERATING",
+      "confidence": "confirmed; design stage",
+      "summary": "UCI-affiliated design-stage team (per the .uci.design domain). nasocoustics.uci.design is up; LinkedIn presence. Also placed 1st in the 2025 Beall Competition per bbcomp.tech.uci.edu. Pre-incorporation; design-review stage. Too recent for outcome data.",
+      "sources": [
+        "http://www.nasocoustics.uci.design/",
+        "https://merage.uci.edu/news/2025/06/Grad2Go-Wins-2025-Stella-Zhang-New-Venture-Competition.html",
+        "https://bbcomp.tech.uci.edu/"
+      ]
+    },
+    {
+      "team": "PCOSitive Buddy",
+      "year": 2025,
+      "award": "Specialty (MIE Award) + Track Award (Consumer Services) 1st",
+      "category": "OPERATING",
+      "confidence": "likely",
+      "summary": "Founder Ricianne 'Chi' Rey was hired in October 2025 as the UCI ANTrepreneur Center Program Lead and continues to be described as a PCOS-platform co-founder.",
+      "sources": [
+        "https://antrepreneur.uci.edu/2026/01/28/meet-chi-rey/"
+      ]
+    },
+    {
+      "team": "ServEasy",
+      "year": 2025,
+      "award": "Track Award (Business Products) 2nd",
+      "category": "OPERATING",
+      "confidence": "likely; finalist stage",
+      "summary": "Confirmed as a 2025 Stella Zhang finalist; no independent product traction yet.",
+      "sources": [
+        "https://merage.uci.edu/news/2025/06/Grad2Go-Wins-2025-Stella-Zhang-New-Venture-Competition.html"
+      ]
+    },
+    {
+      "team": "Oslo",
+      "team_aliases": [
+        "Birdhouse by Oslo"
+      ],
+      "year": 2025,
+      "award": "Audience Favorite + Track Award (Life Sciences) 2nd",
+      "category": "OPERATING",
+      "confidence": "likely; finalist stage",
+      "summary": "Passive thermal-imaging vitals monitor for seniors; confirmed as a 2025 Stella Zhang finalist per Merage. Also placed in 2025 Beall/Butterworth competitions per bbcomp.tech.uci.edu. No independent funding or launch news.",
+      "sources": [
+        "https://merage.uci.edu/news/2025/06/Grad2Go-Wins-2025-Stella-Zhang-New-Venture-Competition.html",
+        "https://bbcomp.tech.uci.edu/"
+      ]
+    },
+    {
+      "team": "Celebrate in a Snap",
+      "year": 2018,
+      "award": "Track Award (Business Products) 1st",
+      "summary": "All-in-one party supply packages. No traceable post-competition commercial activity in indexed sources.",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "researched 2026-05-10; no findable outcome",
+      "sources": [
+        "https://merage.uci.edu/news/2018/fourteen-teams-walk-away-with-more-than-100,000-in-cash-and-prizes-following-final-round-of-uci-new-venture-competition.html"
+      ]
+    },
+    {
+      "team": "SolarLab",
+      "year": 2018,
+      "award": "Track Award (Business Products) 2nd",
+      "summary": "Design tool for solar PV systems. No traceable post-competition commercial activity.",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "researched 2026-05-10; no findable outcome",
+      "sources": [
+        "https://merage.uci.edu/news/2018/fourteen-teams-walk-away-with-more-than-100,000-in-cash-and-prizes-following-final-round-of-uci-new-venture-competition.html"
+      ]
+    },
+    {
+      "team": "Gimme",
+      "year": 2018,
+      "award": "Track Award (Consumer Products) 2nd",
+      "summary": "App helping consumers decide where to eat. No traceable post-competition activity.",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "researched 2026-05-10; no findable outcome",
+      "sources": [
+        "https://merage.uci.edu/news/2018/fourteen-teams-walk-away-with-more-than-100,000-in-cash-and-prizes-following-final-round-of-uci-new-venture-competition.html"
+      ]
+    },
+    {
+      "team": "Graduate Data",
+      "year": 2018,
+      "award": "Track Award (Consumer Services) 2nd",
+      "summary": "Social networking for student mentorship. No traceable post-competition activity. Team member Daniel Dai previously appeared on 2017 Purist.",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "researched 2026-05-10; no findable outcome",
+      "sources": [
+        "https://merage.uci.edu/news/2018/fourteen-teams-walk-away-with-more-than-100,000-in-cash-and-prizes-following-final-round-of-uci-new-venture-competition.html"
+      ]
+    },
+    {
+      "team": "P-FLAPs",
+      "year": 2019,
+      "award": "Tech Surge 2nd",
+      "summary": "Projection surgical device for stenciling on patients. No traceable post-competition activity beyond the 2019 award.",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "researched 2026-05-10; no findable outcome",
+      "sources": []
+    },
+    {
+      "team": "giv",
+      "year": 2019,
+      "award": "Track Award (Social Enterprise) 2nd",
+      "summary": "Mobile-first online giving platform. No traceable post-competition activity.",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "researched 2026-05-10; no findable outcome",
+      "sources": []
+    },
+    {
+      "team": "UniSafe",
+      "year": 2019,
+      "award": "Track Award (Business Products) 1st",
+      "summary": "Campus safety app with location sharing and escort features. No traceable post-competition activity.",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "researched 2026-05-10; no findable outcome",
+      "sources": []
+    },
+    {
+      "team": "Jiffal",
+      "year": 2019,
+      "award": "Track Award (Business Products) 2nd",
+      "summary": "Event management proposal. No traceable post-competition activity.",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "researched 2026-05-10; no findable outcome",
+      "sources": []
+    },
+    {
+      "team": "myHealth Today",
+      "team_aliases": ["myHealthToday"],
+      "year": 2019,
+      "award": "Track Award (Consumer Services) 1st",
+      "summary": "Senior-friendly voice assistant for tracking medical appointments; app called myHealthJournal lets seniors record symptoms via phone voice services, parsing data into a provider-friendly format (HIPAA-compliant). Re-researched 2026-05-12: founding team per Merage 2020-12 coverage was Kevin Wu (CEO, MBA '20), Jennifer Nam (MBA/MD '20), Gautam Deept (MBA '20), Ivan de Almeida (MBA '20), Parth Srivastav (MBA '20), and Ujwal Mishrikoti (MBA '20); the company secured UCI Beall Applied Innovation funding and officially incorporated in June 2020. Site myhealthtoday.care registered but currently returns ECONNREFUSED; Crunchbase profile exists but gated. Status post-2020 unverified; upgraded from NO_FOUND to OPERATING (likely) based on the documented June 2020 incorporation.",
+      "category": "OPERATING",
+      "confidence": "likely; incorporation verified Jun 2020, current activity unverified on 2026-05-12",
+      "sources": [
+        "https://merage.uci.edu/news/2020/12/NVC-Winner-myHealthToday-Bridges-Information-Gap-Between-Doctor-and-Patient.html"
+      ]
+    },
+    {
+      "team": "Curbd / SwappIt",
+      "year": 2019,
+      "award": "Track Award (Consumer Services) 2nd (tied; $5,000 each)",
+      "summary": "Tied 2nd: Curbd (driveway parking app) and SwappIt (streetwear trading platform). SwappIt was admitted to EvoNexus' incubator shortly after the competition but no later public traction surfaces. Curbd team page (curbdparking.com) lists Farbod Rafezy (UCI Computer Science, Google Student Innovator; Lead Engineer), Iman Enayati (UCLA Psychobiology; Operations Manager), and Ryan Dang (UCI Computer Science; Software Developer); team-page footer last updated 2019.",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "researched 2026-05-10; team roster verified for Curbd 2026-05-12",
+      "sources": [
+        "https://www.curbdparking.com/team.html"
+      ]
+    },
+    {
+      "team": "Embryologic",
+      "year": 2019,
+      "award": "Track Award (Life Sciences) 2nd",
+      "summary": "Noninvasive imaging to assess embryo quality for IVF. Placed 2nd in the 2019 Rice University Business Plan Competition semifinal round, winning $15,000 per Samueli coverage. No surviving commercial company surfaced post-2019.",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "researched 2026-05-10; no findable outcome",
+      "sources": [
+        "https://engineering.uci.edu/news/2019/5/biomedical-engineering-team-competes-well-rice-business-plan-competition"
+      ]
+    },
+    {
+      "team": "Voltek",
+      "year": 2020,
+      "award": "Track Award (Consumer Products) 2nd",
+      "summary": "Blind spot detection device for bicycles using camera sensors. No traceable post-competition activity.",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "researched 2026-05-10; no findable outcome",
+      "sources": [
+        "https://merage.uci.edu/news/2020/06/baby-box-wins-25,000-grand-prize-at-2020-new-venture-competition.html"
+      ]
+    },
+    {
+      "team": "Prophet Predictive Modeling",
+      "team_aliases": ["Prophet Modeling"],
+      "year": 2020,
+      "award": "Track Award (Consumer Services) 2nd",
+      "summary": "AI-based money management services for accredited investors. No traceable post-competition activity. Name corrected 2026-05-12 from 'Prophet Modeling' to 'Prophet Predictive Modeling' per Merage 2020 press release.",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "researched 2026-05-10; no findable outcome",
+      "sources": [
+        "https://merage.uci.edu/news/2020/06/baby-box-wins-25,000-grand-prize-at-2020-new-venture-competition.html"
+      ]
+    },
+    {
+      "team": "Ardha Health",
+      "year": 2020,
+      "award": "Track Award (Business Products) 1st",
+      "summary": "Collaboration software for post-acute care (PAC) teams. No traceable post-competition commercial activity past 2020.",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "researched 2026-05-10; no findable outcome",
+      "sources": [
+        "https://merage.uci.edu/news/2020/06/baby-box-wins-25,000-grand-prize-at-2020-new-venture-competition.html"
+      ]
+    },
+    {
+      "team": "Instinct",
+      "year": 2020,
+      "award": "Track Award (Business Products) 2nd",
+      "summary": "Software measuring real-time stress levels to improve productivity. No traceable post-competition activity (a separate UCI wearable-stress research project is unrelated).",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "researched 2026-05-10; no findable outcome",
+      "sources": [
+        "https://merage.uci.edu/news/2020/06/baby-box-wins-25,000-grand-prize-at-2020-new-venture-competition.html"
+      ]
+    },
+    {
+      "team": "CannTek",
+      "year": 2020,
+      "award": "Track Award (Life Sciences) 2nd",
+      "summary": "Electrochemical device for detecting THC levels (law enforcement use). No traceable post-competition activity past 2020 award.",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "researched 2026-05-10; no findable outcome",
+      "sources": [
+        "https://merage.uci.edu/news/2020/06/baby-box-wins-25,000-grand-prize-at-2020-new-venture-competition.html"
+      ]
+    },
+    {
+      "team": "MONI",
+      "year": 2021,
+      "award": "Audience Favorite + Track Award (Consumer Products) 1st",
+      "summary": "NFC-activated pet tag and community safety app. No traceable post-competition activity past 2021 win.",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "researched 2026-05-10; no findable outcome",
+      "sources": [
+        "https://merage.uci.edu/news/2021/06/Shaka-Takes-Home-First-Place-at-the-2021-New-Venture-Competition.html"
+      ]
+    },
+    {
+      "team": "Health Libero",
+      "year": 2021,
+      "award": "Track Award (Business Products) 2nd",
+      "summary": "Marketplace redefining healthcare price transparency. No traceable post-competition activity.",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "researched 2026-05-10; no findable outcome",
+      "sources": [
+        "https://merage.uci.edu/news/2021/06/Shaka-Takes-Home-First-Place-at-the-2021-New-Venture-Competition.html"
+      ]
+    },
+    {
+      "team": "Hydroflow",
+      "year": 2021,
+      "award": "Track Award (Consumer Products) 2nd",
+      "summary": "Smart bottle cap and phone application that automatically tracks water intake, sets personalized daily goals, and provides customized hydration reminders; designed to attach to water bottles and measure intake during physical exercise. Reclassified 2026-05-12 from NO_FOUND to OPERATING (likely) after the UCI Beall Applied Innovation Wayfinder Startup category page confirmed Hydroflow as an active member of the current Wayfinder cohort (i.e., still receiving incubator support post-NVC). The team site gohydroflow.com returned ECONNREFUSED on a 2026-05-12 fetch attempt so current product-level activity could not be independently verified; OPERATING is tagged 'likely' based on the active Wayfinder Startup membership.",
+      "category": "OPERATING",
+      "confidence": "likely; active Wayfinder Startup membership verified 2026-05-12, current product activity unverified",
+      "sources": [
+        "https://merage.uci.edu/news/2021/06/Shaka-Takes-Home-First-Place-at-the-2021-New-Venture-Competition.html",
+        "https://innovation.uci.edu/category/wayfinder-startup/page/2/"
+      ]
+    },
+    {
+      "team": "MoodCloud",
+      "year": 2021,
+      "award": "Track Award (Consumer Services) 1st (tied)",
+      "summary": "AI lifestyle/health management app. No traceable post-competition activity. Founder Jimmy Nguyen.",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "researched 2026-05-10; no findable outcome",
+      "sources": [
+        "https://merage.uci.edu/news/2021/06/Shaka-Takes-Home-First-Place-at-the-2021-New-Venture-Competition.html"
+      ]
+    },
+    {
+      "team": "HydroVasc",
+      "year": 2021,
+      "award": "Track Award (Life Sciences) 2nd",
+      "summary": "Injectable hydrogel platform for tissue regeneration. No traceable post-competition activity.",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "researched 2026-05-10; no findable outcome",
+      "sources": [
+        "https://merage.uci.edu/news/2021/06/Shaka-Takes-Home-First-Place-at-the-2021-New-Venture-Competition.html"
+      ]
+    },
+    {
+      "team": "Tooke Fabrics",
+      "year": 2021,
+      "award": "Track Award (Social Enterprise) 2nd",
+      "summary": "Fabric produced from banana stems, employing marginalized widows. No traceable post-competition activity. A Ugandan banana-fiber producer Texfad exists but is unrelated.",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "researched 2026-05-10; no findable outcome",
+      "sources": [
+        "https://merage.uci.edu/news/2021/06/Shaka-Takes-Home-First-Place-at-the-2021-New-Venture-Competition.html"
+      ]
+    },
+    {
+      "team": "EmpowerMi",
+      "year": 2022,
+      "award": "Track Award (Business Products) 2nd",
+      "summary": "Technology-driven mental wellness platform. No traceable post-competition activity past 2022 award.",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "researched 2026-05-10; no findable outcome",
+      "sources": [
+        "https://bli.uci.edu/stella_zhang/"
+      ]
+    },
+    {
+      "team": "HAI",
+      "year": 2022,
+      "award": "Track Award (Consumer Products) 1st",
+      "summary": "Sustainable jewelry made from upcycled ocean plastic. No traceable post-competition activity.",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "researched 2026-05-10; no findable outcome",
+      "sources": [
+        "https://bli.uci.edu/stella_zhang/"
+      ]
+    },
+    {
+      "team": "GaleGauge",
+      "year": 2022,
+      "award": "Track Award (Consumer Products) 2nd",
+      "summary": "Golf training tool using wind/temp data to adjust swing calculations. No traceable post-competition activity.",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "researched 2026-05-10; no findable outcome",
+      "sources": [
+        "https://bli.uci.edu/stella_zhang/"
+      ]
+    },
+    {
+      "team": "Helios",
+      "year": 2023,
+      "award": "Track Award (Business Products) 1st",
+      "summary": "Aftermarket license plate kit with radar/cameras for 360-degree driver safety. No traceable post-competition activity past 2023 award.",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "researched 2026-05-10; no findable outcome",
+      "sources": [
+        "https://www.businesswire.com/news/home/20230526005328/en"
+      ]
+    },
+    {
+      "team": "Orii.AI",
+      "year": 2023,
+      "award": "Track Award (Business Products) 2nd",
+      "summary": "Generative AI scheduling platform for student time management. No traceable post-competition activity.",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "researched 2026-05-10; no findable outcome",
+      "sources": [
+        "https://www.businesswire.com/news/home/20230526005328/en"
+      ]
+    },
+    {
+      "team": "Help Belt",
+      "year": 2023,
+      "award": "Track Award (Consumer Products) 1st",
+      "summary": "Universal seat belt aid for individuals with limited mobility or arthritis. No traceable post-competition activity (an unrelated FRAXA 'HELP Belts' is a different product).",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "researched 2026-05-10; no findable outcome",
+      "sources": [
+        "https://www.businesswire.com/news/home/20230526005328/en"
+      ]
+    },
+    {
+      "team": "ChewRank",
+      "year": 2023,
+      "award": "Track Award (Consumer Services) 2nd",
+      "summary": "Restaurant/Pet food discovery app based on trusted rankings. No traceable post-competition activity.",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "researched 2026-05-10; no findable outcome",
+      "sources": [
+        "https://www.businesswire.com/news/home/20230526005328/en"
+      ]
+    },
+    {
+      "team": "BagIt",
+      "year": 2024,
+      "award": "Track Award (Business Products) 2nd",
+      "summary": "Platform revolutionizing student savings with on-demand discounts. No traceable post-competition activity.",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "researched 2026-05-10; no findable outcome",
+      "sources": [
+        "https://merage.uci.edu/news/2024/05/System-Improves-Trucker-Safety-Wins-Stella-Zhang-New-Venture-Competition-Grand-Prize-at-UCI.html"
+      ]
+    },
+    {
+      "team": "Flare",
+      "year": 2024,
+      "award": "Track Award (Consumer Products) 1st",
+      "summary": "Smart safety glove for cyclists with LED indicators for signaling. No traceable post-competition activity (unrelated UK 'Flare Cycling' light project is different).",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "researched 2026-05-10; no findable outcome",
+      "sources": [
+        "https://merage.uci.edu/news/2024/05/System-Improves-Trucker-Safety-Wins-Stella-Zhang-New-Venture-Competition-Grand-Prize-at-UCI.html"
+      ]
+    },
+    {
+      "team": "Lynne",
+      "year": 2024,
+      "award": "Track Award (Consumer Products) 2nd",
+      "summary": "Discreet, cooling wallet designed for carrying birth control. No traceable post-competition activity.",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "researched 2026-05-10; no findable outcome",
+      "sources": [
+        "https://merage.uci.edu/news/2024/05/System-Improves-Trucker-Safety-Wins-Stella-Zhang-New-Venture-Competition-Grand-Prize-at-UCI.html"
+      ]
+    },
+    {
+      "team": "PZ Nanopure",
+      "year": 2024,
+      "award": "Track Award (Social Enterprise) 1st",
+      "summary": "Piezoelectric nanopore membranes to enhance Blue Energy (osmotic power) efficiency. No UCI page, LinkedIn company page, or Blum Center listing names co-founders.",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "researched 2026-05-10; no findable outcome",
+      "sources": [
+        "https://merage.uci.edu/news/2024/05/System-Improves-Trucker-Safety-Wins-Stella-Zhang-New-Venture-Competition-Grand-Prize-at-UCI.html"
+      ]
+    },
+    {
+      "team": "TransMobile VR",
+      "year": 2025,
+      "award": "Track Award (Business Products) 1st",
+      "summary": "Immersive VR safety training simulations for waste-management drivers. No traceable post-competition activity beyond 2025 finalist status.",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "researched 2026-05-10; no findable outcome",
+      "sources": [
+        "https://merage.uci.edu/news/2025/06/Grad2Go-Wins-2025-Stella-Zhang-New-Venture-Competition.html"
+      ]
+    },
+    {
+      "team": "NūCo",
+      "year": 2025,
+      "award": "Track Award (Consumer Products) 2nd",
+      "summary": "Biodegradable leather handbags made from waste coconut water. No traceable post-competition activity beyond 2025 finalist status.",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "researched 2026-05-10; no findable outcome",
+      "sources": [
+        "https://merage.uci.edu/news/2025/06/Grad2Go-Wins-2025-Stella-Zhang-New-Venture-Competition.html"
+      ]
+    },
+    {
+      "team": "MinuTax",
+      "year": 2025,
+      "award": "Track Award (Consumer Services) 2nd",
+      "summary": "AI-powered automated tax-filing platform tailored for international students. No traceable post-competition activity beyond 2025 finalist status.",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "researched 2026-05-10; no findable outcome",
+      "sources": [
+        "https://merage.uci.edu/news/2025/06/Grad2Go-Wins-2025-Stella-Zhang-New-Venture-Competition.html"
+      ]
+    },
+    {
+      "team": "CleanHydro",
+      "year": 2025,
+      "award": "Track Award (Social Enterprise) 1st",
+      "summary": "AI-powered app for real-time analysis of water quality test strips and samples. No traceable post-competition activity beyond 2025 finalist status.",
+      "category": "NO_PUBLIC_OUTCOME_FOUND",
+      "confidence": "researched 2026-05-10; no findable outcome",
+      "sources": [
+        "https://merage.uci.edu/news/2025/06/Grad2Go-Wins-2025-Stella-Zhang-New-Venture-Competition.html"
+      ]
+    }
+  ],
+  "summary_stats": {
+    "teams_researched": 114,
+    "by_category": {
+      "OPERATING": 32,
+      "ACQUIRED": 2,
+      "EXITED_OTHER": 0,
+      "PIVOTED": 5,
+      "DORMANT": 7,
+      "SHUT_DOWN": 1,
+      "NO_PUBLIC_OUTCOME_FOUND": 67
+    },
+    "notable_exits": [
+      {
+        "team": "Laser Associated Sciences",
+        "type": "ACQUIRED",
+        "by": "Medtronic",
+        "year": 2020
+      },
+      {
+        "team": "Mechanodontics (BRIUS Technologies)",
+        "type": "OPERATING_FUNDED",
+        "total_funding_usd_approx": 46200000,
+        "latest_round": "Series B initial closing $19.5M on 2025-05-06 led by View Ventures",
+        "note": "Brava commercial launch 2022-06-30; Brava+ System (lingual variant) launched 2024; total per PitchBook (Tracxn reports a lower $21.2M figure). Strongest post-2017 outcome in the archive."
+      },
+      {
+        "team": "No Decaf Allowed",
+        "type": "ACQUIRED",
+        "by": "Moongoat Coffee Roasters",
+        "year": 2022,
+        "terms": "asset/subscriber transfer"
+      }
+    ],
+    "notable_pivots": [
+      {
+        "team": "Wing",
+        "rebranded_to": "Wing Assistant",
+        "total_funding_usd_approx": 2100000,
+        "employee_count_as_of": "2024-07-01",
+        "employee_count": 199,
+        "note": "$2.1M seed in October 2021. Tracxn lists 199 employees as of July 1, 2024. Still operating in 2025-2026 with newer tooling (Pie by Wing)."
+      },
+      {
+        "team": "iBesties",
+        "rebranded_to": "Middle School Moguls (GenGirl Media)",
+        "type": "PIVOTED_THEN_DORMANT",
+        "note": "Doll line + book series launched 2016 with Target retail distribution; Nickelodeon CG miniseries (4 episodes) premiered Sept 2 2019, aired through Sept 29 2019. No public franchise activity post-2019."
+      }
+    ],
+    "notable_operating_funded": [
+      {
+        "team": "Baby Box (123 Baby Box)",
+        "total_funding_usd_approx": 1300000,
+        "note": "$1.2M oversubscribed pre-seed in 2023; total grown to >$1.3M; founder cites ~14% monthly growth rate; planned ~$10M raise over 18-20 months."
+      },
+      {
+        "team": "Mechanodontics (BRIUS Technologies)",
+        "total_funding_usd_approx": 46200000,
+        "note": "See notable_exits entry; included here for OPERATING_FUNDED visibility."
+      },
+      {
+        "team": "Wing Assistant",
+        "total_funding_usd_approx": 2100000,
+        "note": "See notable_pivots entry; included here for OPERATING_FUNDED visibility."
+      }
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+---
+layout: default
+title: About
+permalink: /about/
+---
+
+<section class="hero">
+  <p class="eyebrow">About</p>
+  <h1>Methodology &amp; sources</h1>
+  <p class="lede">This archive aspires to a single standard: every claim is anchored to a primary public source.</p>
+</section>
+
+<section class="section">
+  <h2>What this is</h2>
+  <p>A public, citation-backed historical record of the UCI Paul Merage School of Business <strong>Stella Zhang New Venture Competition</strong> (originally the Merage Business Plan Competition, renamed in January 2022 following a naming gift from Stella Zhang FEMBA&nbsp;'05 and her spouse John Shen, extended in March 2025).</p>
+  <p>The site indexes all editions from the 2009 launch through the 2026 Grand Finale, with team rosters, prize amounts, project descriptions, judging panels (where preserved), and verified post-competition outcomes.</p>
+</section>
+
+<section class="section">
+  <h2>Verification standard</h2>
+  <p>Every entry on this site cites a public source. Acceptable primary sources, in rough order of preference:</p>
+  <ol>
+    <li>Merage press releases (UCI's official record of the competition).</li>
+    <li>UCI Samueli School of Engineering coverage.</li>
+    <li>UCI Beall Applied Innovation profiles (innovation.uci.edu).</li>
+    <li>UCI Beall + Butterworth competition results (bbcomp.tech.uci.edu).</li>
+    <li>The company's own current website.</li>
+    <li>Peer-reviewed publications, federal filings (FDA, SEC, SBIR), and patent records.</li>
+    <li>Major business press coverage (TechCrunch, OC Business Journal, Business Wire).</li>
+  </ol>
+  <p>LinkedIn is accepted for confirming individual roles but is flagged in citations because direct fetches are blocked by anti-bot protections.</p>
+</section>
+
+<section class="section">
+  <h2>What this is not</h2>
+  <ul>
+    <li><strong>Not an official UCI page.</strong> This site is maintained independently and is not affiliated with UCI, the Paul Merage School of Business, or the Beall Center.</li>
+    <li><strong>Not a complete record.</strong> Some pre-2017 editions are partial; rosters and prizes have been recovered where indexed UCI sources preserve them. Editions 2010, 2011, and 2015 remain structural gaps.</li>
+    <li><strong>Not a ranking.</strong> Outcome categories (OPERATING, ACQUIRED, etc.) describe the current public state of a team, not a quality judgement.</li>
+  </ul>
+</section>
+
+<section class="section">
+  <h2>Outcome categories</h2>
+  <ul>
+    <li><span class="badge operating">Operating</span> &mdash; company is currently active with a live web presence, recent funding, or recent product activity.</li>
+    <li><span class="badge acquired">Acquired</span> &mdash; company was acquired (asset or equity); acquirer documented.</li>
+    <li><span class="badge pivoted">Pivoted</span> &mdash; company changed direction substantially from the original NVC pitch; current product differs.</li>
+    <li><span class="badge shutdown">Shut down</span> &mdash; company has formally wound down; site is parked or offline and no successor activity is visible.</li>
+    <li><span class="badge dormant">Dormant</span> &mdash; company has no recent public activity but has not formally announced shutdown.</li>
+    <li><span class="badge nofound">No public outcome</span> &mdash; researched but no traceable post-competition footprint surfaced.</li>
+  </ul>
+</section>
+
+<section class="section">
+  <h2>Source repository</h2>
+  <p>This site is generated from a public companion repository where the underlying data (JSON) and narrative outcome write-ups live alongside the citation list for each claim:</p>
+  <p><a href="https://github.com/StellaZhangUCI/History">github.com/StellaZhangUCI/History</a></p>
+  <p>Corrections, additional sources, or year-fill contributions are welcome via pull request. See the <code>CONTRIBUTING.md</code> in that repository.</p>
+</section>
+
+<section class="section">
+  <h2>Last updated</h2>
+  <p>Data version: {{ site.data.nvc.last_updated }}. Outcome data version: {{ site.data.outcomes.last_updated }}.</p>
+</section>

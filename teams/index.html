@@ -1,0 +1,94 @@
+---
+layout: default
+title: Team directory
+permalink: /teams/
+---
+
+<section class="hero">
+  <p class="eyebrow">Directory</p>
+  <h1>All teams</h1>
+  <p class="lede">Every team that has placed in a UCI NVC edition, alphabetical, with year, top award, and outcome.</p>
+</section>
+
+<div class="team-controls">
+  <input type="search" id="team-search" placeholder="Search by team name&hellip;" autocomplete="off" aria-label="Search teams">
+  <select id="year-filter" aria-label="Filter by year">
+    <option value="">All years</option>
+    {% assign years_set = "" | split: "" %}
+    {% for t in site.data.teams.teams %}
+      {% for y in t.years %}
+        {% unless years_set contains y %}{% assign years_set = years_set | push: y %}{% endunless %}
+      {% endfor %}
+    {% endfor %}
+    {% assign sorted_years = years_set | sort | reverse %}
+    {% for y in sorted_years %}<option value="{{ y }}">{{ y }}</option>{% endfor %}
+  </select>
+  <select id="outcome-filter" aria-label="Filter by outcome">
+    <option value="">All outcomes</option>
+    <option value="OPERATING">Operating</option>
+    <option value="ACQUIRED">Acquired</option>
+    <option value="PIVOTED">Pivoted</option>
+    <option value="SHUT_DOWN">Shut down</option>
+    <option value="DORMANT">Dormant</option>
+    <option value="NO_PUBLIC_OUTCOME_FOUND">No public outcome</option>
+  </select>
+</div>
+
+<p id="team-count" style="color: var(--ink-muted); font-size:0.9rem;">Showing {{ site.data.teams.teams.size }} of {{ site.data.teams.teams.size }} teams.</p>
+
+<ul class="team-list" id="team-list">
+  {% assign sorted_teams = site.data.teams.teams | sort: "name" %}
+  {% for t in sorted_teams %}
+    {% assign outcome_cat = t.outcome.category | default: "" %}
+    <li
+      data-name="{{ t.name | downcase }}"
+      data-years="{{ t.years | join: ',' }}"
+      data-outcome="{{ outcome_cat }}">
+      <span class="name">{{ t.name }}</span>
+      <span class="meta">{{ t.years | join: ", " }} &middot; {{ t.top_award }}</span>
+      {% case outcome_cat %}
+        {% when "OPERATING" %}<span class="badge operating">Operating</span>
+        {% when "ACQUIRED" %}<span class="badge acquired">Acquired</span>
+        {% when "PIVOTED" %}<span class="badge pivoted">Pivoted</span>
+        {% when "SHUT_DOWN" %}<span class="badge shutdown">Shut down</span>
+        {% when "DORMANT" %}<span class="badge dormant">Dormant</span>
+        {% when "NO_PUBLIC_OUTCOME_FOUND" %}<span class="badge nofound">No public outcome</span>
+        {% else %}{% if t.years contains 2026 %}<span class="badge finalist">2026 finalist</span>{% endif %}
+      {% endcase %}
+    </li>
+  {% endfor %}
+</ul>
+
+<script>
+(function() {
+  var search   = document.getElementById('team-search');
+  var yearSel  = document.getElementById('year-filter');
+  var outSel   = document.getElementById('outcome-filter');
+  var list     = document.getElementById('team-list');
+  var counter  = document.getElementById('team-count');
+  var items    = Array.prototype.slice.call(list.querySelectorAll('li'));
+  var total    = items.length;
+
+  function apply() {
+    var q = search.value.trim().toLowerCase();
+    var y = yearSel.value;
+    var o = outSel.value;
+    var shown = 0;
+    items.forEach(function(li) {
+      var name = li.getAttribute('data-name') || '';
+      var years = (li.getAttribute('data-years') || '').split(',');
+      var outcome = li.getAttribute('data-outcome') || '';
+      var hit = (!q || name.indexOf(q) >= 0) &&
+                (!y || years.indexOf(y) >= 0) &&
+                (!o || outcome === o);
+      li.style.display = hit ? '' : 'none';
+      if (hit) shown++;
+    });
+    counter.textContent = 'Showing ' + shown + ' of ' + total + ' teams.';
+  }
+
+  search.addEventListener('input', apply);
+  yearSel.addEventListener('change', apply);
+  outSel.addEventListener('change', apply);
+})();
+</script>

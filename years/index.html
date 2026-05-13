@@ -1,0 +1,49 @@
+---
+layout: default
+title: All years
+permalink: /years/
+---
+
+<section class="hero">
+  <p class="eyebrow">Year-by-year</p>
+  <h1>All editions</h1>
+  <p class="lede">Eighteen years of competition records, from the 2009 launch under the Paul Merage School of Business to the 2026 finalists.</p>
+</section>
+
+<h2>2017&ndash;2026 (Stella Zhang era from 2022)</h2>
+<div class="year-grid">
+  {% for y in site.data.nvc.years %}
+    {% assign top = nil %}
+    {% for a in y.awards %}
+      {% if a.category contains "Grand Prize" or a.place == "Winner" and a.category == "Grand Prize" %}
+        {% if top == nil %}{% assign top = a %}{% endif %}
+      {% endif %}
+    {% endfor %}
+    <a class="year-card" href="{{ '/years/' | append: y.year | append: '/' | relative_url }}">
+      <span class="yr">{{ y.year }}</span>
+      <span class="gp">
+        {% if y.status == "upcoming" %}
+          <strong>Upcoming</strong><br>Grand Finale {{ y.grand_finale.date }}.
+        {% elsif top %}
+          <strong>{{ top.team }}</strong> &middot; {{ top.prize_text }}<br>{{ top.project | truncate: 80 }}
+        {% elsif y.theme %}
+          {{ y.theme }}
+        {% endif %}
+      </span>
+    </a>
+  {% endfor %}
+</div>
+
+<h2>Pre-2017 editions</h2>
+<p>Earlier years are partially indexed; rosters and prizes are recovered from UCI Samueli engineering coverage and Merage news pages where available.</p>
+<div class="year-grid">
+  {% for e in site.data.nvc.pre_2017_editions %}
+    <a class="year-card" href="{{ '/years/' | append: e.year | append: '/' | relative_url }}">
+      <span class="yr">{{ e.year }}</span>
+      <span class="gp">
+        {% if e.grand_prize %}<strong>{{ e.grand_prize.team }}</strong>{% if e.grand_prize.prize_text %} &middot; {{ e.grand_prize.prize_text }}{% endif %}<br>{% endif %}
+        {{ e.theme | default: "Historical edition" | truncate: 80 }}
+      </span>
+    </a>
+  {% endfor %}
+</div>

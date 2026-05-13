@@ -1,0 +1,168 @@
+---
+layout: default
+---
+{% assign yr = page.year %}
+{% assign edition = nil %}
+{% for y in site.data.nvc.years %}
+  {% if y.year == yr %}{% assign edition = y %}{% endif %}
+{% endfor %}
+{% if edition == nil %}
+  {% for e in site.data.nvc.pre_2017_editions %}
+    {% if e.year == yr %}{% assign edition = e %}{% endif %}
+  {% endfor %}
+{% endif %}
+
+<header class="year-head">
+  <span class="yr-num">{{ yr }}</span>
+  <span class="yr-sub">{% if edition.edition %}{{ edition.edition }} edition{% elsif edition.status %}{{ edition.status | capitalize }}{% endif %}</span>
+  <h1>{{ page.title | default: edition.theme | default: "UCI New Venture Competition" }}</h1>
+</header>
+
+{% if edition.theme %}
+  <p class="lede" style="font-family: var(--serif); font-size:1.2rem; color: var(--ink-soft); max-width:34em;">{{ edition.theme }}</p>
+{% endif %}
+
+{% if edition.grand_finale %}
+  <p><strong>Grand Finale.</strong> {{ edition.grand_finale.date }}{% if edition.grand_finale.time %}, {{ edition.grand_finale.time }}{% endif %}{% if edition.grand_finale.venue %} &middot; {{ edition.grand_finale.venue }}{% endif %}.</p>
+{% endif %}
+
+{% if edition.prize_pool_announced %}
+  <p><strong>Announced prize pool.</strong> {{ edition.prize_pool_announced }}.</p>
+{% endif %}
+
+{% if edition.tracks %}
+  <p><strong>Tracks.</strong> {{ edition.tracks | join: " &middot; " }}.</p>
+{% endif %}
+
+{% if edition.finalists %}
+  <h2>Finalists</h2>
+  {% if edition.finalists_note %}<p>{{ edition.finalists_note }}</p>{% endif %}
+  <table class="archive-table">
+    <thead><tr><th>Track</th><th>Finalists</th></tr></thead>
+    <tbody>
+      {% for track in edition.finalists %}
+        <tr>
+          <td class="team"><strong>{{ track[0] }}</strong></td>
+          <td>{{ track[1] | join: ", " }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% if edition.finalists_source %}
+    <p style="font-size:0.88rem; color: var(--ink-muted);">Source: <a href="{{ edition.finalists_source }}">Merage NVC page</a>.</p>
+  {% endif %}
+{% endif %}
+
+{% if edition.awards and edition.awards.size > 0 %}
+  <h2>Awards</h2>
+  <table class="archive-table">
+    <thead>
+      <tr>
+        <th>Category</th>
+        <th>Place</th>
+        <th>Team</th>
+        <th>Prize</th>
+        <th>Project</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for a in edition.awards %}
+        <tr>
+          <td>{{ a.category }}</td>
+          <td>{{ a.place }}</td>
+          <td class="team"><strong>{{ a.team }}</strong>{% if a.members and a.members.size > 0 %}<br><small style="color: var(--ink-muted);">{{ a.members | join: ", " }}</small>{% endif %}</td>
+          <td class="prize">{{ a.prize_text | default: "&mdash;" }}</td>
+          <td>{% if a.is_cross_listing %}<em>See {{ a.cross_listed_with.category }} {{ a.cross_listed_with.place }}.</em>{% else %}{{ a.project }}{% endif %}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endif %}
+
+{% if edition.grand_prize %}
+  <h2>Grand Prize</h2>
+  <table class="archive-table">
+    <thead><tr><th>Team</th><th>Prize</th><th>Project</th></tr></thead>
+    <tbody>
+      <tr>
+        <td class="team"><strong>{{ edition.grand_prize.team }}</strong>{% if edition.grand_prize.members and edition.grand_prize.members.size > 0 %}<br><small style="color: var(--ink-muted);">{{ edition.grand_prize.members | join: ", " }}</small>{% endif %}</td>
+        <td class="prize">{{ edition.grand_prize.prize_text | default: "&mdash;" }}</td>
+        <td>{{ edition.grand_prize.project }}</td>
+      </tr>
+    </tbody>
+  </table>
+{% endif %}
+
+{% if edition.other_winners %}
+  <h2>Other recorded winners</h2>
+  <table class="archive-table">
+    <thead><tr><th>Place</th><th>Team</th><th>Prize</th><th>Project</th></tr></thead>
+    <tbody>
+      {% for o in edition.other_winners %}
+        <tr>
+          <td>{{ o.place }}</td>
+          <td class="team"><strong>{{ o.team }}</strong>{% if o.members and o.members.size > 0 %}<br><small style="color: var(--ink-muted);">{{ o.members | join: ", " }}</small>{% endif %}{% if o.coach %}<br><small style="color: var(--ink-muted);">Coach: {{ o.coach }}</small>{% endif %}</td>
+          <td class="prize">{{ o.prize_text | default: "&mdash;" }}</td>
+          <td>{{ o.project }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endif %}
+
+{% if edition.other_finalists %}
+  <h2>Other finalists</h2>
+  <table class="archive-table">
+    <thead><tr><th>Track / Award</th><th>Team</th><th>Prize</th><th>Project</th></tr></thead>
+    <tbody>
+      {% for o in edition.other_finalists %}
+        <tr>
+          <td>{{ o.category | default: o.place }}</td>
+          <td class="team"><strong>{{ o.team }}</strong>{% if o.members and o.members.size > 0 %}<br><small style="color: var(--ink-muted);">{{ o.members | join: ", " }}</small>{% endif %}{% if o.coach %}<br><small style="color: var(--ink-muted);">Coach: {{ o.coach }}</small>{% endif %}</td>
+          <td class="prize">{{ o.prize_text | default: "&mdash;" }}</td>
+          <td>{{ o.project }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endif %}
+
+{% if edition.disclosed_cash_total_note %}
+  <p style="font-size:0.9rem; color: var(--ink-muted); margin-top:1rem;"><strong>Cash total.</strong> {{ edition.disclosed_cash_total_note }}</p>
+{% endif %}
+
+{% if edition.primary_source %}
+  <p style="font-size:0.88rem; color: var(--ink-muted);">Primary source: <a href="{{ edition.primary_source }}">Merage press release</a>.</p>
+{% endif %}
+
+{% if edition.judges_note or edition.confirmed_judges_partial %}
+  <h2>Judges</h2>
+  {% if edition.confirmed_judges_partial %}
+    <ul>{% for j in edition.confirmed_judges_partial %}<li>{{ j }}</li>{% endfor %}</ul>
+  {% endif %}
+  {% if edition.judges_note %}<p style="font-size:0.9rem; color: var(--ink-muted);">{{ edition.judges_note }}</p>{% endif %}
+{% endif %}
+
+{% assign year_outcomes = site.data.outcomes.outcomes | where: "year", yr %}
+{% if year_outcomes.size > 0 %}
+  <h2>Post-competition outcomes</h2>
+  <ul class="team-list">
+    {% for o in year_outcomes %}
+      <li>
+        <span class="name">{{ o.team }}</span>
+        {% case o.category %}
+          {% when "OPERATING" %}<span class="badge operating">Operating</span>
+          {% when "ACQUIRED" %}<span class="badge acquired">Acquired</span>
+          {% when "PIVOTED" %}<span class="badge pivoted">Pivoted</span>
+          {% when "SHUT_DOWN" %}<span class="badge shutdown">Shut down</span>
+          {% when "DORMANT" %}<span class="badge dormant">Dormant</span>
+          {% when "NO_PUBLIC_OUTCOME_FOUND" %}<span class="badge nofound">No public outcome</span>
+          {% else %}<span class="badge nofound">{{ o.category }}</span>
+        {% endcase %}
+        <span class="meta">{{ o.summary | truncate: 220 }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+<p style="margin-top:3rem;"><a href="{{ '/years/' | relative_url }}">&larr; All years</a></p>

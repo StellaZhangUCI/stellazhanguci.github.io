@@ -1,0 +1,1561 @@
+{
+  "schema_version": 1,
+  "last_updated": "2026-05-11",
+  "competition": {
+    "name": "Stella Zhang New Venture Competition",
+    "former_names": ["Merage Business Plan Competition", "UCI New Venture Competition"],
+    "host_school": "UCI Paul Merage School of Business",
+    "host_center": "Beall Center for Innovation & Entrepreneurship",
+    "first_held": 2009,
+    "naming_gift": {
+      "primary_donor": "Stella Zhang",
+      "donor_affiliation": "FEMBA '05",
+      "co_donor": "John Shen (spouse)",
+      "initial_gift_year": 2022,
+      "initial_gift_year_note": "Initial gift announced January 2022 per Merage press release; the underlying term begins as early as the 2021 NVC.",
+      "initial_gift_term_years": 5,
+      "initial_gift_amount_usd": null,
+      "extension_gift_year": 2025,
+      "extension_gift_amount_usd": 750000,
+      "extension_gift_term_years": 5,
+      "extension_raised_pool_from_usd": 100000,
+      "extension_raised_pool_to_usd": 150000,
+      "naming_through_year": 2031,
+      "naming_through_year_note": "Computed as 2026 + 5 (extension term). The Merage March 2025 release describes 'a $750,000 commitment to extend her annual gift over the next five years' without naming an explicit end year.",
+      "bridge_to_competition": "Zarina Bahadur (Baby Box, MIE '20, 2020 Grand Prize) joined Zhang's Long Beach Accelerator portfolio, exposing Zhang to the NVC.",
+      "sources": [
+        "https://merage.uci.edu/news/2022/01/New-Venture-Competition-Receives-Naming-Gift-from-Stella-Zhang-FEMBA-05.html",
+        "https://merage.uci.edu/press-releases/2025/03/Stella-Zhang-Gives-750K-to-UC-Irvine-New-Venture-Competition.html"
+      ]
+    },
+    "sponsors": [
+      "The Beall Family",
+      "Experian",
+      "John Chuang",
+      "Emanuel Shaoulian, MD",
+      "David Ochi",
+      "Stella Zhang",
+      "Elvin Kay",
+      "Ken & Carla Neeld",
+      "Withum",
+      "Finance Agents",
+      "Ingram Micro",
+      "Larry Wilk"
+    ],
+    "sponsors_note": "Sponsors fund the program collectively. Per-track corporate sponsorship does not exist in this competition's structure; tracks are funded from the pool and named only by category.",
+    "track_partnerships": [
+      {
+        "track": "Social Enterprise",
+        "partner_organization": "UCI Blum Center",
+        "named_faculty_judge": "Richard Matthew (Blum Center Faculty Director)"
+      }
+    ],
+    "program_staff": [
+      {"name": "Jenn Huynh", "role": "Program Manager"},
+      {"name": "Sara Heimann", "role": "Innovation & Entrepreneurship Librarian", "contact": "sheimann@uci.edu"}
+    ],
+    "mentor_structure": {
+      "named_program": null,
+      "sources_of_mentors": ["Beall Center industry mentors", "SCORE mentors"],
+      "note": "Coach and judge roles overlap; named individuals like Dan Jenkins, David Ochi, and Larry Wilk function as both."
+    },
+    "format": {
+      "workshop_series_length_months": 7,
+      "sample_workshops": [
+        "How to Come up with a Billion Dollar Idea",
+        "From Idea to Business",
+        "Is there a Market for Your Product?"
+      ]
+    }
+  },
+  "years": [
+    {
+      "year": 2026,
+      "status": "upcoming",
+      "edition": "22nd annual",
+      "grand_finale": {
+        "date": "2026-05-21",
+        "time": "5:00-9:00 PM PT",
+        "venue": "SB1 Merage Auditorium, 4291 Pereira Drive, Suite 2300, Irvine, CA 92627"
+      },
+      "tracks": ["Business Products & Services", "Consumer Products", "Consumer Services", "Life Sciences", "Social Enterprise"],
+      "prize_pool_announced": "Over $100,000 plus AWS credits for all semi-finalists",
+      "structure": {
+        "grand_prize_usd": 20000,
+        "runner_up_usd": 5000,
+        "track_first_usd": 10000,
+        "track_second_usd": 5000
+      },
+      "finalists": {
+        "Business Products & Services": ["Abner Computing", "Simly"],
+        "Consumer Products": ["PAQQ", "RestWing"],
+        "Consumer Services": ["CuraVoice", "Pipeline"],
+        "Life Sciences": ["LAMON", "NeuroStrat"],
+        "Social Enterprise": ["Ascend First", "BrickCycle"]
+      },
+      "finalists_note": "10 finalists per Merage NVC page as of 2026-05-12: two per track. An earlier archive pass recorded 'AegleBio, Billify, NeuroBoost, Grad2Go' as named semi-finalists; those teams do not appear on the current finalist page and could not be re-verified against a primary source on 2026-05-12.",
+      "finalists_source": "https://merage.uci.edu/research-faculty/centers/innovation-entrepreneurship/new-venture-competiton.html",
+      "awards": []
+    },
+    {
+      "year": 2025,
+      "status": "completed",
+      "theme": "Sustainability, Student Life Solutions, and Medical Tech",
+      "edition_number": "21st annual",
+      "prize_pool_announced": "Over $150,000 (Cash & In-Kind)",
+      "prize_pool_note": "Pool jumped from $100,000+ to $150,000+ following Stella Zhang's $750,000 March 2025 naming-gift extension; see competition.naming_gift.",
+      "confirmed_judges_partial": ["Richard Matthew (Blum Center Faculty Director, Social Enterprise track judge)"],
+      "judges_note": "Full grand-finale judging panel not preserved in indexed press materials; likely published in the password-protected 2025 NVC report PDF.",
+      "awards": [
+        {
+          "category": "Grand Prize",
+          "place": "Winner",
+          "team": "Grad2Go",
+          "prize_text": "$20,000",
+          "prize_amount_usd": 20000,
+          "project": "A sustainable furniture resale and storage service for students during move-out/move-in cycles to reduce waste.",
+          "members": ["Yifan \"May\" Mei", "Chengxi Li", "Xinyu Zhang", "Yuhan Yue", "Yilin Shen", "Hannah"]
+        },
+        {
+          "category": "Runner-Up",
+          "place": "Winner",
+          "team": "GlowGuard",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "Smart dental retainer case with UV-C sanitization and Bluetooth tracking capabilities.",
+          "members": []
+        },
+        {
+          "category": "Specialty (MIE Award)",
+          "place": "Winner",
+          "team": "PCOSitive Buddy",
+          "prize_text": "$2,500",
+          "prize_amount_usd": 2500,
+          "project": "AI-powered wellness companion (the AI assistant is named 'Chloe') for women with Polycystic Ovary Syndrome (PCOS), with tracking, community, and support features.",
+          "members": ["Ricianne \"Chi\" Rey (MIE; co-founder and Marketing Lead per RocketReach 2026-05-12)", "Rafelia Angel (core team)", "Varshini Vijay (tech team; UCI student, Zotbotics Robotics Club co-president per LinkedIn)", "Benson Manzano (tech team; UCI ICS student, FUSION at UCI ICS project director per LinkedIn)"],
+          "members_note": "Roster expanded 2026-05-12 from the prior single-name listing. Ricianne Rey directly verified via antrepreneur.uci.edu/meet-chi-rey/ profile; the additional four members were surfaced via WebSearch aggregation cross-referenced with Varshini Vijay's and Benson Manzano's UCI-affiliated LinkedIn profiles. A fifth teammate (first name 'Kimberly') is mentioned in search-engine summaries without a confirmed last name and is not added here. Per Ricianne Rey's antrepreneur.uci.edu profile, the team competed as MIE-program peers."
+        },
+        {
+          "category": "Specialty (EvoNexus Fan Favorite)",
+          "category_aliases": ["Specialty (Audience Favorite)"],
+          "place": "Winner",
+          "team": "Oslo",
+          "prize_text": "$1,000",
+          "prize_amount_usd": 1000,
+          "project": "Passive thermal/optical vital-sign monitoring system for seniors (\"Birdhouse by Oslo\").",
+          "members": []
+        },
+        {
+          "category": "Track Award (Business Products)",
+          "place": "1st",
+          "team": "TransMobile VR",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "Immersive VR safety training simulations for waste-management drivers.",
+          "members": []
+        },
+        {
+          "category": "Track Award (Business Products)",
+          "place": "2nd",
+          "team": "ServEasy",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "Reverse-bidding auction platform connecting homeowners with home service providers.",
+          "members": []
+        },
+        {
+          "category": "Track Award (Consumer Products)",
+          "place": "1st",
+          "team": "GlowGuard",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "Smart dental retainer case with UV-C sanitization and Bluetooth tracking capabilities.",
+          "members": [],
+          "is_cross_listing": true,
+          "cross_listed_with": {"category": "Runner-Up", "place": "Winner"}
+        },
+        {
+          "category": "Track Award (Consumer Products)",
+          "place": "2nd",
+          "team": "NūCo",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "Biodegradable leather handbags made from waste coconut water.",
+          "members": []
+        },
+        {
+          "category": "Track Award (Consumer Services)",
+          "place": "1st",
+          "team": "PCOSitive Buddy",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "AI-powered wellness companion (the AI assistant is named 'Chloe') for women with Polycystic Ovary Syndrome (PCOS), with tracking, community, and support features.",
+          "members": ["Ricianne \"Chi\" Rey (MIE)", "Rafelia Angel", "Varshini Vijay (tech)", "Benson Manzano (tech)"],
+          "is_cross_listing": true,
+          "cross_listed_with": {"category": "Specialty (MIE Award)", "place": "Winner"}
+        },
+        {
+          "category": "Track Award (Consumer Services)",
+          "place": "2nd",
+          "team": "MinuTax",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "AI-powered automated tax-filing platform tailored for international students.",
+          "members": []
+        },
+        {
+          "category": "Track Award (Life Sciences)",
+          "place": "1st",
+          "team": "NasoCoustics",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "Wireless, child-friendly handheld nasometry device for speech therapy in cleft-palate patients. Quantitatively evaluates hypernasality and other resonance disorders; replaces bulky, stationary, intimidating-to-children clinic-based nasometers.",
+          "members": ["Dave Soliven (UCI BME 4th-year undergrad, Management minor)", "Jordan Ulibarri", "Kenji Inducta", "Natalie Benneian", "Neha Muvvala", "Neharika Gopikrishnan"],
+          "coach": "Tom Berryman"
+        },
+        {
+          "category": "Track Award (Life Sciences)",
+          "place": "2nd",
+          "team": "Oslo",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "Passive thermal/optical vital-sign monitoring system for seniors (\"Birdhouse by Oslo\").",
+          "members": [],
+          "is_cross_listing": true,
+          "cross_listed_with": {"category": "Specialty (Audience Favorite)", "place": "Winner"}
+        },
+        {
+          "category": "Track Award (Social Enterprise)",
+          "place": "1st",
+          "team": "CleanHydro",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "AI-powered app for real-time analysis of water quality test strips and samples.",
+          "members": []
+        },
+        {
+          "category": "Track Award (Social Enterprise)",
+          "place": "2nd",
+          "team": "Grad2Go",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "A sustainable furniture resale and storage service for students during move-out/move-in cycles to reduce waste.",
+          "members": ["Yifan \"May\" Mei", "Chengxi Li", "Xinyu Zhang", "Yuhan Yue", "Yilin Shen", "Hannah"],
+          "is_cross_listing": true,
+          "cross_listed_with": {"category": "Grand Prize", "place": "Winner"}
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "status": "completed",
+      "theme": "Artificial Intelligence (AI) and Industrial Safety",
+      "edition_number": "20th annual",
+      "judges_and_coaches": [
+        "Stella Zhang",
+        "Elvin Kay",
+        "Ken & Carla Neeld",
+        "Jeff Freud",
+        "Shalabh Gupta",
+        "Fiza & Mansoor Shah",
+        "Dan Jenkins"
+      ],
+      "judges_note": "Plus representatives from the UCI ANTrepreneur Center and Beall Applied Innovation; the line between judge and coach overlaps in NVC documentation.",
+      "judges_source": "https://merage.uci.edu/research-faculty/centers/innovation-entrepreneurship/new-venture-competiton.html",
+      "awards": [
+        {
+          "category": "Grand Prize",
+          "place": "Winner",
+          "team": "Sentinel",
+          "prize_text": "$20,000",
+          "prize_amount_usd": 20000,
+          "project": "AI-enhanced dashcam system that detects trucker drowsiness without violating privacy (no recording when stopped).",
+          "members": ["Kyle Deck (Mechanical Engineering)", "Michael Ross (Aerospace / Mechanical Engineering)", "Cody He", "Spike O'Carrol", "Natan Ampudia (Business Administration)", "Kevin Wu"],
+          "members_note": "Member spellings preserved from the primary Business Wire / Merage 2024 press release. The UCI Beall and Butterworth 2024 winners page (bbcomp.tech.uci.edu/past/past-2024) and the ANTrepreneur Center 2024-09 post-competition profile both use 'Nathan Ampudia' (vs 'Natan Ampudia' in Business Wire) and 'Spike O'Carroll' (vs 'Spike O'Carrol' in Business Wire) - this cross-source inconsistency is noted, with the more authoritative Merage / Business Wire press release retained here. The ANTrepreneur 2024-09 profile also names a Redford Hudson (Data Science) as part of the post-competition team; not added to the original 6-member NVC roster pending confirmation whether he was on the competing team or joined afterward.",
+          "also_won": [
+            "1st Place, Butterworth Product Development Competition 2024 ($10,000; sibling UCI competition)",
+            "2nd Place, C&C Innovative Solutions SoCal Super Pitch Competition 2024 ($1,250; per ANTrepreneur Center 2024-09 profile)"
+          ]
+        },
+        {
+          "category": "Runner-Up",
+          "place": "Winner",
+          "team": "NeoMold",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "Customizable, 3D-printed ear molds for non-surgical correction of newborn ear deformities.",
+          "members": ["Christine Ly", "Christine Nguyen", "Frida Sandoval", "Kathy Duong"],
+          "also_won": ["1st Place, Beall Student Design Competition 2024 (sibling UCI competition)"]
+        },
+        {
+          "category": "Track Award (Business Products)",
+          "place": "1st",
+          "team": "Sentinel",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "AI-enhanced dashcam system that detects trucker drowsiness without violating privacy (no recording when stopped).",
+          "members": ["Kyle Deck", "Michael Ross", "Cody He", "Spike O'Carrol", "Natan Ampudia", "Kevin Wu"],
+          "is_cross_listing": true,
+          "cross_listed_with": {"category": "Grand Prize", "place": "Winner"}
+        },
+        {
+          "category": "Track Award (Business Products)",
+          "place": "2nd",
+          "team": "BagIt",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "Platform revolutionizing student savings with on-demand discounts.",
+          "members": []
+        },
+        {
+          "category": "Track Award (Consumer Products)",
+          "place": "1st",
+          "team": "Flare",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "Smart safety glove for cyclists with LED indicators for signaling.",
+          "members": []
+        },
+        {
+          "category": "Track Award (Consumer Products)",
+          "place": "2nd",
+          "team": "Lynne",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "Discreet, cooling wallet designed for carrying birth control.",
+          "members": []
+        },
+        {
+          "category": "Track Award (Consumer Services)",
+          "place": "1st",
+          "team": "Quiver",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "Subscription service offering surfers access to a vast board library.",
+          "members": []
+        },
+        {
+          "category": "Track Award (Consumer Services)",
+          "place": "2nd",
+          "team": "Crafty Palate",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "Marketplace connecting foodies with local artisan cooks.",
+          "members": []
+        },
+        {
+          "category": "Track Award (Life Sciences)",
+          "place": "1st",
+          "team": "Two Cube",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "Autonomous bioinformatics platform offering fully-autonomous research agents that streamline single-cell RNA analysis pipelines, enabling automatic code generation, result interpretation, and hypothesis development.",
+          "members": ["Dylan Riffle", "Shushrruth Sai Srinivasan"],
+          "also_won": ["2nd Place, Butterworth Product Development Competition 2024 (sibling UCI competition)"]
+        },
+        {
+          "category": "Track Award (Life Sciences)",
+          "place": "2nd",
+          "team": "NeoMold",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "Customizable, 3D-printed ear molds for non-surgical correction of newborn ear deformities.",
+          "members": ["Christine Ly", "Christine Nguyen", "Frida Sandoval", "Kathy Duong"],
+          "is_cross_listing": true,
+          "cross_listed_with": {"category": "Runner-Up", "place": "Winner"}
+        },
+        {
+          "category": "Track Award (Social Enterprise)",
+          "place": "1st",
+          "team": "PZ Nanopure",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "Piezoelectric nanopore membranes to enhance \"Blue Energy\" (osmotic power) efficiency.",
+          "members": []
+        },
+        {
+          "category": "Track Award (Social Enterprise)",
+          "place": "2nd",
+          "team": "DermaVision",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "Forensic imaging tool detecting bruising across diverse skin tones.",
+          "members": ["Ashley Im", "Alejandra Reyes", "Mitchell Frazeur", "Hao Ngo"]
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "status": "completed",
+      "theme": "Hardware Innovation and Marketplace Platforms",
+      "edition_number": "19th annual",
+      "judges": [
+        "Ken Neeld",
+        "Karin Koch",
+        "Isabelle Bart",
+        "Michelle Khine",
+        "Rodrigo C. Mahs"
+      ],
+      "judges_source": "https://www.businesswire.com/news/home/20230526005328/en",
+      "awards": [
+        {
+          "category": "Grand Finale",
+          "place": "Winner",
+          "team": "VagAligna",
+          "prize_text": "$20,000",
+          "prize_amount_usd": 20000,
+          "project": "Medical device designed to expedite the healing of vaginal tissue after childbirth or injury.",
+          "members": ["Fiza Qureshi", "Hailey Matyac", "Angie Espino", "Maile Adams"]
+        },
+        {
+          "category": "Grand Finale",
+          "place": "Runner-Up",
+          "team": "Leprendo",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "Specialty food marketplace using short-form video to connect farmers to consumers.",
+          "members": ["Dan Ta", "Dylan Riffle", "Kanu Chandra", "Nina Nguyen"],
+          "also_won": ["1st Place, Butterworth Product Development Competition 2022 (sibling UCI competition; predates the 2023 NVC win). The 2022 Butterworth team was a 3-member subset: Nina Nguyen, Dylan Riffle, Dan Ta."]
+        },
+        {
+          "category": "Track Award (Business Products)",
+          "place": "1st",
+          "team": "Helios",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "Aftermarket license plate kit with radar/cameras for 360-degree driver safety.",
+          "members": []
+        },
+        {
+          "category": "Track Award (Business Products)",
+          "place": "2nd",
+          "team": "Orii.AI",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "Generative AI scheduling platform for student time management.",
+          "members": []
+        },
+        {
+          "category": "Track Award (Consumer Products)",
+          "place": "1st",
+          "team": "Help Belt",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "Universal seat belt aid for individuals with limited mobility or arthritis.",
+          "members": [],
+          "naming_note": "Disambiguation (added 2026-05-12): NOT the unrelated commercial brand 'Help Belts' at helpbelts.com (medical-alert seat-belt cover with information pocket, founded 2016 by a mother seeking a way to communicate her son's medical conditions to first responders). The UCI 2023 NVC Help Belt team is a distinct, separately-conceived seat-belt mobility-aid project. Roster for the UCI team remains Not Listed."
+        },
+        {
+          "category": "Track Award (Consumer Products)",
+          "place": "2nd",
+          "team": "Omni Pet Club",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "Multi-way configurable leash system for multi-pet owners.",
+          "members": ["Penny Love", "Rae Chen"]
+        },
+        {
+          "category": "Track Award (Consumer Services)",
+          "place": "1st",
+          "team": "Leprendo",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "Specialty food marketplace using short-form video to connect farmers to consumers.",
+          "members": ["Dan Ta", "Dylan Riffle", "Kanu Chandra", "Nina Nguyen"],
+          "is_cross_listing": true,
+          "cross_listed_with": {"category": "Grand Finale", "place": "Runner-Up"}
+        },
+        {
+          "category": "Track Award (Consumer Services)",
+          "place": "2nd",
+          "team": "ChewRank",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "Restaurant/Pet food discovery app based on trusted rankings.",
+          "members": ["Chi Wei Chen", "Hsin-yi Lin", "Wei-Chia Hsu", "Xiaohan Li", "XinYao Xu"],
+          "also_won": ["3rd Place, Butterworth Product Development Competition 2023 (sibling UCI competition; same year as the NVC appearance)"]
+        },
+        {
+          "category": "Track Award (Life Sciences)",
+          "place": "1st",
+          "team": "Hyperion Therapeutics",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "Therapeutic agents for treating early-stage retinal diseases (AMD, DR).",
+          "members": ["Jennings Luu", "Krzysztof Palczewski"]
+        },
+        {
+          "category": "Track Award (Life Sciences)",
+          "place": "2nd",
+          "team": "VagAligna",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "Medical device designed to expedite the healing of vaginal tissue after childbirth or injury.",
+          "members": ["Fiza Qureshi", "Hailey Matyac", "Angie Espino", "Maile Adams"],
+          "is_cross_listing": true,
+          "cross_listed_with": {"category": "Grand Finale", "place": "Winner"}
+        },
+        {
+          "category": "Track Award (Social Enterprise)",
+          "place": "1st",
+          "team": "Shower Power",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "Shower system that recycles the 5% of water wasted while warming up.",
+          "members": []
+        },
+        {
+          "category": "Track Award (Social Enterprise)",
+          "place": "2nd",
+          "team": "TeamMade",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "Modular Accessory Dwelling Units (ADUs) for affordable housing.",
+          "members": ["UCI/OCC Partnership Team (individual roster not published)"]
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "status": "completed",
+      "theme": "Gen Z Technology and Sustainability",
+      "edition_number": "18th annual",
+      "judges": [
+        "Isabelle Bart",
+        "Rodrigo Mahs",
+        "Lori Mazan",
+        "Debbie Lin"
+      ],
+      "judges_note": "Final-round Shark Tank style panel.",
+      "judges_source": "https://bli.uci.edu/stella_zhang/",
+      "awards": [
+        {
+          "category": "Grand Prize",
+          "place": "Winner",
+          "team": "Noveil",
+          "prize_text": "$20,000",
+          "prize_amount_usd": 20000,
+          "project": "Video dating app for Gen Z students eliminating \"swiping\" and profiles.",
+          "members": ["Michael Allotey", "Kendrick Barefield (co-founder per Arch Grants company directory)"]
+        },
+        {
+          "category": "Runner-Up",
+          "place": "Winner",
+          "team": "Enjovu Paper",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "Sustainable paper produced from regenerated fibers in elephant feces.",
+          "members": []
+        },
+        {
+          "category": "Track Award (Consumer Services)",
+          "place": "1st",
+          "team": "Noveil",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "Video dating app for Gen Z students eliminating \"swiping\" and profiles.",
+          "members": ["Michael Allotey", "Kendrick Barefield (co-founder per Arch Grants company directory)"],
+          "is_cross_listing": true,
+          "cross_listed_with": {"category": "Grand Prize", "place": "Winner"}
+        },
+        {
+          "category": "Track Award (Consumer Services)",
+          "place": "2nd",
+          "team": "SnapHealth",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "App empowering patients to control their sensitive health record data.",
+          "members": ["Ashraf Hammouri"]
+        },
+        {
+          "category": "Track Award (Life Sciences)",
+          "place": "1st",
+          "team": "forMED Technologies",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "At-home non-invasive intraocular-pressure monitoring device to prevent blindness from glaucoma.",
+          "members": ["Aryan Agarwal", "Ruben Shakya", "Raphael Francis Aguas", "Lily McGrale", "Kamalesh Ananthakrishnan"],
+          "members_note": "Roster expanded 2026-05-12 from 3 to 5 members per UCI Beall and Butterworth 2021 winners page; Francis Aguas's first name expanded to 'Raphael Francis Aguas' per the same source.",
+          "also_won": ["1st Place, Beall Student Design Competition 2021 (sibling UCI competition; same intraocular-pressure project predates the 2022 NVC win)"]
+        },
+        {
+          "category": "Track Award (Life Sciences)",
+          "place": "2nd",
+          "team": "Sayenza Biosciences",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "Automated multifunctional platform for processing liposuction fat (the body's largest source of regenerative cells) for aesthetic surgery and regenerative-medicine applications.",
+          "members": ["Derek A. Banyard, MD, MS, MBA (Founder & CEO; UCI School of Medicine alumnus)", "Jered B. Haun (Co-Founder; Associate Professor of Biomedical Engineering at UCI)", "Alan D. Widgerow (Co-Founder; UCI Center for Tissue Engineering)"],
+          "company_founded": "2020-11",
+          "company_founded_note": "Per UCI Beall May 2021 feature describing the company as founded 'in November of last year.'"
+        },
+        {
+          "category": "Track Award (Business Products)",
+          "place": "1st",
+          "team": "Nutripair",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "Clinical nutrition platform pairing users with foods based on dietary needs and chronic-condition profiles. Concept evolved post-NVC toward a restaurant-discovery platform helping people with dietary restrictions find local businesses that meet their needs.",
+          "members": ["Catlin Tran (Founder & CEO; Business Economics '23; 2022 UCI Beall Creativity & Entrepreneurship Scholarship recipient)", "Bing Mo (UCI alum '21, co-founder)"],
+          "also_won": ["2nd Place, Butterworth Product Development Competition 2021 (sibling UCI competition; predates the 2022 NVC win)"]
+        },
+        {
+          "category": "Track Award (Business Products)",
+          "place": "2nd",
+          "team": "EmpowerMi",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "Technology-driven mental wellness platform.",
+          "members": []
+        },
+        {
+          "category": "Track Award (Consumer Products)",
+          "place": "1st",
+          "team": "HAI",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "Sustainable jewelry made from recycled ocean waste; team pivoted from smartphone cases. 'HAI' means 'ocean' in Taiwanese.",
+          "members": ["Yi-Ching (Wendy) Huang (CEO)", "Katrina Alberto (CMO)", "Ting-Ling (Tina) Kuo (CPO)", "Hsiao-Tung (Shelly) Liao (CFO)", "Tanaporn (Paul) Suwatnodom (COO)", "Pongthanit (Pong) Bisalputra"],
+          "coach": "Massoomeh Kazerouni"
+        },
+        {
+          "category": "Track Award (Consumer Products)",
+          "place": "2nd",
+          "team": "GaleGauge",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "Golf training tool using wind/temp data to adjust swing calculations.",
+          "members": []
+        },
+        {
+          "category": "Track Award (Social Enterprise)",
+          "place": "1st",
+          "team": "Blue Aqua Food Tech",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "Insect-based alternative protein for fish feed to solve fishmeal shortages.",
+          "members": ["Hamoon Shishechian (NVC presenter; co-founder)", "Kendyll Trenary (NVC presenter; COO)", "Agustine Pimentel (NVC presenter; consultant)", "Parham 'Bahar' Mansor Safain (co-founder; not a presenter at NVC per Sunstone)"]
+        },
+        {
+          "category": "Track Award (Social Enterprise)",
+          "place": "2nd",
+          "team": "Enjovu Paper",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "Sustainable paper produced from regenerated fibers in elephant feces.",
+          "members": [],
+          "is_cross_listing": true,
+          "cross_listed_with": {"category": "Runner-Up", "place": "Winner"}
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "status": "completed",
+      "theme": "Remote Work Solutions and Digital Health",
+      "edition_number": "17th annual",
+      "judges": [
+        "Gina Heitkamp",
+        "Pam Moellenhoff",
+        "Ken Neeld",
+        "Carrie Reynolds",
+        "Hicham Semaan"
+      ],
+      "judges_note": "Gina Heitkamp is also a former NVC finalist (2014 Grand Prize with iBesties), making her the first documented finalist-to-judge transition in the archive.",
+      "judges_source": "https://merage.uci.edu/news/2021/06/Shaka-Takes-Home-First-Place-at-the-2021-New-Venture-Competition.html",
+      "awards": [
+        {
+          "category": "Grand Prize",
+          "place": "Winner",
+          "team": "Shaka",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "prize_note": "Specific Grand Prize amount $10,000 per UCI Beall Wayfinder coverage 2026-05-12; combined with the $7,500 Business Products 1st = $17,500 total per Merage 2021-06 primary source.",
+          "project": "Culture-building app for remote teams to maintain engagement.",
+          "members": ["Melanie Wertzberger (CEO)", "Austin Chauncey (CTO)", "Preston Le (Research Analyst)", "Agustine \"Augie\" Pimentel (Customer Success Specialist)"]
+        },
+        {
+          "category": "Audience Favorite",
+          "place": "Winner",
+          "team": "MONI",
+          "prize_text": "$1,000",
+          "prize_amount_usd": 1000,
+          "project": "NFC-activated pet tag and community safety app.",
+          "members": []
+        },
+        {
+          "category": "Track Award (Business Products)",
+          "place": "1st",
+          "team": "Shaka",
+          "prize_text": "$7,500",
+          "prize_amount_usd": 7500,
+          "project": "Culture-building app for remote teams to maintain engagement.",
+          "members": ["Melanie Wertzberger (CEO)", "Austin Chauncey (CTO)", "Preston Le (Research Analyst)", "Agustine \"Augie\" Pimentel (Customer Success Specialist)"],
+          "is_cross_listing": true,
+          "cross_listed_with": {"category": "Grand Prize", "place": "Winner"}
+        },
+        {
+          "category": "Track Award (Business Products)",
+          "place": "2nd",
+          "team": "Health Libero",
+          "prize_text": "Undisclosed",
+          "prize_amount_usd": null,
+          "project": "Marketplace redefining healthcare price transparency.",
+          "members": []
+        },
+        {
+          "category": "Track Award (Consumer Products)",
+          "place": "1st",
+          "team": "MONI",
+          "prize_text": "Undisclosed",
+          "prize_amount_usd": null,
+          "project": "NFC-activated pet tag and community safety app.",
+          "members": [],
+          "is_cross_listing": true,
+          "cross_listed_with": {"category": "Audience Favorite", "place": "Winner"}
+        },
+        {
+          "category": "Track Award (Consumer Products)",
+          "place": "2nd",
+          "team": "Hydroflow",
+          "prize_text": "Undisclosed",
+          "prize_amount_usd": null,
+          "project": "Smart water bottle cap that tracks water intake and monitors hydration levels.",
+          "members": []
+        },
+        {
+          "category": "Track Award (Consumer Services)",
+          "place": "1st (Tie)",
+          "team": "MoodCloud",
+          "prize_text": "$2,500 (tied; split $5,000 with REMSYS)",
+          "prize_amount_usd": 2500,
+          "prize_note": "Corrected 2026-05-12 from $5,000 to $2,500 per Merage 2021-06 primary source: MoodCloud and REMSYS tied for 1st in Consumer Services and each received half of a $5,000 prize ($2,500 each).",
+          "project": "AI lifestyle/health management app.",
+          "members": ["Jimmy Nguyen"]
+        },
+        {
+          "category": "Track Award (Consumer Services)",
+          "place": "1st (Tie)",
+          "team": "REMSYS",
+          "prize_text": "$2,500 (tied; split $5,000 with MoodCloud)",
+          "prize_amount_usd": 2500,
+          "prize_note": "Corrected 2026-05-12 from $5,000 to $2,500 per Merage 2021-06 primary source: MoodCloud and REMSYS tied for 1st in Consumer Services and each received half of a $5,000 prize ($2,500 each).",
+          "project": "Resume management system for college students.",
+          "members": ["Victoria Sahrai"]
+        },
+        {
+          "category": "Track Award (Life Sciences)",
+          "place": "1st",
+          "team": "StyloSonic",
+          "prize_text": "$7,500",
+          "prize_amount_usd": 7500,
+          "project": "Handpiece for early gingivitis diagnosis using periodontal metrics.",
+          "members": []
+        },
+        {
+          "category": "Track Award (Life Sciences)",
+          "place": "2nd",
+          "team": "HydroVasc",
+          "prize_text": "Undisclosed",
+          "prize_amount_usd": null,
+          "project": "Injectable hydrogel platform for tissue regeneration.",
+          "members": []
+        },
+        {
+          "category": "Track Award (Social Enterprise)",
+          "place": "1st",
+          "team": "Circular",
+          "prize_text": "$7,500",
+          "prize_amount_usd": 7500,
+          "project": "Closed-loop food waste system using worm composting and vertical farming.",
+          "members": ["Caleb Finn", "Anjan Rana Magar"]
+        },
+        {
+          "category": "Track Award (Social Enterprise)",
+          "place": "2nd",
+          "team": "Tooke Fabrics",
+          "prize_text": "$2,500",
+          "prize_amount_usd": 2500,
+          "project": "Fabric produced from banana stems, employing marginalized widows.",
+          "members": ["Anthea Mudanye", "Anthony Eduafo", "Hamza Ibrahim", "Emmanuel Fiagbe"]
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "status": "completed",
+      "theme": "Pandemic Resilience and First MIE Winner",
+      "edition_number": "16th annual",
+      "confirmed_judges_partial": ["Ken Neeld (Chair, Beall Center; judge in NVC for five years)"],
+      "judges_note": "Press release otherwise refers to 'five Orange County investors and entrepreneur ecosystem influencers' without naming them.",
+      "judges_source": "https://merage.uci.edu/news/2020/06/baby-box-wins-25,000-grand-prize-at-2020-new-venture-competition.html",
+      "awards": [
+        {
+          "category": "Grand Prize",
+          "place": "Winner",
+          "team": "Baby Box",
+          "prize_text": "$25,000",
+          "prize_amount_usd": 25000,
+          "project": "AI-powered subscription for age-tailored baby products (0-3 years).",
+          "members": ["Zarina Bahadur (MIE '20)"]
+        },
+        {
+          "category": "Audience Favorite",
+          "place": "Winner",
+          "team": "Bottle Built",
+          "prize_text": "$1,000",
+          "prize_amount_usd": 1000,
+          "project": "Affordable housing construction using recycled PETE plastics.",
+          "members": ["Aryan Ghanadan"]
+        },
+        {
+          "category": "Track Award (Consumer Products)",
+          "place": "1st",
+          "team": "Baby Box",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "AI-powered subscription for age-tailored baby products (0-3 years).",
+          "members": ["Zarina Bahadur (MIE '20)"],
+          "is_cross_listing": true,
+          "cross_listed_with": {"category": "Grand Prize", "place": "Winner"}
+        },
+        {
+          "category": "Track Award (Consumer Products)",
+          "place": "2nd",
+          "team": "Voltek",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "Blind spot detection device for bicycles using camera sensors.",
+          "members": []
+        },
+        {
+          "category": "Track Award (Consumer Services)",
+          "place": "1st",
+          "team": "No Decaf Allowed",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "Premium coffee subscription delivering fresh beans from roasters.",
+          "members": ["Jim Robertson"]
+        },
+        {
+          "category": "Track Award (Consumer Services)",
+          "place": "2nd",
+          "team": "Prophet Predictive Modeling",
+          "team_aliases": ["Prophet Modeling"],
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "AI-based money management services for accredited investors.",
+          "members": [],
+          "naming_note": "Renamed 2026-05-12 from 'Prophet Modeling' to 'Prophet Predictive Modeling' per Merage 2020 press release primary source."
+        },
+        {
+          "category": "Track Award (Business Products)",
+          "place": "1st",
+          "team": "Ardha Health",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "Collaboration software for post-acute care (PAC) teams.",
+          "members": ["Drew Park"]
+        },
+        {
+          "category": "Track Award (Business Products)",
+          "place": "2nd",
+          "team": "Instinct",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "Software measuring real-time stress levels to improve productivity.",
+          "members": ["Sumanth Pallamreddy"]
+        },
+        {
+          "category": "Track Award (Life Sciences)",
+          "place": "1st",
+          "team": "ImmunoTarget",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "Personalized cancer immunotherapies.",
+          "members": ["Stephanie Hachey"]
+        },
+        {
+          "category": "Track Award (Life Sciences)",
+          "place": "2nd",
+          "team": "CannTek",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "Electrochemical device for detecting THC levels (law enforcement).",
+          "members": ["Oren"]
+        },
+        {
+          "category": "Track Award (Social Enterprise)",
+          "place": "1st",
+          "team": "Conshus Clothing",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "Sustainable fair-trade fashion brand empowering women.",
+          "members": ["Arneeb Mahbub", "Parth"]
+        },
+        {
+          "category": "Track Award (Social Enterprise)",
+          "place": "2nd",
+          "team": "Bottle Built",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "Affordable housing construction using recycled PETE plastics.",
+          "members": ["Aryan Ghanadan"],
+          "is_cross_listing": true,
+          "cross_listed_with": {"category": "Audience Favorite", "place": "Winner"}
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "status": "completed",
+      "theme": "Medical Devices and Social Platforms",
+      "edition_number": "15th annual",
+      "named_partners_and_sponsors": [
+        "Ken & Carla Neeld",
+        "Mansoor & Fiza Shah",
+        "Dr. Emanuel Shaoulian",
+        "Matt Bailey",
+        "Johnson Chuang"
+      ],
+      "confirmed_judges_partial": ["David Ochi (financial-modeling judge)"],
+      "judges_note": "Full final-round judging panel not preserved in indexed sources; named partners/sponsors above are not necessarily all final-round judges.",
+      "judges_source": "https://merage.uci.edu/events/2019/04/nvc-workshop-6-financial-models.html",
+      "awards": [
+        {
+          "category": "Tech Surge (Technology)",
+          "place": "1st",
+          "team": "ELF Therapeutics",
+          "prize_text": "Funded",
+          "prize_amount_usd": null,
+          "project": "Handheld device using electrochemical reaction to destroy fat cells.",
+          "members": ["Joon You (CTO / interim CEO)", "Dr. Brian Wong (facial plastic surgeon)", "Michael Hill, PhD (chemistry professor, Occidental College)", "Dr. Steve Yoelin (ophthalmologist)"],
+          "members_note": "ELF Therapeutics was the NVC team name; the corporate entity is eLysis Inc. Roster confirmed via UCI Beall Applied Innovation profile (innovation.uci.edu/news/elysis-...)."
+        },
+        {
+          "category": "Tech Surge (Technology)",
+          "place": "2nd",
+          "team": "P-FLAPs",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "Projection surgical device for stenciling on patients.",
+          "members": ["R Sayadi", "A Majumder"]
+        },
+        {
+          "category": "Track Award (Social Enterprise)",
+          "place": "1st",
+          "team": "VolunteerCrowd",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "Marketplace connecting students with nonprofits for transcripts.",
+          "members": ["Amy von Kaenel"]
+        },
+        {
+          "category": "Track Award (Social Enterprise)",
+          "place": "2nd",
+          "team": "giv",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "Mobile-first online giving platform prioritizing modern donors via curated, short-form video content from vetted nonprofits.",
+          "members": ["Lucas Erb", "Haven King", "Ryan Luu", "Nisarg Shah"],
+          "members_note": "Roster recovered 2026-05-12 from UCI Beall and Butterworth 2019 winners page. The 'giv' UCI student team is NOT the same as Givsum (Shawn Wehan / Robert Kollar; joined Wayfinder 2017) - separate entities; the BACKLOG 'possible giv → Givsum' lead can now be closed as DISCONFIRMED.",
+          "also_won": ["2nd Place, Butterworth Software Competition 2019 ($6,500; same year as the NVC appearance)"]
+        },
+        {
+          "category": "Track Award (Business Products)",
+          "place": "1st",
+          "team": "UniSafe",
+          "team_aliases": ["UniSAFE"],
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "Campus safety app with location sharing and escort features. Alerts users to areas with registered sex offenders or frequent crime.",
+          "members": ["Rahul Sreedasyam (co-founder; senior in Biomedical Engineering, Henry Samueli School of Engineering)", "Upasana Mustafi", "Praveen Ravisankar"],
+          "members_note": "Roster expanded 2026-05-12 from 1 to 3 named members per UCI Beall and Butterworth 2019 winners page (capitalized as 'UniSAFE' there). Other members beyond these three may still be Not Listed.",
+          "also_won": ["Finalist, Butterworth Software Competition 2019 (sibling UCI competition; same year as the NVC appearance)"]
+        },
+        {
+          "category": "Track Award (Business Products)",
+          "place": "2nd",
+          "team": "Jiffal",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "Event management proposal.",
+          "members": []
+        },
+        {
+          "category": "Track Award (Consumer Services)",
+          "place": "1st",
+          "team": "myHealth Today",
+          "team_aliases": ["myHealthToday"],
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "Senior-friendly voice assistant for tracking medical appointments. The app (myHealthJournal) is a HIPAA-compliant patient-engagement service letting seniors record symptoms via voice and parse into a provider-friendly format.",
+          "members": ["Kevin Wu (MBA '20, CEO)"],
+          "members_note": "Only CEO Kevin Wu is named in indexed UCI Merage coverage; full founding team not preserved. Company officially incorporated June 2020 post-NVC."
+        },
+        {
+          "category": "Track Award (Consumer Services)",
+          "place": "2nd (Tie)",
+          "team": "Curbd / SwappIt",
+          "prize_text": "$5,000 each (tied)",
+          "prize_amount_usd": 5000,
+          "prize_note": "Tied 2nd place; each team received $5,000 per Orange County Startups Council coverage.",
+          "project": "Driveway parking app / Streetwear trading platform.",
+          "members": [],
+          "curbd_members": ["Farbod Rafezy (UCI Computer Science, Google Student Innovator; Lead Engineer)", "Iman Enayati (UCLA Psychobiology; Operations Manager)", "Ryan Dang (UCI Computer Science; Software Developer)"],
+          "swappit_members_note": "SwappIt member roster not preserved in indexed public sources."
+        },
+        {
+          "category": "Track Award (Consumer Products)",
+          "place": "1st",
+          "team": "Poo Pal",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "Clip for dog waste bags.",
+          "members": []
+        },
+        {
+          "category": "Track Award (Consumer Products)",
+          "place": "2nd",
+          "team": "Steth 'n Go",
+          "prize_text": "Undisclosed",
+          "prize_amount_usd": null,
+          "project": "Magnetic stethoscope holder.",
+          "members": ["Omar Darwish (CEO; Associate Professor & Hospitalist at UC Irvine Health, Director of Point-of-Care Ultrasound for the Department of Medicine)"]
+        },
+        {
+          "category": "Track Award (Life Sciences)",
+          "place": "1st",
+          "team": "ELF Therapeutics",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "Handheld device using electrochemical reaction to destroy fat cells.",
+          "members": ["Joon You (CTO / interim CEO)", "Dr. Brian Wong (facial plastic surgeon)", "Michael Hill, PhD (chemistry professor, Occidental College)", "Dr. Steve Yoelin (ophthalmologist)"],
+          "is_cross_listing": true,
+          "cross_listed_with": {"category": "Tech Surge (Technology)", "place": "1st"}
+        },
+        {
+          "category": "Track Award (Life Sciences)",
+          "place": "2nd",
+          "team": "Embryologic",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "Noninvasive imaging to assess embryo quality for IVF.",
+          "members": ["Michelle Digman (BME asst. professor, founder)", "Ning Ma (BME graduate student, Digman lab)", "Hongtao Chen (project scientist)", "Zhenghao Li (CS alumnus)"],
+          "members_note": "Roster recovered from Samueli engineering 2019-05 coverage on 2026-05-12; the same team also competed at the 2019 Rice University Business Plan Competition, taking 2nd place in their semifinal round."
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "status": "completed",
+      "theme": "Orthodontics and Social Good",
+      "edition_number": "14th annual",
+      "notes": "No overall Grand Prize / Runner-Up was awarded that year. 2018 final round had 54 finalist teams; only winners are listed in the awards array below.",
+      "confirmed_judges_partial": ["Chris Halliwell (Beall Center Board Member)"],
+      "judges_note": "Press release otherwise describes judges only as 'experienced investors, entrepreneurs, and senior business practitioners.'",
+      "judges_source": "https://merage.uci.edu/news/2018/fourteen-teams-walk-away-with-more-than-100,000-in-cash-and-prizes-following-final-round-of-uci-new-venture-competition.html",
+      "awards": [
+        {
+          "category": "Track Award (Life Sciences)",
+          "place": "1st",
+          "team": "Mechanodontics",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "Behind-the-teeth braces reducing treatment time to 1 year.",
+          "members": ["Zahra Mamaghani", "Mahdi Tehrani", "Mehdi Peikar", "Ishita (last name not preserved in Merage 2018 source)", "James Wratten"]
+        },
+        {
+          "category": "Track Award (Life Sciences)",
+          "place": "2nd",
+          "team": "First Step Diagnostics",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "Early diagnosis of infant behavioral issues (3 weeks old).",
+          "members": ["Max Lechner", "Hannah Mylabathula", "Dr. Elizabeth Chao", "Dave Ferguson"]
+        },
+        {
+          "category": "Track Award (Social Enterprise)",
+          "place": "1st",
+          "team": "Apeel Juice",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "Juice made from cosmetically defective produce to reduce waste.",
+          "members": ["Keene Do", "Jacqueline Kao", "Matthew Nguyen", "Huan Quach"]
+        },
+        {
+          "category": "Track Award (Social Enterprise)",
+          "place": "2nd",
+          "team": "CarDana",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "Platform democratizing charitable vehicle donations.",
+          "members": ["Anthony Glenn", "Jan Biermeyer", "Gonzalo Vargas", "Derek Singh"]
+        },
+        {
+          "category": "Track Award (Business Products)",
+          "place": "1st",
+          "team": "Celebrate in a Snap",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "All-in-one party supply packages.",
+          "members": ["Jyothi Pradhan", "Emily Chan", "Jose Enrique Hernandez", "Junaid Ahmed"]
+        },
+        {
+          "category": "Track Award (Business Products)",
+          "place": "2nd",
+          "team": "SolarLab",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "Design tool for solar PV systems.",
+          "members": ["Hao Peng", "Yanchen Wu", "Jiale Chen", "Edward Li"]
+        },
+        {
+          "category": "Track Award (Consumer Products)",
+          "place": "1st",
+          "team": "ARTEM",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "Marketplace for underground artists aged 18-24.",
+          "members": ["Emily Vu", "Cesar Corral", "Matthew Peterson"]
+        },
+        {
+          "category": "Track Award (Consumer Products)",
+          "place": "2nd",
+          "team": "Gimme",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "App helping consumers decide where to eat.",
+          "members": ["Dhananjay Kumar", "Philip Erford", "Brenton Higa", "John Dang", "Justin McDonald"]
+        },
+        {
+          "category": "Track Award (Consumer Services)",
+          "place": "1st",
+          "team": "Wing",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "Tech for corporate sustainable competitiveness.",
+          "members": ["Karan Kanwar", "Martin Gomez", "Tod Srisengfa", "Monish Ramadoss", "Jackson Wickman"]
+        },
+        {
+          "category": "Track Award (Consumer Services)",
+          "place": "2nd",
+          "team": "Graduate Data",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "Social networking for student mentorship.",
+          "members": ["Mohammad Fidaali", "Daniel Dai", "Emily Walker", "David Liu"]
+        },
+        {
+          "category": "Tech Surge (Technology)",
+          "place": "1st",
+          "team": "First Step Diagnostics",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "Early diagnosis of infant behavioral issues (3 weeks old).",
+          "members": ["Max Lechner", "Hannah Mylabathula", "Dr. Elizabeth Chao", "Dave Ferguson"],
+          "is_cross_listing": true,
+          "cross_listed_with": {"category": "Track Award (Life Sciences)", "place": "2nd"}
+        },
+        {
+          "category": "Tech Surge (Technology)",
+          "place": "2nd",
+          "team": "Closed Loop Plastics",
+          "prize_text": "$7,500",
+          "prize_amount_usd": 7500,
+          "project": "Localized plastic recycling infrastructure.",
+          "members": ["William Amos", "Aldrin Lupisan", "Jesse Jackson", "Sharon To", "Ivette Morales"]
+        },
+        {
+          "category": "Tech Surge (Technology)",
+          "place": "3rd",
+          "team": "LaserFocus",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "Tech Surge 3rd Place per Merage 2018 press release.",
+          "members": ["Natalie Wong", "Nasam Chokr", "Anthony Ricaldi", "Brad Padgitt", "Bryan Ou", "Michael Nguyen"]
+        },
+        {
+          "category": "Tech Surge (Technology)",
+          "place": "4th",
+          "team": "EchoSol",
+          "prize_text": "$2,500",
+          "prize_amount_usd": 2500,
+          "project": "Tech Surge 4th Place per Merage 2018 press release.",
+          "members": ["Arghavan Arafati", "Yen Cathy Pham", "Kasra Karimian", "Mohit Pandita"]
+        }
+      ],
+      "primary_source": "https://merage.uci.edu/news/2018/fourteen-teams-walk-away-with-more-than-100,000-in-cash-and-prizes-following-final-round-of-uci-new-venture-competition.html"
+    },
+    {
+      "year": 2017,
+      "status": "completed",
+      "theme": "Deep Tech and Medical Innovation",
+      "awards": [
+        {
+          "category": "Grand Prize (School of Medicine)",
+          "place": "Winner",
+          "team": "Purist",
+          "prize_text": "$15,000",
+          "prize_amount_usd": 15000,
+          "project": "Localized nuclear reactors for cancer treatment isotopes.",
+          "members": ["Daniel Dai", "Mikael Nilsson", "Kim Westerbeck", "Leila Safavi-Tehrani", "Donald Magnuson", "Joyce Keyak (UCI Professor, Radiological Science)"]
+        },
+        {
+          "category": "Tech Surge (Technology)",
+          "place": "1st",
+          "team": "Purist",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "Localized nuclear reactors for cancer treatment isotopes.",
+          "members": ["Daniel Dai", "Mikael Nilsson", "Kim Westerbeck", "Leila Safavi-Tehrani", "Donald Magnuson", "Joyce Keyak (UCI Professor, Radiological Science)"],
+          "is_cross_listing": true,
+          "cross_listed_with": {"category": "Grand Prize (School of Medicine)", "place": "Winner"}
+        },
+        {
+          "category": "Tech Surge (Technology)",
+          "place": "2nd",
+          "team": "APIC Diagnostics",
+          "prize_text": "$7,500",
+          "prize_amount_usd": 7500,
+          "project": "Non-invasive saliva diagnostic device.",
+          "members": ["Pravin Surana", "Anandkumar Surendrarao", "Cyril Soliman", "Ishita Gulati"]
+        },
+        {
+          "category": "Track Award (Life Sciences)",
+          "place": "1st",
+          "team": "Venom-Aid",
+          "prize_text": "$4,000",
+          "prize_amount_usd": 4000,
+          "project": "Broad-spectrum anti-venom material.",
+          "members": ["Nicole Chow", "Luana Okumura", "Lisa Mae Dominia", "Jeffrey O'Brien"]
+        },
+        {
+          "category": "Track Award (Life Sciences)",
+          "place": "2nd",
+          "team": "Salux Diagnostics",
+          "prize_text": "$1,500",
+          "prize_amount_usd": 1500,
+          "project": "Rapid diagnostic technology for burn injuries.",
+          "members": ["Dimple Patel", "Eashani Sathialibgam", "Akshita Agrawal", "Shreya Akkenapally", "Maaikee Pronda", "Kevin Trieu"]
+        },
+        {
+          "category": "Outstanding Undergraduate Team",
+          "place": "Winner",
+          "team": "Salux Diagnostics",
+          "prize_text": "$1,000",
+          "prize_amount_usd": 1000,
+          "project": "Rapid diagnostic technology for burn injuries.",
+          "members": ["Dimple Patel", "Eashani Sathialibgam", "Akshita Agrawal", "Shreya Akkenapally", "Maaikee Pronda", "Kevin Trieu"],
+          "is_cross_listing": true,
+          "cross_listed_with": {"category": "Track Award (Life Sciences)", "place": "2nd"}
+        },
+        {
+          "category": "Track Award (Consumer Products)",
+          "place": "1st",
+          "team": "BrainCheck",
+          "prize_text": "$4,000",
+          "prize_amount_usd": 4000,
+          "project": "Portable brain-computer interface (BCI).",
+          "members": ["Garvin Arellano", "Tina Chan", "Junghyun Kim", "Jordan Samonte", "Thomas Tran"]
+        },
+        {
+          "category": "Track Award (Consumer Products)",
+          "place": "2nd",
+          "team": "Failsafe",
+          "prize_text": "$1,500",
+          "prize_amount_usd": 1500,
+          "project": "Personal safety mobile application.",
+          "members": ["Natalie Sweis", "Jasmine Yu", "Issa Sweis"]
+        },
+        {
+          "category": "Track Award (Consumer Services)",
+          "place": "1st",
+          "team": "Memorlane",
+          "prize_text": "$4,000",
+          "prize_amount_usd": 4000,
+          "project": "Collaborative photo-sharing iOS app.",
+          "members": ["Evan Schein", "Yocelyn Recinos"]
+        },
+        {
+          "category": "Track Award (Consumer Services)",
+          "place": "2nd",
+          "team": "Eater Zone",
+          "prize_text": "$1,500",
+          "prize_amount_usd": 1500,
+          "project": "Homemade-style cuisine delivery for campuses.",
+          "members": ["Helen Hu", "Henry Chen", "Jonathan Kumamoto (Informatics)", "Anna Zhang (Econ)", "Angela Lao (Chemistry)"]
+        },
+        {
+          "category": "Track Award (Business Products)",
+          "place": "1st",
+          "team": "Element: B2B2C",
+          "prize_text": "$4,000",
+          "prize_amount_usd": 4000,
+          "project": "E-commerce automation for patient delivery.",
+          "members": ["Simon Loo", "Brianne Pena", "Shifa Safeeq", "Scott Winter"]
+        },
+        {
+          "category": "Track Award (Business Products)",
+          "place": "2nd",
+          "team": "COMPAS",
+          "prize_text": "$1,500",
+          "prize_amount_usd": 1500,
+          "project": "Patient flow visualization system.",
+          "members": ["Scott Ruskin", "Don Magnuson", "Curtis Hendrick", "Michael Glover", "Aaron Soto"]
+        },
+        {
+          "category": "Tech Surge (Technology)",
+          "place": "Honorable Mention",
+          "team": "Syntr Health Technologies",
+          "prize_text": "$2,500",
+          "prize_amount_usd": 2500,
+          "project": "Tech Surge honorable mention per Merage 2017 press release.",
+          "members": []
+        },
+        {
+          "category": "Tech Surge (Technology)",
+          "place": "Honorable Mention",
+          "team": "NanoShield Biotix",
+          "prize_text": "$2,500",
+          "prize_amount_usd": 2500,
+          "project": "Tech Surge honorable mention per Merage 2017 press release.",
+          "members": []
+        },
+        {
+          "category": "Designing Solutions for Poverty Alleviation (Blum Center, co-located)",
+          "category_aliases": ["Track Award (Poverty Alleviation)"],
+          "place": "1st",
+          "team": "Esqalate",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "Web platforms providing legal access to low-income Americans.",
+          "members": ["Joubin Khazaie", "Mahan Naeim", "Chad Trainer", "Ilja Goushcha"],
+          "co_located_competition_note": "Per Merage 2017 press release this was the Blum Center's 'Designing Solutions for Poverty Alleviation' competition co-located with the NVC weekend, not an NVC track."
+        },
+        {
+          "category": "Designing Solutions for Poverty Alleviation (Blum Center, co-located)",
+          "place": "Runner-Up",
+          "team": "Loy Loy, The Savings Game",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "Co-located Blum Center pitch contest (Designing Solutions for Poverty Alleviation).",
+          "members": []
+        },
+        {
+          "category": "Designing Solutions for Poverty Alleviation (Blum Center, co-located)",
+          "place": "Runner-Up",
+          "team": "Pure Game",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "Co-located Blum Center pitch contest (Designing Solutions for Poverty Alleviation).",
+          "members": []
+        }
+      ],
+      "primary_source": "https://merage.uci.edu/press-releases/2017/05/fifteen-teams-walk-away-with-more-than-100,000-in-cash-and-prizes-following-final-round-of-uci-new-venture-competition.html"
+    }
+  ],
+  "pre_2017_editions": [
+    {
+      "year": 2009,
+      "competition_name_at_time": "Merage Business Plan Competition",
+      "grand_prize": {
+        "team": "ZeroWatt Technologies",
+        "project": "Low-power data converter ICs to extend battery life in portable electronics",
+        "prize_text": "$15,000 + Best Concept Paper",
+        "prize_amount_usd": 15000,
+        "members": ["Payam Heydari (Associate Professor of EECS & co-founder)", "Fred Tzeng (PhD student & co-founder)", "Vipul Jain (PhD student)", "Howard Ko (MBA student)", "Thomas Pearson (Merage MBA alumnus)"],
+        "coach": "Goran Matijasevic, PhD, MBA"
+      },
+      "undergraduate_winner": {
+        "team": "Happy Sleep",
+        "project": "Bluetooth wristband alarm",
+        "prize_text": "$3,500 + Best Concept Paper (undergraduate division)",
+        "prize_amount_usd": 3500,
+        "members": ["Praveen De Silva (Mechanical & Materials Science Engineering)", "Kevin Hung (Mechanical & Materials Science Engineering)"]
+      }
+    },
+    {"year": 2010, "status": "no_public_record"},
+    {"year": 2011, "status": "no_public_record"},
+    {
+      "year": 2012,
+      "competition_name_at_time": "Merage Business Plan Competition",
+      "grand_prize": {
+        "team": "Prescient Imaging",
+        "project": "Compact PET-imaging hardware for medical diagnostics",
+        "prize_text": "Not Disclosed",
+        "prize_amount_usd": null,
+        "members": ["Farhad Daghighian (Co-Founder, CEO; founded Prescient Imaging in 2008)", "Ariel Beroukhim (originally developed the business model for a class project, then joined Daghighian's NVC team)"]
+      }
+    },
+    {
+      "year": 2013,
+      "competition_name_at_time": "Merage Business Plan Competition",
+      "grand_prize": {
+        "team": "Laser Associated Sciences",
+        "team_aliases": ["LAS"],
+        "division": "Campus Wide",
+        "project": "Medical device company using laser technology for medical diagnostic instrumentation",
+        "prize_text": "$15,000",
+        "prize_amount_usd": 15000,
+        "members": ["Charlene Ong", "Tyler Rice", "Sean White (BME / Edwards Lifesciences)", "Bruce Yang (BME)"],
+        "coach": "Dale Sadlik"
+      },
+      "other_winners": [
+        {
+          "place": "2nd (Campus Wide)",
+          "team": "ValveStrong",
+          "project": "Hybrid heart valve prostheses with self-regenerative capacity, lifelong durability, and enhanced biocompatibility",
+          "prize_text": "$7,500 (Campus Wide 2nd) + $6,000 TechPortal Orange Residency Award + $500 Best Concept Paper",
+          "prize_amount_usd": 14000,
+          "members": ["S. Hamed Alavi (BME / Edwards Lifesciences)", "Peggy Bui", "Seema Ehsan (CHEMS / Edwards Lifesciences)"],
+          "coach": "Richard Henson"
+        },
+        {
+          "place": "3rd (Campus Wide)",
+          "team": "NoreGen",
+          "project": "Medical diagnostic device to detect circulating tumor cells (CTCs) in blood",
+          "prize_text": "$3,500 (Campus Wide 3rd) + $30,000 UCI School of Medicine Life Sciences Award",
+          "prize_amount_usd": 33500,
+          "members": ["Neychelle Fernandes (FTMBA)", "Ashley Fong (IGERT LifeChips fellow / Edwards Lifesciences)", "Laura Innes (IGERT LifeChips fellow)", "Robert Joachim (UCI Physics)", "Jonathan Lin (MD FTMBA)", "Matthew Schiel (BME)", "Zuzanna Siwy (Prof, team lead)"],
+          "coach": "Alvin Viray"
+        },
+        {
+          "place": "Undergraduate Division winner",
+          "team": "Nobles Medical Technology",
+          "project": "Artificial pumping heart system for surgeons to practice catheter surgeries",
+          "prize_text": "$2,500",
+          "prize_amount_usd": 2500,
+          "members": ["Shoumyo Dewan", "Joseph Gomez (BME)", "Jin Kim", "Kenny La", "Stephen Lee", "Timothy Macagba (BME)", "Suraj Sampath", "Sohan Weeraratne (BME)"],
+          "coach": "Demetri Andrikos",
+          "naming_note": "UCI undergraduate team; name appears coincidental and unrelated to Anthony Nobles' commercial Nobles Medical Technologies II, Inc. (founded 2009, Fountain Valley, NobleStitch product)."
+        },
+        {
+          "place": "TechPortal Calit2 Residency Award",
+          "team": "MEGAL!NE",
+          "project": "Technology-based language learning software that imitates pronunciations and creates text streams while watching videos",
+          "prize_text": "$2,750 in-kind (TechPortal Calit2 Residency Award)",
+          "prize_amount_usd": 2750,
+          "prize_is_in_kind": true,
+          "members": ["Kimberly Co", "Jinelle D'souza", "Matty Ochmanek", "Sreevatsa Sreeraman (software engineering)", "Xinlu Tong (software engineering)", "Debbie Le Yu"],
+          "coach": "Tom Taulli"
+        },
+        {
+          "place": "UC Irvine Environment Institute Award",
+          "team": "Bloom Diagnostics",
+          "project": "Easy-to-use kit providing real-time identification of foam-causing bacteria species via molecular diagnostic techniques",
+          "prize_text": "$2,500 (UC Irvine Environment Institute Award)",
+          "prize_amount_usd": 2500,
+          "members": ["Amanda Gage", "Kevin Leong", "Ali Mansouri (CHEMS)", "Syed Naqvi", "Betty Olson", "Johnway Yih"],
+          "coach": "Earle Hager",
+          "naming_note": "UCI environmental student team; not to be confused with the unrelated Swiss medtech 'Bloom Diagnostics' (CRP / iron blood-test devices)."
+        }
+      ],
+      "disclosed_cash_total_usd": 67500,
+      "disclosed_cash_total_note": "$15,000 (LAS) + $14,000 (ValveStrong: $7.5K + $6K + $500) + $33,500 (NoreGen: $3.5K + $30K SoM Life Sciences Award) + $2,500 (Nobles) + $2,500 (Bloom Diagnostics). Excludes $2,750 in-kind TechPortal Calit2 Residency Award to MEGAL!NE. Roster and prize details verified against Samueli engineering primary source 2026-05-12.",
+      "primary_source": "https://engineering.uci.edu/news/2013/6/engineering-students-achieve-strong-showing-merage-business-plan-competition"
+    },
+    {
+      "year": 2014,
+      "competition_name_at_time": "Merage Business Plan Competition",
+      "grand_prize": {
+        "team": "iBesties",
+        "project": "Books, dolls, and online entertainment to inspire entrepreneurship and tech learning in girls aged 6-10. Six middle school girls in an Internet startup story.",
+        "prize_text": "$15,000",
+        "prize_amount_usd": 15000,
+        "members": ["Gina Heitkamp (MBA, Merage; previously worked with social networking startups)", "Jenae Heitkamp (child therapist, 15 years experience)"],
+        "historical_notes": "First all-female team to win the competition, first sister team to make the finals, and the first toy idea in the (then) 11-year-old contest."
+      }
+    },
+    {"year": 2015, "status": "no_public_record"},
+    {
+      "year": 2016,
+      "competition_name_at_time": "Merage Business Plan Competition",
+      "tracks_at_time": ["Life Sciences/Clean Tech", "UCI Intellectual Property", "IT/Web", "Consumer Products"],
+      "specialty_awards_at_time": ["Blum Center for Poverty Alleviation Award", "School of Medicine Award", "Most Outstanding Undergraduate Plan", "Best Pivot Program Plan"],
+      "grand_prize": {
+        "team": "EmbryLux",
+        "project": "Device screening embryos pre-implantation for IVF",
+        "prize_text": "$20,000 ($10,000 Life Sciences/Clean Tech 1st + $10,000 UCI Intellectual Property 1st; dual award)",
+        "prize_amount_usd": 20000,
+        "members": ["Tiffany Chien", "Yingkai Su", "Thai Nguyen", "Shin Fukazawa", "Daniel Tran"]
+      },
+      "other_finalists": [
+        {"team": "Dental Insights", "place": "1st (IT/Web)", "project": "Software to increase accuracy and authenticity of submitted dental claims", "prize_text": "$10,000", "prize_amount_usd": 10000, "members": ["Michael Bennett", "Andy Fields", "Vang Kou Khang"]},
+        {"team": "FunBand", "place": "1st (Consumer Products)", "project": "Secure wristband using LoRa technology to help parents track children at venues", "prize_text": "$10,000", "prize_amount_usd": 10000, "members": ["Rehema Feleke", "Simon Loo", "Cliff Wang"]},
+        {"team": "Negocios & Etc.", "place": "Blum Center for Poverty Alleviation Award", "project": "Online platform connecting business owners with affordable consultancies via a unique social network", "prize_text": "$10,000", "prize_amount_usd": 10000, "members": ["Caroline Cypriano", "Pravin Surana", "Fabio Sato"]},
+        {"team": "Sher Biomedical", "place": "School of Medicine Award", "prize_text": "$10,000", "prize_amount_usd": 10000, "members": ["Rachel Gurlin", "Avid Najdahmadi", "Bhupinder Shergill", "Jonathan Lakey", "Elliot Botnivick"]},
+        {"team": "Carbo", "place": "2nd (UCI Intellectual Property)", "project": "Novel therapeutic robot to supplement home, classroom and clinic therapy for autism spectrum disorder and ADHD", "prize_text": "$5,000", "prize_amount_usd": 5000, "members": ["Pooja Raja", "Rickesh Patel", "Xuemei Zhang", "Ahmed Khorshid", "Ting-Shuo Chou"]},
+        {"team": "Jam", "place": "2nd (IT/Web)", "project": "App that lets musicians easily connect, jam together and form groups remotely", "prize_text": "$5,000", "prize_amount_usd": 5000, "members": ["Emilio Miranda", "Miguel Cabral", "Jakob Jansson"]},
+        {"team": "CeleriBio", "place": "2nd (Life Sciences/Clean Tech)", "project": "Novel diagnostic device identifying extremely low concentrations of pathogens at early stages of infection", "prize_text": "$5,000", "prize_amount_usd": 5000, "members": ["Sean Freeman", "Nikki Koe", "Louai Labanieh", "Binh Le", "Sadaf Mirnia"]},
+        {"team": "Curaflow", "place": "2nd (Consumer Products)", "project": "Micro CPAP device for sleep apnea: motorless, tubeless, and maskless", "prize_text": "$5,000", "prize_amount_usd": 5000, "members": ["Jeffrey Chum", "Josh Drum", "Michael Shenk", "Matthew Vasquez", "Sam Pasin"]},
+        {"team": "Bottle Rocket", "place": "Most Outstanding Undergraduate Plan", "project": "Mobile app and direct-to-consumer recycling service rewarding customers for recycling at home", "prize_text": "$1,000", "prize_amount_usd": 1000, "members": ["Arthur Avetisov", "Brian Leung", "Eric Tam", "Lisa Tran", "Tina Mai"]},
+        {"team": "Maslow Construction Robots", "place": "Best Pivot Program Plan", "project": "Supplier of automated 3D-printing tools to real estate developers for low-cost emergency housing", "prize_text": "$1,500", "prize_amount_usd": 1500, "members": ["Andy Truong"]}
+      ],
+      "disclosed_cash_total_usd": 82500,
+      "disclosed_cash_total_note": "EmbryLux $20K (dual award) + Dental Insights $10K + FunBand $10K + Negocios & Etc. $10K + Sher Biomedical $10K + Carbo $5K + Jam $5K + CeleriBio $5K + Curaflow $5K + Bottle Rocket $1K + Maslow $1.5K = $82,500. UCI News reported 'more than $100,000 in cash and prizes' which appears to include legal services and workspace access not captured here. Track placements verified against UCI News primary source 2026-05-12 (previously unknown per BACKLOG Priority 4).",
+      "primary_source": "https://news.uci.edu/2016/05/11/uci-student-entrepreneurs-do-battle-in-business-plan-competition/"
+    }
+  ],
+  "cross_year_notes": {
+    "repeat_finalists": [
+      {
+        "name": "Simon Loo",
+        "appearances": [
+          {"year": 2016, "team": "FunBand", "awards": ["1st (Consumer Products)"]},
+          {"year": 2017, "team": "Element: B2B2C", "awards": ["Track Award (Business Products) 1st"]}
+        ]
+      },
+      {
+        "name": "Pravin Surana",
+        "appearances": [
+          {"year": 2016, "team": "Negocios & Etc.", "awards": ["Blum Center for Poverty Alleviation Award"]},
+          {"year": 2017, "team": "APIC Diagnostics", "awards": ["Tech Surge 2nd"]}
+        ]
+      },
+      {
+        "name": "Daniel Dai",
+        "appearances": [
+          {"year": 2017, "team": "Purist", "awards": ["Grand Prize (School of Medicine)", "Tech Surge 1st"]},
+          {"year": 2018, "team": "Graduate Data", "awards": ["Track Award (Consumer Services) 2nd"]}
+        ]
+      },
+      {
+        "name": "Dylan Riffle",
+        "appearances": [
+          {"year": 2023, "team": "Leprendo", "awards": ["Grand Finale Runner-Up", "Track Award (Consumer Services) 1st"]},
+          {"year": 2024, "team": "Two Cube", "awards": ["Track Award (Life Sciences) 1st"]}
+        ]
+      }
+    ],
+    "two_teams_same_year": [
+      {
+        "name": "Donald \"Don\" Magnuson",
+        "year": 2017,
+        "teams": ["Purist (Grand Prize SoM, Tech Surge 1st)", "COMPAS (Business Products 2nd)"]
+      }
+    ],
+    "disclosed_cash_totals_by_year_usd": {
+      "2025": 103500,
+      "2024": 100000,
+      "2023": 100000,
+      "2022": 100000,
+      "2021": 41000,
+      "2021_note": "Updated 2026-05-12: corrected from $46,000 to $41,000. MoodCloud and REMSYS tied for Consumer Services 1st and split a single $5,000 prize ($2,500 each), not $5,000 each as previously recorded. Prior context: Shaka $17,500 (GP + BP 1st combined per Merage source) added on 2026-05-11 to the previous $28,500 disclosed; this pass drops the MoodCloud/REMSYS double-count of $5,000.",
+      "2020": 101000,
+      "2019": 70000,
+      "2018": 100000,
+      "2018_note": "Updated 2026-05-12: added Tech Surge 3rd ($5,000 LaserFocus) + 4th ($2,500 EchoSol) per Merage 2018 primary source. Prior total $92,500 missed these line items.",
+      "2017": 85500,
+      "2017_note": "Updated 2026-05-12 from $64,500: added Tech Surge honorable mentions Syntr Health Technologies ($2,500) + NanoShield Biotix ($2,500), Salux Diagnostics Outstanding Undergraduate Team award ($1,000), and the co-located Designing Solutions for Poverty Alleviation Blum Center runners-up Loy Loy ($5,000) + Pure Game ($5,000), and reclassifies Esqalate's $10K under that same co-located Blum Center competition.",
+      "2016": 82500,
+      "2016_note": "Added 2026-05-12: full track placements and prize amounts recovered from UCI News primary source. EmbryLux $20K dual-award + Dental Insights $10K + FunBand $10K + Negocios $10K + Sher Biomedical $10K + Carbo / Jam / CeleriBio / Curaflow $5K each + Bottle Rocket $1K + Maslow $1.5K.",
+      "2013": 67500,
+      "2013_note": "Added 2026-05-12: full sub-winner rosters and prize details recovered from Samueli engineering primary source. LAS $15K + ValveStrong $14K ($7.5K + $6K Orange Residency + $500 Concept Paper) + NoreGen $33.5K ($3.5K + $30K SoM Life Sciences Award) + Nobles $2.5K + Bloom Diagnostics $2.5K. Excludes $2,750 in-kind TechPortal Calit2 award to MEGAL!NE.",
+      "total_2017_to_2025": 821000,
+      "total_2017_to_2025_note": "Updated 2026-05-12 to $821,000: previous $772,500 + 2017 +$21,000 (Tech Surge HMs, Outstanding Undergrad, Loy Loy/Pure Game Blum Center co-located) + 2018 +$7,500 (Tech Surge 3rd/4th). 2017 column now reflects the full slate listed in the Merage 2017 press release.",
+      "total_pre_2017_known": 150000,
+      "total_pre_2017_note": "Pre-2017 cash totals are confirmed only for 2013 ($67,500) and 2016 ($82,500). 2009, 2012, 2014 partial totals are known but team-by-team rosters incomplete; 2010, 2011, 2015 remain structural gaps in the indexed public record."
+    }
+  }
+}
