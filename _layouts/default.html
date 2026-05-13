@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title | escape }} &middot; {% endif %}{{ site.title | escape }}</title>
+  <meta name="description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="site-title" href="{{ '/' | relative_url }}">
+        UCI New Venture Competition
+        <small>A historical archive &middot; 2009&ndash;2026</small>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>Overview</a>
+        <a href="{{ '/years/' | relative_url }}"{% if page.url contains '/years' %} class="active"{% endif %}>Years</a>
+        <a href="{{ '/teams/' | relative_url }}"{% if page.url contains '/teams' %} class="active"{% endif %}>Teams</a>
+        <a href="{{ '/outcomes/' | relative_url }}"{% if page.url contains '/outcomes' %} class="active"{% endif %}>Outcomes</a>
+        <a href="{{ '/analytics/' | relative_url }}"{% if page.url contains '/analytics' %} class="active"{% endif %}>Analytics</a>
+        <a href="{{ '/about/' | relative_url }}"{% if page.url contains '/about' %} class="active"{% endif %}>About</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      {{ content }}
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Maintained as a public, citation-backed record by independent archivists. Not affiliated with UCI or the Paul Merage School of Business.</p>
+      <p>Source repository: <a href="https://github.com/StellaZhangUCI/History">github.com/StellaZhangUCI/History</a>.</p>
+    </div>
+  </footer>
+</body>
+</html>

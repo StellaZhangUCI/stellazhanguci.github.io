@@ -1,0 +1,30 @@
+title: UCI New Venture Competition Archive
+tagline: A verified historical record of the Stella Zhang New Venture Competition (2009-2026).
+description: >-
+  A public, citation-backed archive of the UCI Paul Merage School of Business
+  Stella Zhang New Venture Competition. Every team, prize, and outcome is
+  sourced to a primary public record.
+url: "https://stellazhanguci.github.io"
+baseurl: ""
+
+permalink: pretty
+markdown: kramdown
+highlighter: rouge
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+collections:
+  years:
+    output: true
+    permalink: /years/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "years"
+    values:
+      layout: "year"
