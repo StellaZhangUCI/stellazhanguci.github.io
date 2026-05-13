@@ -165,4 +165,35 @@ layout: default
   </ul>
 {% endif %}
 
-<p style="margin-top:3rem;"><a href="{{ '/years/' | relative_url }}">&larr; All years</a></p>
+{% assign prev_yr = yr | minus: 1 %}
+{% assign next_yr = yr | plus: 1 %}
+{% assign has_prev = false %}
+{% assign has_next = false %}
+{% for y in site.data.nvc.years %}
+  {% if y.year == prev_yr %}{% assign has_prev = true %}{% endif %}
+  {% if y.year == next_yr %}{% assign has_next = true %}{% endif %}
+{% endfor %}
+{% for e in site.data.nvc.pre_2017_editions %}
+  {% if e.year == prev_yr %}{% assign has_prev = true %}{% endif %}
+  {% if e.year == next_yr %}{% assign has_next = true %}{% endif %}
+{% endfor %}
+
+<nav class="year-nav" aria-label="Year navigation">
+  <div>
+    {% if has_prev %}
+      <a href="{{ '/years/' | append: prev_yr | append: '/' | relative_url }}">
+        <span class="yn-label">&larr; Previous edition</span>
+        {{ prev_yr }}
+      </a>
+    {% endif %}
+  </div>
+  <a href="{{ '/years/' | relative_url }}" style="font-family: var(--sans); font-size:0.9rem; color: var(--ink-muted);">All years</a>
+  <div style="text-align:right;">
+    {% if has_next %}
+      <a href="{{ '/years/' | append: next_yr | append: '/' | relative_url }}">
+        <span class="yn-label">Next edition &rarr;</span>
+        {{ next_yr }}
+      </a>
+    {% endif %}
+  </div>
+</nav>

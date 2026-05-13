@@ -26,7 +26,7 @@ permalink: /analytics/
         <tr>
           <td><strong>{{ y }}</strong></td>
           <td class="prize">${{ v | divided_by: 1000 }}K</td>
-          <td><span style="display:inline-block; height:12px; background: var(--navy); width: {{ pct }}%;" aria-hidden="true"></span></td>
+          <td class="bar-cell"><span class="bar" style="width: {{ pct }}%;" aria-hidden="true"></span></td>
         </tr>
       {% endfor %}
     </tbody>
@@ -57,7 +57,7 @@ permalink: /analytics/
           <td><span class="badge {{ cls[forloop.index0] }}">{{ label }}</span></td>
           <td class="prize">{{ c }}</td>
           <td>{{ pct }}%</td>
-          <td><span style="display:inline-block; height:10px; background: var(--ink-soft); width: {{ pct }}%;" aria-hidden="true"></span></td>
+          <td class="bar-cell"><span class="bar muted" style="width: {{ pct }}%;" aria-hidden="true"></span></td>
         </tr>
       {% endfor %}
     </tbody>
