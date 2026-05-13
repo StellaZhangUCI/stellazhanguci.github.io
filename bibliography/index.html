@@ -1,0 +1,74 @@
+---
+layout: default
+title: Bibliography
+permalink: /bibliography/
+---
+
+<section class="hero">
+  <p class="eyebrow">Citations</p>
+  <h1>Bibliography</h1>
+  <p class="lede">Every source cited across the archive, grouped by year and by outcome entry. This is the verification surface for the rest of the site.</p>
+</section>
+
+<section class="section">
+  <h2>Primary sources by year</h2>
+  <p>The Merage press release for each completed edition is the canonical record of that year. Where the Merage URL is not preserved, the Samueli engineering coverage takes its place.</p>
+  <table class="archive-table">
+    <thead><tr><th>Year</th><th>Primary source</th></tr></thead>
+    <tbody>
+      {% for y in site.data.nvc.years %}
+        {% if y.primary_source or y.judges_source %}
+          <tr>
+            <td><a href="{{ '/years/' | append: y.year | append: '/' | relative_url }}"><strong>{{ y.year }}</strong></a></td>
+            <td>{% assign url = y.primary_source | default: y.judges_source %}<a href="{{ url }}">{{ url }}</a></td>
+          </tr>
+        {% endif %}
+      {% endfor %}
+      {% for e in site.data.nvc.pre_2017_editions %}
+        {% if e.primary_source %}
+          <tr>
+            <td><a href="{{ '/years/' | append: e.year | append: '/' | relative_url }}"><strong>{{ e.year }}</strong></a></td>
+            <td><a href="{{ e.primary_source }}">{{ e.primary_source }}</a></td>
+          </tr>
+        {% endif %}
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+
+<section class="section">
+  <h2>Naming gift</h2>
+  <ul>
+    {% for s in site.data.nvc.competition.naming_gift.sources %}
+      <li><a href="{{ s }}">{{ s }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="section">
+  <h2>Outcome sources</h2>
+  <p>Every outcome entry on the site cites at least one primary URL. The complete list, grouped by team and year.</p>
+  <table class="archive-table">
+    <thead><tr><th>Team</th><th>Year</th><th>Sources</th></tr></thead>
+    <tbody>
+      {% assign sorted = site.data.outcomes.outcomes | sort: "team" %}
+      {% for o in sorted %}
+        {% if o.sources and o.sources.size > 0 %}
+          <tr>
+            <td class="team"><strong>{{ o.team }}</strong></td>
+            <td>{{ o.year }}</td>
+            <td>
+              {% for s in o.sources %}
+                <a href="{{ s }}" style="font-size:0.88rem;">{{ s }}</a>{% unless forloop.last %}<br>{% endunless %}
+              {% endfor %}
+            </td>
+          </tr>
+        {% endif %}
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+
+<div class="callout">
+  <p>If a URL on this page returns 404 or otherwise misbehaves, please open an issue against the <a href="https://github.com/StellaZhangUCI/History">companion data repository</a>. Sources are re-verified in waves, but the public web rots between waves.</p>
+</div>

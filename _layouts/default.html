@@ -24,11 +24,8 @@
         <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>Overview</a>
         <a href="{{ '/years/' | relative_url }}"{% if page.url contains '/years' %} class="active"{% endif %}>Years</a>
         <a href="{{ '/teams/' | relative_url }}"{% if page.url contains '/teams' %} class="active"{% endif %}>Teams</a>
-        <a href="{{ '/founders/' | relative_url }}"{% if page.url contains '/founders' %} class="active"{% endif %}>Founders</a>
-        <a href="{{ '/tracks/' | relative_url }}"{% if page.url contains '/tracks' %} class="active"{% endif %}>Tracks</a>
         <a href="{{ '/outcomes/' | relative_url }}"{% if page.url contains '/outcomes' %} class="active"{% endif %}>Outcomes</a>
         <a href="{{ '/analytics/' | relative_url }}"{% if page.url contains '/analytics' %} class="active"{% endif %}>Analytics</a>
-        <a href="{{ '/sponsors/' | relative_url }}"{% if page.url contains '/sponsors' %} class="active"{% endif %}>Sponsors</a>
         <a href="{{ '/about/' | relative_url }}"{% if page.url contains '/about' %} class="active"{% endif %}>About</a>
       </nav>
     </div>
@@ -41,7 +38,14 @@
   <footer class="site-footer">
     <div class="container">
       <p>Maintained as a public, citation-backed record by independent archivists. Not affiliated with UCI or the Paul Merage School of Business.</p>
-      <p>Source repository: <a href="https://github.com/StellaZhangUCI/History">github.com/StellaZhangUCI/History</a>.</p>
+      <p>Source repository: <a href="https://github.com/StellaZhangUCI/History">github.com/StellaZhangUCI/History</a>. Site source: <a href="https://github.com/StellaZhangUCI/stellazhanguci.github.io">github.com/StellaZhangUCI/stellazhanguci.github.io</a>.</p>
+      <p class="site-secondary-nav">
+        <a href="{{ '/founders/' | relative_url }}">Founders</a> &middot;
+        <a href="{{ '/tracks/' | relative_url }}">Tracks</a> &middot;
+        <a href="{{ '/sponsors/' | relative_url }}">Sponsors</a> &middot;
+        <a href="{{ '/bibliography/' | relative_url }}">Bibliography</a> &middot;
+        <a href="{{ '/about/' | relative_url }}">About</a>
+      </p>
     </div>
   </footer>
 </body>

@@ -478,6 +478,18 @@ section.section > h2:first-child { margin-top: 0; }
   .site-nav { gap: 0.9rem; row-gap: 0.5rem; font-size: 0.95rem; }
 }
 
+.site-secondary-nav {
+  margin-top: 0.8rem !important;
+  font-size: 0.85rem;
+}
+.site-secondary-nav a {
+  color: var(--ink-muted);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 1px;
+}
+.site-secondary-nav a:hover { color: var(--navy); border-bottom-color: var(--gold); }
+
 /* Print */
 @media print {
   :root { --paper: #fff; --paper-edge: #fff; }
