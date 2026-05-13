@@ -17,6 +17,10 @@ exclude:
   - Gemfile.lock
   - vendor
 
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
 collections:
   years:
     output: true
