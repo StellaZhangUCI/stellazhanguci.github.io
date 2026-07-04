@@ -19,7 +19,7 @@ permalink: /analytics/
     </thead>
     <tbody>
       {% assign totals = site.data.nvc.cross_year_notes.disclosed_cash_totals_by_year_usd %}
-      {% assign rows = "2013,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025" | split: "," %}
+      {% assign rows = "2013,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026" | split: "," %}
       {% for y in rows %}
         {% assign v = totals[y] %}
         {% assign pct = v | times: 100 | divided_by: 103500 %}
@@ -147,9 +147,9 @@ permalink: /analytics/
 <section class="section">
   <h2>Prize structure shift</h2>
   <ul>
-    <li><strong>Grand Prize size.</strong> $15,000 in 2017 (the School-of-Medicine award) and again $15,000 in 2020 per the official 2019-2020 NVC Report. Baby Box's widely-quoted $25,000 from 2020 was the combined Grand Prize plus Consumer Products 1st award. Settled at $20,000 from 2022 to 2025.</li>
+    <li><strong>Grand Prize size.</strong> $15,000 in 2017 (the School-of-Medicine award) and again $15,000 in 2020 per the official 2019-2020 NVC Report. Baby Box's widely-quoted $25,000 from 2020 was the combined Grand Prize plus Consumer Products 1st award. Settled at $20,000 from 2022 to 2026.</li>
     <li><strong>Standard track payouts.</strong> $4,000 and $1,500 in 2017, then $10,000 and $5,000 from 2018 onward. Roughly a sixfold jump in a single year.</li>
     <li><strong>MIE Award.</strong> Introduced in 2020 with Baby Box as the first MIE-affiliated winner. A recurring specialty since.</li>
-    <li><strong>Audience Favorite.</strong> Intermittent. It appeared in 2020, 2021 and 2025. Typically $1,000.</li>
+    <li><strong>Audience Favorite.</strong> Intermittent. It appeared in 2020, 2021, 2025 and 2026 (RestWing). Typically $1,000.</li>
   </ul>
 </section>
