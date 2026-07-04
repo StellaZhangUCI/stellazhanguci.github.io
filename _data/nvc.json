@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-05-11",
+  "last_updated": "2026-07-04",
   "competition": {
     "name": "Stella Zhang New Venture Competition",
     "former_names": ["Merage Business Plan Competition", "UCI New Venture Competition"],
@@ -71,7 +71,7 @@
   "years": [
     {
       "year": 2026,
-      "status": "upcoming",
+      "status": "completed",
       "edition": "22nd annual",
       "grand_finale": {
         "date": "2026-05-21",
@@ -80,6 +80,7 @@
       },
       "tracks": ["Business Products & Services", "Consumer Products", "Consumer Services", "Life Sciences", "Social Enterprise"],
       "prize_pool_announced": "Over $100,000 plus AWS credits for all semi-finalists",
+      "prize_pool_note": "Advertised pool was \"over $100,000\". The core competition cash is $100,000 (five tracks at $10,000 first and $5,000 second, plus a $20,000 Grand Prize and a $5,000 Runner-Up). Three specialty awards sit on top: the Beall Applied Innovation Specialty Award ($10,000, LAMON), the MIE Specialty Award ($2,500, Ascend First) and the Fan Favorite Award ($1,000, RestWing). The Beall Applied Innovation award is framed by Merage as a Wayfinder incubator and mentorship award; whether it is paid in cash or in-kind is not disclosed, so it is excluded from the disclosed cash total, matching this archive's exclusion of residency and in-kind awards. Confirmed cash awarded is $103,500; if the Beall award is cash the figure is $113,500.",
       "structure": {
         "grand_prize_usd": 20000,
         "runner_up_usd": 5000,
@@ -95,7 +96,222 @@
       },
       "finalists_note": "10 finalists per Merage NVC page as of 2026-05-12: two per track. An earlier archive pass recorded 'AegleBio, Billify, NeuroBoost, Grad2Go' as named semi-finalists; those teams do not appear on the current finalist page and could not be re-verified against a primary source on 2026-05-12.",
       "finalists_source": "https://merage.uci.edu/research-faculty/centers/innovation-entrepreneurship/new-venture-competiton.html",
-      "awards": []
+      "judges_note": "Judging panel not published in an official Merage source. The OC Startup Council recap (2026-06-12) reports the finale panel as including Isabelle Bart, Scott Joslyn, Matt Sand, Charla Triplett and a judge listed only as 'Jasmine J.'; the wording ('including') suggests the panel may have been larger. Names are single-source and not cross-verified against a primary UCI source.",
+      "stats": {
+        "finalists": 10,
+        "tracks": 5,
+        "cash_awarded_usd": 103500
+      },
+      "primary_source": "https://merage.uci.edu/research-faculty/centers/innovation-entrepreneurship/new-venture-competiton.html",
+      "results_sources": [
+        "https://ocstartupcouncil.org/oc-startups-news/2026/6/12/meet-the-stella-zhang-competition-champions",
+        "https://newuniversity.org/2026/05/19/ucis-shark-tank-the-stella-zhang-new-venture-competition/",
+        "https://mind.uci.edu/uci-mind-trainees-win-two-awards-at-the-stella-zhang-new-venture-competition/",
+        "https://antrepreneur.uci.edu/2026/06/04/interview-with-antrepreneurs-tyler-maher-of-pipeline-planning/"
+      ],
+      "results_note": "No standalone 2026 results press release or NVC report PDF has been published yet, unlike prior years. The award table below was corroborated across the official Merage NVC page winners block, the OC Startup Council recap (2026-06-12), UCI New University coverage, UCI MIND, and the antrepreneur.uci.edu interview with Pipeline's Tyler Maher. An AI-generated search summary claiming NeuroStrat won the Grand Prize was checked and refuted: every human-written results source names Pipeline as Grand Prize winner and NeuroStrat as Runner-Up.",
+      "awards": [
+        {
+          "category": "Grand Prize",
+          "place": "Winner",
+          "team": "Pipeline",
+          "prize_text": "$20,000",
+          "prize_amount_usd": 20000,
+          "project": "AI transfer-planning platform that builds personalized term-by-term roadmaps for community college students moving to UC and CSU schools. Operates as Pipeline Planning.",
+          "members": [
+            "Tyler Maher (CEO, co-founder; Business Administration)",
+            "Cem Yildiz (CTO, co-founder; Informatics)",
+            "Jacob Douglas Speciale (Political Science)"
+          ],
+          "members_note": "Roster from UCI New University and the antrepreneur.uci.edu interview with Tyler Maher. Cem Yildiz is spelled 'Yildiz' on antrepreneur.uci.edu and 'Yilidiz' in New University; the antrepreneur spelling is retained.",
+          "also_won": [
+            "Track Award (Consumer Services) 1st ($10,000); $30,000 combined"
+          ]
+        },
+        {
+          "category": "Runner-Up",
+          "place": "Winner",
+          "team": "NeuroStrat",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "Mobile cognitive game that screens for early signs of Alzheimer's in about ten minutes to flag risk and support earlier care decisions.",
+          "members": [
+            "Casey Vanderlip (MD/PhD candidate, UCI Neurobiology & Behavior; UCI MIND trainee)"
+          ],
+          "members_note": "Only one team member could be tied to a source; the full NeuroStrat roster was not recoverable from indexed materials.",
+          "also_won": [
+            "Track Award (Life Sciences) 2nd ($5,000); $10,000 combined"
+          ]
+        },
+        {
+          "category": "Specialty (Beall Applied Innovation Award)",
+          "place": "Winner",
+          "team": "LAMON",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "prize_note": "Beall Applied Innovation Wayfinder incubator and mentorship award; cash-vs-in-kind not disclosed, excluded from the disclosed cash total.",
+          "is_cross_listing": true,
+          "cross_listed_with": {
+            "category": "Track Award (Life Sciences)",
+            "place": "1st"
+          }
+        },
+        {
+          "category": "Specialty (MIE Award)",
+          "place": "Winner",
+          "team": "Ascend First",
+          "prize_text": "$2,500",
+          "prize_amount_usd": 2500,
+          "is_cross_listing": true,
+          "cross_listed_with": {
+            "category": "Track Award (Social Enterprise)",
+            "place": "2nd"
+          }
+        },
+        {
+          "category": "Specialty (Fan Favorite)",
+          "place": "Winner",
+          "team": "RestWing",
+          "prize_text": "$1,000",
+          "prize_amount_usd": 1000,
+          "is_cross_listing": true,
+          "cross_listed_with": {
+            "category": "Track Award (Consumer Products)",
+            "place": "1st"
+          }
+        },
+        {
+          "category": "Track Award (Business Products & Services)",
+          "place": "1st",
+          "team": "Simly",
+          "team_aliases": [
+            "SimlyAI"
+          ],
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "AI-native simulated electronic health record for lower-cost, high-fidelity medical training, piloting at the UC Irvine School of Medicine.",
+          "members": []
+        },
+        {
+          "category": "Track Award (Business Products & Services)",
+          "place": "2nd",
+          "team": "Abner Computing",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "Multi-provider AI inference platform that routes requests across GPU providers in real time by price, latency and reliability.",
+          "members": []
+        },
+        {
+          "category": "Track Award (Consumer Products)",
+          "place": "1st",
+          "team": "RestWing",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "Patent-protected ergonomic headrest attachment that clips onto an existing car headrest to reduce neck strain on long drives.",
+          "members": [],
+          "also_won": [
+            "Fan Favorite Award ($1,000)"
+          ]
+        },
+        {
+          "category": "Track Award (Consumer Products)",
+          "place": "2nd",
+          "team": "PAQQ",
+          "team_aliases": [
+            "PAQQ LLC"
+          ],
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "Smart bag and app that uses RFID tracking and AI recommendations to help users pack and avoid forgetting essentials.",
+          "members": []
+        },
+        {
+          "category": "Track Award (Consumer Services)",
+          "place": "1st",
+          "team": "Pipeline",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "members": [
+            "Tyler Maher (CEO, co-founder)",
+            "Cem Yildiz (CTO, co-founder)",
+            "Jacob Douglas Speciale"
+          ],
+          "is_cross_listing": true,
+          "cross_listed_with": {
+            "category": "Grand Prize",
+            "place": "Winner"
+          }
+        },
+        {
+          "category": "Track Award (Consumer Services)",
+          "place": "2nd",
+          "team": "CuraVoice",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "AI voice-simulation platform where healthcare students practice bedside communication with realistic voice scenarios and rubric-based feedback.",
+          "members": [
+            "Sakhi Patel (co-founder; UCI PharmD candidate)",
+            "Shrey Modi (co-founder)"
+          ],
+          "members_note": "Founding roster per the antrepreneur.uci.edu CuraVoice interview; a graduate CS collaborator is named in search aggregation but not confirmed on a primary page."
+        },
+        {
+          "category": "Track Award (Life Sciences)",
+          "place": "1st",
+          "team": "LAMON",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "AI platform for early detection and progression analysis of neurodegenerative disease using speech-based digital biomarkers and transformer models. Built from research in Dr. Ahmad Sajjadi's UCI Neurology lab.",
+          "members": [
+            "Pooyan Mobtahej (postdoctoral fellow)",
+            "Jacob Thomas",
+            "Sarvenaz Ghaedi"
+          ],
+          "members_note": "From UCI MIND coverage; the team works in Dr. Ahmad Sajjadi's lab in the UCI Department of Neurology.",
+          "also_won": [
+            "Beall Applied Innovation Specialty Award ($10,000)"
+          ]
+        },
+        {
+          "category": "Track Award (Life Sciences)",
+          "place": "2nd",
+          "team": "NeuroStrat",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "members": [
+            "Casey Vanderlip"
+          ],
+          "is_cross_listing": true,
+          "cross_listed_with": {
+            "category": "Runner-Up",
+            "place": "Winner"
+          }
+        },
+        {
+          "category": "Track Award (Social Enterprise)",
+          "place": "1st",
+          "team": "BrickCycle",
+          "prize_text": "$10,000",
+          "prize_amount_usd": 10000,
+          "project": "Turns recycled plastic, glass and seashell waste into durable non-fired bricks that cut carbon emissions and improve insulation.",
+          "members": []
+        },
+        {
+          "category": "Track Award (Social Enterprise)",
+          "place": "2nd",
+          "team": "Ascend First",
+          "prize_text": "$5,000",
+          "prize_amount_usd": 5000,
+          "project": "AI transfer-success platform with personalized plans, mentorship, academic roadmaps and ROI insights for first-generation community college students.",
+          "members": [
+            "Ana Camino (co-founder; first-generation graduate, UCI Merage)"
+          ],
+          "members_note": "Additional co-founders were reported via search aggregation but could not be verified against a primary source.",
+          "also_won": [
+            "MIE Specialty Award ($2,500)"
+          ]
+        }
+      ]
     },
     {
       "year": 2025,
