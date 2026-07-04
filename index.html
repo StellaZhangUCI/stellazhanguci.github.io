@@ -12,7 +12,7 @@ title: Overview
 <div class="stat-row">
   <div class="stat"><span class="num">17</span><span class="label">Editions indexed</span></div>
   <div class="stat"><span class="num">130</span><span class="label">Teams catalogued</span></div>
-  <div class="stat"><span class="num">$821K</span><span class="label">Cash prizes 2017 to 2025</span></div>
+  <div class="stat"><span class="num">$924.5K</span><span class="label">Cash prizes 2017 to 2026</span></div>
   <div class="stat"><span class="num">2</span><span class="label">Documented exits</span></div>
 </div>
 
@@ -27,7 +27,7 @@ title: Overview
   <div class="year-grid">
     <a class="year-card" href="{{ '/years/2026/' | relative_url }}">
       <span class="yr">2026</span>
-      <span class="gp"><strong>Grand Finale:</strong> May 21, 2026<br>Ten finalists advanced from the Board Room round.</span>
+      <span class="gp"><strong>Grand Prize:</strong> Pipeline &middot; $20,000<br>AI transfer-planning platform for community-college students.</span>
     </a>
     <a class="year-card" href="{{ '/years/2025/' | relative_url }}">
       <span class="yr">2025</span>
@@ -101,10 +101,10 @@ title: Overview
   <h2>Prize pool by year</h2>
   <p>Disclosed cash prizes only. In-kind awards like AWS credits or residency placements are excluded.</p>
   {% assign totals = site.data.nvc.cross_year_notes.disclosed_cash_totals_by_year_usd %}
-  {% assign years = "2013,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025" | split: "," %}
+  {% assign years = "2013,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026" | split: "," %}
   {% assign maxv = 103500 %}
   <div style="overflow-x:auto;">
-    <svg viewBox="0 0 760 220" role="img" aria-label="Disclosed cash prizes by year, 2013 to 2025." style="width:100%; max-width:760px; height:auto; font-family: var(--sans);">
+    <svg viewBox="0 0 824 220" role="img" aria-label="Disclosed cash prizes by year, 2013 to 2026." style="width:100%; max-width:824px; height:auto; font-family: var(--sans);">
       {% for y in years %}
         {% assign v = totals[y] %}
         {% assign h = v | times: 160 | divided_by: maxv %}
@@ -114,7 +114,7 @@ title: Overview
         <text x="{{ x | plus: 20 }}" y="200" text-anchor="middle" font-size="11" fill="#6a6a6a">{{ y }}</text>
         <text x="{{ x | plus: 20 }}" y="{{ barY | minus: 6 }}" text-anchor="middle" font-size="10" fill="#1a1a1a">${{ v | divided_by: 1000 }}K</text>
       {% endfor %}
-      <line x1="40" y1="180" x2="744" y2="180" stroke="#d9d3c5" stroke-width="1"></line>
+      <line x1="40" y1="180" x2="808" y2="180" stroke="#d9d3c5" stroke-width="1"></line>
     </svg>
   </div>
   <p style="font-size:0.88rem; color: var(--ink-muted);">2014 and 2015 are not shown (no disclosed totals in indexed sources). See the <a href="{{ '/analytics/' | relative_url }}">analytics page</a> for the full table.</p>
@@ -129,7 +129,7 @@ title: Overview
     <li><strong>2020.</strong> Virtual finale during COVID-19. Baby Box wins the $15K Grand Prize plus the $10K Consumer Products 1st, starting a streak of MIE-affiliated wins.</li>
     <li><strong>January 2022.</strong> Stella Zhang (FEMBA&nbsp;'05) and John Shen announce the naming gift. The competition is renamed.</li>
     <li><strong>March 2025.</strong> A $750,000 five-year extension pushes the prize pool past $150K.</li>
-    <li><strong>May 21, 2026.</strong> Twenty-second annual Grand Finale.</li>
+    <li><strong>May 21, 2026.</strong> Pipeline wins the twenty-second annual Grand Finale with an AI transfer-planning platform for community-college students.</li>
   </ol>
 </section>
 
