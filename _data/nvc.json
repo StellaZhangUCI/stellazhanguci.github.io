@@ -1827,6 +1827,8 @@
       }
     ],
     "disclosed_cash_totals_by_year_usd": {
+      "2026": 103500,
+      "2026_note": "Confirmed cash for the 22nd annual edition (2026-05-21 finale): five tracks at $10,000/$5,000 ($75,000) + $20,000 Grand Prize (Pipeline) + $5,000 Runner-Up (NeuroStrat) + $2,500 MIE (Ascend First) + $1,000 Fan Favorite (RestWing) = $103,500. Excludes the $10,000 Beall Applied Innovation Specialty Award (LAMON), which Merage frames as a Wayfinder incubator and mentorship award of undisclosed cash-vs-in-kind form; counting it as cash would raise the total to $113,500. No standalone 2026 results press release exists; figures corroborated across the Merage NVC page and the OC Startup Council recap (2026-06-12).",
       "2025": 103500,
       "2024": 100000,
       "2023": 100000,
@@ -1846,6 +1848,8 @@
       "2013_note": "Added 2026-05-12: full sub-winner rosters and prize details recovered from Samueli engineering primary source. LAS $15K + ValveStrong $14K ($7.5K + $6K Orange Residency + $500 Concept Paper) + NoreGen $33.5K ($3.5K + $30K SoM Life Sciences Award) + Nobles $2.5K + Bloom Diagnostics $2.5K. Excludes $2,750 in-kind TechPortal Calit2 award to MEGAL!NE.",
       "total_2017_to_2025": 821000,
       "total_2017_to_2025_note": "Updated 2026-05-12 to $821,000: previous $772,500 + 2017 +$21,000 (Tech Surge HMs, Outstanding Undergrad, Loy Loy/Pure Game Blum Center co-located) + 2018 +$7,500 (Tech Surge 3rd/4th). 2017 column now reflects the full slate listed in the Merage 2017 press release.",
+      "total_2017_to_2026": 924500,
+      "total_2017_to_2026_note": "Added 2026-07-04: $821,000 (2017-2025) + $103,500 (2026 confirmed cash) = $924,500. Excludes the 2026 $10,000 Beall Applied Innovation specialty award pending confirmation it is cash rather than in-kind.",
       "total_pre_2017_known": 150000,
       "total_pre_2017_note": "Pre-2017 cash totals are confirmed only for 2013 ($67,500) and 2016 ($82,500). 2009, 2012, 2014 partial totals are known but team-by-team rosters incomplete; 2010, 2011, 2015 remain structural gaps in the indexed public record."
     }
