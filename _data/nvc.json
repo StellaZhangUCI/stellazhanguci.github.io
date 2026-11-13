@@ -73,11 +73,14 @@
       "year": 2026,
       "status": "completed",
       "edition": "22nd annual",
+      "theme": "Artificial Intelligence in Healthcare and Education Access",
+      "theme_note": "Inferred from the finalist ventures, not an official competition theme: AI-native ventures took at least 6 of 10 finalist slots, and LAMON plus NeuroStrat both targeted Alzheimer's detection in Life Sciences.",
       "grand_finale": {
         "date": "2026-05-21",
-        "time": "5:00-9:00 PM PT",
-        "venue": "SB1 Merage Auditorium, 4291 Pereira Drive, Suite 2300, Irvine, CA 92627"
+        "time": "5:30-8:00 PM PT",
+        "venue": "SB1 Auditorium, 4293 Pereira Drive, Building 222, Irvine, CA 92697"
       },
+      "grand_finale_correction_note": "The venue/time were originally recorded as '5:00-9:00 PM PT' at '4291 Pereira Drive, Suite 2300, Irvine, CA 92627' from a pre-event placeholder; 92627 is a Costa Mesa ZIP code, not UCI's 92697. Corrected 2026-11-13 per UCI News (news.uci.edu, 2026-05-05 preview article).",
       "tracks": ["Business Products & Services", "Consumer Products", "Consumer Services", "Life Sciences", "Social Enterprise"],
       "prize_pool_announced": "Over $100,000 plus AWS credits for all semi-finalists",
       "prize_pool_note": "Advertised pool was \"over $100,000\". The core competition cash is $100,000 (five tracks at $10,000 first and $5,000 second, plus a $20,000 Grand Prize and a $5,000 Runner-Up). Three specialty awards sit on top: the Beall Applied Innovation Specialty Award ($10,000, LAMON), the MIE Specialty Award ($2,500, Ascend First) and the Fan Favorite Award ($1,000, RestWing). The Beall Applied Innovation award is framed by Merage as a Wayfinder incubator and mentorship award; whether it is paid in cash or in-kind is not disclosed, so it is excluded from the disclosed cash total, matching this archive's exclusion of residency and in-kind awards. Confirmed cash awarded is $103,500; if the Beall award is cash the figure is $113,500.",
@@ -478,7 +481,7 @@
       ],
       "judges_note": "Plus representatives from the UCI ANTrepreneur Center and Beall Applied Innovation; the line between judge and coach overlaps in NVC documentation.",
       "judges_source": "https://merage.uci.edu/research-faculty/centers/innovation-entrepreneurship/new-venture-competiton.html",
-      "primary_source": "sources/NVC-2024-Report.pdf",
+      "primary_source": "https://github.com/StellaZhangUCI/History/blob/main/sources/NVC-2024-Report.pdf",
       "stats": {
         "concept_papers": 125,
         "semi_finalists": 50,
@@ -628,7 +631,7 @@
         "Rodrigo C. Mahs"
       ],
       "judges_source": "https://www.businesswire.com/news/home/20230526005328/en",
-      "primary_source": "sources/NVC-2023-Report.pdf",
+      "primary_source": "https://github.com/StellaZhangUCI/History/blob/main/sources/NVC-2023-Report.pdf",
       "stats": {
         "concept_papers": 98,
         "semi_finalists": 52,
@@ -773,7 +776,7 @@
       ],
       "judges_note": "Final-round Shark Tank style panel. The NVC-2022-Report.pdf cites a total of 54 judges across all rounds.",
       "judges_source": "https://bli.uci.edu/stella_zhang/",
-      "primary_source": "sources/NVC-2022-Report.pdf",
+      "primary_source": "https://github.com/StellaZhangUCI/History/blob/main/sources/NVC-2022-Report.pdf",
       "stats": {
         "concept_papers": 88,
         "semi_finalists": 50,
@@ -925,7 +928,7 @@
       ],
       "judges_note": "Gina Heitkamp is also a former NVC finalist (2014 Grand Prize with iBesties), making her the first documented finalist-to-judge transition in the archive. The NVC-2021-Report.pdf cites a total of 59 judges across all rounds.",
       "judges_source": "https://merage.uci.edu/news/2021/06/Shaka-Takes-Home-First-Place-at-the-2021-New-Venture-Competition.html",
-      "primary_source": "sources/NVC-2021-Report.pdf",
+      "primary_source": "https://github.com/StellaZhangUCI/History/blob/main/sources/NVC-2021-Report.pdf",
       "stats": {
         "concept_papers": 85,
         "semi_finalists_boardroom_round": 54,
@@ -1065,8 +1068,8 @@
         "Hicham Semaan (Angel Investor, Tech Coast Angels)",
         "Xandra Laskowski (Founder & CEO, OSEA Angel Investors)"
       ],
-      "judges_source": "sources/NVC-2019-2020-Report.pdf (Ant Tank Grand Finale judges)",
-      "primary_source": "sources/NVC-2019-2020-Report.pdf",
+      "judges_source": "https://github.com/StellaZhangUCI/History/blob/main/sources/NVC-2019-2020-Report.pdf",
+      "primary_source": "https://github.com/StellaZhangUCI/History/blob/main/sources/NVC-2019-2020-Report.pdf",
       "stats": {
         "concept_papers": 114,
         "semi_finalists": 43,
